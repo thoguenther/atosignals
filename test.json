@@ -1,0 +1,66 @@
+{
+    "signalbuch": {
+      "version": "XXX",
+      "kapitel": [
+        {
+          "nummer": "301.0001",
+          "titel": "Vorbemerkungen zum Signalbuch",
+          "beschreibung": "(1) Die Richtlinien 301 – Signalbuch – enthalten - die wesentlichen Bestimmungen über die bei der DB AG verwendeten Signale der Eisenbahn-Signalordnung (ESO), die den Ausführungsbestimmungen (AB) entsprechenden Bestimmungen, Bestimmungen über die Anwendung der von der ESO abweichenden Signale mit vorübergehender Gültigkeit, Zusätze der DB AG sowie Orientierungszeichen. (2) Für die Aufstellung ortsfester Signale gilt das entsprechende technische Regelwerk.(3) Wo das Signalbuch zusätzliche Bestimmungen erfordert, die in verschiedenartigen Einrichtungen und örtlichen Verhältnissen begründet sind, werden siebekannt gegeben:- im Fahrplan,- in der Zusammenstellung der vorübergehenden Langsamfahrstellen undanderen Besonderheiten (La),- in der Betriebs- und Bauanweisung (Betra),- in örtlichen Zusätzen (diese können im Betriebsstellenbuch, anderen örtlichen Unterlagen – soweit kein Betriebsstellenbuch vorhanden ist – und imStreckenbuch enthalten sein),- bei Anwendung der FV-NE in der Sammlung betrieblicher Weisungen.(4) Soweit in dieser Richtlinie einzelne Bestimmungen nur in den BundesländernSchleswig-Holstein, Hamburg, Niedersachsen, Bremen, Nordrhein-Westfalen,Hessen, Rheinland-Pfalz, Saarland, Baden-Württemberg und Bayern angewendet werden, ist bei der Bestimmung, in der Abschnittsüberschrift oder imRichtlinientitel der Vermerk „(DS 301)“ angebracht.(5) Soweit in dieser Richtlinie einzelne Bestimmungen nur in den BundesländernMecklenburg-Vorpommern, Brandenburg, Berlin, Sachsen-Anhalt, Sachsenund Thüringen angewendet werden, ist bei der Bestimmung, in der Abschnittsüberschrift oder im Richtlinientitel der Vermerk „(DV 301)“ angebracht.(6) Der Wechsel der betrieblichen Regeln und damit auch der Geltungsbereicheder DS 301 und der DV 301 sind in der La genannt."
+        },
+        {
+          "nummer": "301.0002",
+          "titel": "Allgemeine Bestimmungen",
+          "beschreibung": "Übersicht über verschiedene Signalarten.",
+          "subsection": [
+            {
+              "code": "So 20",
+              "name": "Zuordnungstafel",
+              "beschreibung": "Das durch die Zuordnungstafel gekennzeichnete Signal gilt für das Gleis, auf das die Spitze des Dreiecks weist. Ein schwarzes Rechteck mit weißem Dreieck Das weiße Dreieck der Zuordnungstafel ist rückstrahlend. Die Zuordnungstafel ist zu beleuchten, wenn auch das gekennzeichnete Signal zu beleuchten ist. Ein Signal ist durch die Zuordnungstafel gekennzeichnet, wenn es auf Grund seines Standorts zwischen zwei Gleisen unzutreffend auch für das Nachbargleis gültig sein würde. Die Zuordnungstafel wird in Verbindung mit folgenden Signalen angewandt: - Signal Ts 1 , - Signale Lf 1, Lf 2, Lf 3, Lf 4, Lf 5, Lf 6 und Lf 7 , - Signale El 1v, El 1, El 2, El 3, El 4 und El 5 , - Signale Ne 1, Ne 2, Ne 3, Ne 4, Ne 5 und Ne 7 , - Signale Bü 0/1, Bü 4 und Bü 5 , - Signale Bü 2 und Bü 3 (jeweils DS 301), - Signale So 1, So 14, So 15 und So 19 (jeweils DV 301), - Signal Pf 2 (DV 301). Ne2 Signaltafel mit Zuordnungstafel für rechtes Gleis Sollen die Signale für beide Gleise gültig sein, sind sie durch zwei Zuordnungstafeln zu kennzeichnen. Ne6 Signaltafel mit Zuordnungstafeln für zwei Gleise Die Zuordnungstafel ist über dem zu kennzeichnenden Signal – bei Signalen Bü 0/1 über dem Mastschild – angebracht. Ist das durch Zuordnungstafel gekennzeichnete Signal zusätzlich durch einen oder durch mehrere Richtungspfeile ergänzt, sind die Richtungspfeile unterhalb des zu kennzeichnenden Signals angebracht.",
+              "bild": "source/img/So_20.avif"
+            },
+            {
+              "code": "",
+              "name": "Mastschilder",
+              "beschreibung": "Lichtsignale, an deren Standort bei erloschenem Signalbild zu halten ist, sind durch Mastschilder kenntlich. Die Mastschilder geben das Verhalten bei Halt zeigenden oder gestörten Lichtsignalen vor.",
+              "subsubsection": [
+                {
+                "name": "Weiß-rot-weißes Mastschild bzw. Mastschild mit einem mit der Spitze nach oben weisenden roten Dreieck (DV 301)",
+                "beschreibung": "An einem durch ein weiß-rot-weißes Mastschild bzw. durch ein Mastschild mit einem mit der Spitze nach oben weisenden roten Dreieck auf weißem Grund (DV 301) gekennzeichneten Lichtsignal, das Halt zeigt oder gestört ist, dürfen Züge nur auf Ersatzsignal, Vorsichtsignal, Gegengleisfahrt-Ersatzsignal, Befehl oder – bei Signal Zs 12 – auf mündlichen bzw. fernmündlichen Auftrag vorbeifahren. Rangierfahrten dürfen nur mit Zustimmung des zuständigen Wärters am Signal vorbeifahren.",
+                "bild": ["source/img/Mastschild_1.avif", "source/img/Mastschild_2.avif"]
+              },
+              {
+                "name": "Mit der Spitze nach unten weisendes gelbes Dreieck",
+                "beschreibung": "Hauptsignale, die mit weiß-rot-weißem Mastschild gekennzeichnet sind und zugleich Vorsignalfunktion besitzen. Ein mit der Spitze nach unten weisendes gelbes Dreieck. Das Mastschild ist rückstrahlend. Das dreieckige gelbe Mastschild ist grundsätzlich unter dem weiß-rot-weißen Mastschild angeordnet.",
+                "bild": "source/img/Mastschild_3.avif"
+            },
+              {
+                "name": "Weiß-gelb-weiß-gelb-weißes Mastschild",
+                "beschreibung": "An einem durch ein weiß-gelb-weiß-gelb-weißes Mastschild gekennzeichneten Lichthauptsignal, das Halt zeigt oder gestört ist, dürfen Züge, wenn nach dem Anhalten vor diesem Signal eine Verständigung mit dem Fahrdienstleiter nicht möglich ist, ohne Zustimmung vorbeifahren und müssen bis zum nächsten Hauptsignal auf Sicht fahren. Hauptsignale mit diesem Mastschild besitzen im Geltungsbereich der DV 301 zugleich eine Vorsignalfunktion.",
+                "bild": "source/img/Mastschild_4.avif"
+            },
+            {
+              "name": "Weiß-schwarz-weiß-schwarz-weißes Mastschild",
+              "beschreibung": "(nur bei den Gleichstrom-S-Bahnen Berlin und Hamburg) Weiß-schwarz-weiß-schwarz-weißes Mastschild An einem durch ein weiß-schwarz-weiß-schwarz-weißes Mastschild gekennzeichneten Lichthauptsignal, das Halt zeigt oder gestört ist, dürfen Züge nach dem Anhalten vor diesem Signal ohne Zustimmung vorbeifahren und müssen bis zum nächsten Hauptsignal auf Sicht fahren. Hauptsignale mit diesem Mastschild besitzen zugleich eine Vorsignalfunktion.",
+              "bild": "source/img/Mastschild_5.avif"
+              },
+              {
+                "name": "Rotes Mastschild",
+                "beschreibung": "(nur bei der Gleichstrom-S-Bahn Berlin)Rotes Mastschild An einem durch ein rotes Mastschild gekennzeichneten Lichthauptsignal, das Halt zeigt oder gestört ist, dürfen Züge nur auf Ersatzsignal, Gegengleisfahrt-Ersatzsignal, Befehl oder – bei Signal Zs 12 – auf mündlichen bzw. fernmündlichen Auftrag vorbeifahren.Bis zum nächsten Hauptsignal ist auf Sicht zu fahren.",
+                "bild": "source/img/Mastschild_6.avif"
+            },
+            {
+              "name": "Weißes Mastschild mit zwei schwarzen Punkten (DV 301)",
+              "beschreibung": "An einem durch ein weißes Mastschild mit zwei schwarzen Punkten gekennzeichneten Lichtsignal, das Halt zeigt, dürfen Züge nur auf Befehl vorbeifahren.Ein mit diesem Mastschild gekennzeichnetes Signal, das Ra 12 (DV 301) zeigt oder erloschen ist, hat für Züge keine Bedeutung.",
+              "bild": "source/img/Mastschild_7.avif"
+          },
+          {
+            "name": "Maste der Formhauptsignale",
+            "beschreibung": "Die Maste der Formhauptsignale sind zur besseren Erkennbarkeit rot-weiß gekennzeichnet. Diese Kennzeichnung enthält keine Information."
+        }
+            // Weitere Signale
+          ]
+        }
+        // Weitere Kapitel
+      ]
+    }
+  }
