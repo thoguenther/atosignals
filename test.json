@@ -1,6 +1,6 @@
 {
     "signalbuch": {
-      "version": "XXX",
+      "version": "x",
       "kapitel": [
         {
           "nummer": "301.0001",
@@ -13,7 +13,7 @@
           "beschreibung": "Übersicht über verschiedene Signalarten.",
           "subsection": [
             {
-              "code": "So 20",
+              "code": "So_20",
               "name": "Zuordnungstafel",
               "beschreibung": "Das durch die Zuordnungstafel gekennzeichnete Signal gilt für das Gleis, auf das die Spitze des Dreiecks weist. Ein schwarzes Rechteck mit weißem Dreieck Das weiße Dreieck der Zuordnungstafel ist rückstrahlend. Die Zuordnungstafel ist zu beleuchten, wenn auch das gekennzeichnete Signal zu beleuchten ist. Ein Signal ist durch die Zuordnungstafel gekennzeichnet, wenn es auf Grund seines Standorts zwischen zwei Gleisen unzutreffend auch für das Nachbargleis gültig sein würde. Die Zuordnungstafel wird in Verbindung mit folgenden Signalen angewandt: - Signal Ts 1 , - Signale Lf 1, Lf 2, Lf 3, Lf 4, Lf 5, Lf 6 und Lf 7 , - Signale El 1v, El 1, El 2, El 3, El 4 und El 5 , - Signale Ne 1, Ne 2, Ne 3, Ne 4, Ne 5 und Ne 7 , - Signale Bü 0/1, Bü 4 und Bü 5 , - Signale Bü 2 und Bü 3 (jeweils DS 301), - Signale So 1, So 14, So 15 und So 19 (jeweils DV 301), - Signal Pf 2 (DV 301). Ne2 Signaltafel mit Zuordnungstafel für rechtes Gleis Sollen die Signale für beide Gleise gültig sein, sind sie durch zwei Zuordnungstafeln zu kennzeichnen. Ne6 Signaltafel mit Zuordnungstafeln für zwei Gleise Die Zuordnungstafel ist über dem zu kennzeichnenden Signal – bei Signalen Bü 0/1 über dem Mastschild – angebracht. Ist das durch Zuordnungstafel gekennzeichnete Signal zusätzlich durch einen oder durch mehrere Richtungspfeile ergänzt, sind die Richtungspfeile unterhalb des zu kennzeichnenden Signals angebracht.",
               "bild": "source/img/So_20.avif"
@@ -94,20 +94,20 @@
       "beschreibung": "Das Signal Hp 0 gilt für Zug- und Rangierfahrten. Die Signale Hp 1 und Hp 2 gelten nur für Zugfahrten.",
       "subsection" : [
         {
-          "code": "Hp 0",
-          "name": "Hp 0",
+          "code": "Hp_0",
+          "name": "Hp_0",
           "beschreibung": "(1) Bedeutung:  Halt  (2) Beschreibung:  Formsignal  Tageszeichen:  Ein Signalflügel – bei zweiflügligen Signalen der obere Flügel – zeigt waagerecht nach rechts. (3)Lichtsignal: Ein rotes Licht oder zwei rote Lichter nebeneinander. (4) Das Signal Hp 0 wird gezeigt am Hauptsignal oder am Sperrsignal. (5) Wird am Hauptsignal zusätzlich zum Signal Hp 0 das Signal Sh 1 bzw. das * Signal Ra 12 (DV 301) gezeigt, ist das Haltegebot für Rangierfahrten aufge- * hoben. Am Hauptsignal mit zwei roten Lichtern verlischt beim Aufleuchten des Sig- nals Sh 1 (DS 301) ein rotes Licht.4) Das Signal Hp 0 wird gezeigt am Hauptsignal oder am Sperrsignal.  (5) Wird am Signal Hp 0 das Signal Sh 1 bzw. das Signal Ra 12 (DV 301) gezeigt, so ist das Haltegebot für Rangierfahrten aufgehoben.  Am Hauptsignal mit zwei roten Lichtern verlischt beim Aufleuchten des Signals Sh 1 (DS 301) ein rotes Licht.",
           "bild": ["source/img/Hp0_Form.svg.png", "source/img/Hp0_Licht.png", "source/img/Hp0_Nacht.svg.png"]
         },
         {
-          "code": "Hp 1",
-          "name": "Hp 1",
+          "code": "Hp_1",
+          "name": "Hp_1",
           "beschreibung": "(1) Bedeutung:  Fahrt  (2) Beschreibung:  Formsignal  Tageszeichen:  Ein Signalflügel – bei zweiflügligen Signalen der obere Flügel – zeigt schräg nach rechts aufwärts. Nachtzeichen:  Ein grünes Licht (3) Beschreibung:  Lichtsignal  Ein grünes Licht. (4) Das Signal erlaubt die Fahrt mit der im Fahrplan zugelassenen Geschwindigkeit, sofern sie nicht durch andere Signale oder besondere Anordnungen eingeschränkt ist.",
           "bild": ["source/img/Hp1_Form.svg.png", "source/img/Hp1_Licht.svg.png", "source/img/Hp1_Nacht.svg.png"]
         },
         {
-          "code": "Hp 2",
-          "name": "Hp 2",
+          "code": "Hp_2",
+          "name": "Hp_2",
           "beschreibung": "(1) Bedeutung:  Langsamfahrt  (2) Beschreibung:  Formsignal  Tageszeichen:  Zwei Signalflügel zeigen schräg nach rechts aufwärts.  Nachtzeichen:  Ein grünes und senkrecht darunter ein gelbes Licht.  3) Beschreibung:  Lichtsignal  Ein grünes und senkrecht darunter ein gelbes Licht. Signal Hp 2 Lichtsignal  (4) Das Signal schreibt eine Geschwindigkeitsbeschränkung auf 40 km/h vor, wenn nicht eine abweichende Geschwindigkeit durch Signal Zs 3 angezeigt wird. Der Infrastrukturunternehmer kann andere abweichende Geschwindigkeiten bekannt geben. Bei den NE ist das im Fahrplan, in der SbV oder in der La angegeben.  Bei den Eisenbahnen des Bundes werden andere abweichende Geschwindigkeiten im Fahrplan oder in der La angegeben.  Die Geschwindigkeitsbeschränkung gilt vom Hauptsignal ab für den anschließenden Weichenbereich.",
           "bild": ["source/img/Hp2_Form.svg.png", "source/img/Hp2_Licht.svg.png", "source/img/Hp2_Nacht.svg.png"]
         }
