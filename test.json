@@ -52,15 +52,41 @@
               "name": "Weißes Mastschild mit zwei schwarzen Punkten (DV 301)",
               "beschreibung": "An einem durch ein weißes Mastschild mit zwei schwarzen Punkten gekennzeichneten Lichtsignal, das Halt zeigt, dürfen Züge nur auf Befehl vorbeifahren.Ein mit diesem Mastschild gekennzeichnetes Signal, das Ra 12 (DV 301) zeigt oder erloschen ist, hat für Züge keine Bedeutung.",
               "bild": "source/img/Mastschild_7.avif"
-          },
+            },
+            {
+              "name": "Maste der Formhauptsignale",
+              "beschreibung": "Die Maste der Formhauptsignale sind zur besseren Erkennbarkeit rot-weiß gekennzeichnet. Diese Kennzeichnung enthält keine Information."
+            }
+                // Weitere Signale
+              ]
+            },
           {
-            "name": "Maste der Formhauptsignale",
-            "beschreibung": "Die Maste der Formhauptsignale sind zur besseren Erkennbarkeit rot-weiß gekennzeichnet. Diese Kennzeichnung enthält keine Information."
-        }
-            // Weitere Signale
-          ]
-        }
+            "code": "",
+            "name": "Ungültige Signale",
+            "beschreibung": "Ein ungültiges Signal ist durch ein weißes Kreuz mit schwarzem Rand gekennzeichnet oder es ist verdeckt.  Außerdem werden ungültige Formsignale bei Dunkelheit nicht beleuchtet, ungültige Lichtsignale gelöscht.  Ist das Signal Lf 1 durch ein weißes Kreuz mit schwarzem Rand als ungültig gekennzeichnet, sind die Signale Lf 2 und Lf 3 nicht aufgestellt oder verdeckt. Die gelben Lichter leuchten während der Dunkelheit.   Ist das Signal El 3 durch ein weißes Kreuz mit schwarzem Rand als ungültig gekennzeichnet, sind die Signale El 4 und El 5 nicht aufgestellt oder verdeckt. Es ist bei Dunkelheit beleuchtet.",
+            "bild": "source/img/Ungueltige_Signale.avif"
+          }
         // Weitere Kapitel
       ]
-    }
+    },
+    {
+      "nummer": "301.0003",
+      "titel": "Haupt-, Vor- und Sperrsignale",
+      "subsection":[
+        {
+          "name": "Hauptsignale",
+          "beschreibung": "(1) Hauptsignale zeigen an, ob der anschließende Gleisabschnitt befahren werden darf. Das Signal Hp 0 gilt für Zug- und Rangierfahrten. Die Signale Hp 1 und Hp 2 gelten nur für Zugfahrten. Steht ein Hauptsignal bei Annäherung einer Rangierfahrt noch auf Fahrt, dann ist anzuhalten und das Signal Hp 0 abzuwarten. Bei zweifelhaftem oder erloschenem Signal verhält sich die Rangierfahrt wie an einem Halt zeigenden Signal. Für die Vorbeifahrt einer Rangierfahrt am Hauptsignal ist die Zustimmung des Wärters abzuwarten. (2) Die Signale sind entweder Formsignale und zeigen ein oder zwei Flügel als Tageszeichen und ebenso viele Lichter als Nachtzeichen oder sie sind Lichtsignale mit ein oder zwei Lichtern als Tages- und Nachtzeichen. (3) Hauptsignale werden verwendet als - Einfahrsignale, - Ausfahrsignale, - Zwischensignale, - Blocksignale, - Deckungssignale vor Gefahrstellen. Zwischensignale sind Hauptsignale des Bahnhofs, die keine Einfahr- oder Ausfahrsignale sind. (4) Die Nachtzeichen der Formsignale müssen in der Regel so lange leuchten, wie Züge der betreffenden Fahrtrichtung verkehren. In Bahnhöfen, auf denen nicht ständig rangiert wird, kann zugelassen werden, dass bei Ausfahr- und Zwischensignalen auf die Anwendung der Nachtzeichen verzichtet wird, solange die zugehörigen Gleise nicht befahren werden. Signale, die eine Gruppe bilden, müssen jedoch gleichzeitig leuchten. Die Nachtzeichen mehrflügliger Formsignale dürfen nur gleichzeitig gelöscht werden. Die Regelungen zum zeitweisen Verzicht auf die Anwendung der Nachtzeichen sind in örtlichen Zusätzen gegeben. (5) Ein Lichthauptsignal kann mit einem Lichtvorsignal für ein folgendes Hauptsignal an einem Signalträger vereinigt sein. Das Hauptsignal befindet sich dann über dem Vorsignal. Wenn mehrere solcher Signale einander folgen, stehen sie in festgelegten Abständen. Der Abstand zwischen ihnen beträgt in der Regel 1.000 bis 1.300 m. (6) Der in Absatz 5 genannte Abstand bezieht sich auf den Bremsweg der Strecke von 1.000 m. Lichthauptsignale mit Lichtvorsignal an einem Signalträger können in einem geringeren Abstand stehen, wenn der Bremsweg der Strecke eingehalten ist. Außerdem darf der Abstand der Signale den Bremsweg der Strecke um bis zu 50 % überschreiten. Haupt- und Vorsignalbedeutung können in einem Signalbild vereinigt sein (Hauptsignal mit Vorsignalfunktion). Die Bestimmungen für Vorsignale zu Signalabständen und der Kennzeichnung verkürzter Signalabstände gelten dann sinngemäß.",
+          "bild": "source/img/So_20.avif"
+        },
+        {
+          "name": "Vorsignale",
+          "beschreibung": "(1) Ein Vorsignal zeigt an, welches Signalbild am zugehörigen Hauptsignal zu er- warten ist. (2) Die Vorsignale sind entweder ortsfeste Licht- oder Formsignale oder Wärtersig- nale. (3) Vorsignale sind entweder a) Lichtsignale mit ein oder zwei Lichtern als Tages und Nachtzeichen oder b) eine um eine waagerechte Achse klappbare gelbe runde Scheibe mit schwarzem Ring und weißem Rand. Unter der Scheibe kann sich ein beweglicher - gelber, schwarzgerahmter pfeilförmiger Flügel mit weißem Rand oder - ein weißer pfeilförmiger Flügel mit rotem Rand befinden. Bei über dem Gleis angebrachten Formvorsignalen befindet sich der Flügel über der Scheibe. (4) Die Nachtzeichen der Formvorsignale müssen so lange leuchten wie die der zugehörigen Haupt- oder Schutzsignale. (5) Alleinstehende Vorsignale sind mit einer Vorsignaltafel (Signal Ne 2) gekenn- zeichnet. (6) Vorsignale stehen in der Regel im Abstand des Bremsweges der Strecke vor dem zugehörigen Signal. Stehen sie in einem kürzeren Abstand, so wird dies besonders angezeigt. (7) Lichtvorsignale, die in einem um mehr als 5 % kürzeren Abstand als dem Bremsweg der Strecke vor dem zugehörigen Signal stehen, sind durch ein wei- ßes Zusatzlicht über dem linken Signallicht etwa in Höhe des rechten Signal- lichtes kenntlich. (8)Vorsignale im Geltungsbereich der DV 301, die in einem um mehr als 5 % kür- zeren Abstand aufgestellt sind und nicht mit Zusatzlicht kenntlich gemacht sind, sind durch eine Vorsignaltafel bei verkürztem Vorsignalabstand gekennzeich- net (Richtlinie 301.1401 Abschnitt 2 Absätze 9, 10 und 11). (9)Lichtvorsignale am Standort von Lichthauptsignalen sind dunkel, wenn sie fürdie eingestellte Fahrstraße nicht gelten oder das Hauptsignal Signal Hp 0 zeigt.(10) Wo die Sicht auf das Hauptsignal behindert ist, kann das Vorsignal als Lichtsig-nal wiederholt sein (Vorsignalwiederholer). (11) Vorsignalwiederholer zeigen das gleiche Signalbild wie Vorsignale und sind ge- kennzeichnet durch a) ein weißes Zusatzlicht über dem linken Signallicht etwa in Höhe des rechten Signallichtes. b) eine rechteckige weiße Tafel mit schwarzem Rand und schwarzem Ring am Signalmast. Sie sind nicht mit einer Vorsignaltafel ausgerüstet und werden nicht durch Vor- signalbaken angekündigt. (12) Die Wärtervorsignale zeigen die senkrechte runde Scheibe wie bei ortsfestenFormvorsignalen, jedoch unbeweglich und ohne Flügel, als Nachtzeichen zweigelbe nach rechts steigende Lichter. (13) Wo an nebeneinander verlaufenden Strecken ein links stehendes Wärtervor-signal die Fahrt auf dem Nachbargleis beirren würde, ist auf das Signal verzich-tet und der Zug von der Aufstellung eines Haltsignals zu verständigen. (14) Die Wahrnehmung der Stellung des Vorsignals entbindet den Triebfahrzeug-führer nicht von der Beobachtung des Hauptsignals.",
+          "bild": ["source/img/Vorsignal_1.png", "source/img/Vorsignal_2.png", "source/img/Vorsignal_3.png", "source/img/Vorsignal_4.png"]
+        },
+        {
+          "name": "Sperrsignale",
+          "beschreibung": "Ein Sperrsignal zeigt an, ob in den folgenden Gleisabschnitt eingefahren oder ob eine Drehscheibe oder Schiebebühne befahren werden darf. Sperrsignale werden auch angewendet als Zugdeckungssignale an Bahnsteigen, Brückendeckungssignale und Deckungssignale an Rückfallweichen. In Grundstellung zeigen Zugdeckungssignale ein weißes Licht (Kennlicht)."
+        }
+      ]
+    },
   }
