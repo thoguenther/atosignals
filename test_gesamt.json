@@ -195,6 +195,35 @@
           "Ausnahmen": "Zs_3"
         }
       ]
+    },
+    {
+      "richtlinie": "301.0102",
+      "titel": "Allgemeine Bestimmungen zu den Kombinationssignalen",
+      "beschreibung": "Die Ks-Signale gelten nur für Zugfahrten. Hauptsignale mit Vorsignalfunktion, die in einem um mehr als 5% verkürzten Abstand des Bremswegs der Strecke vor dem zugehörigen Signal stehen, zeigen bei Signal Ks 1 mit Zs 3v und bei Signal Ks 2 ein weißes Zusatzlicht über dem Signallicht. Vorsignalwiederholer zeigen bei Ks 1 mit Zs 3v und bei Ks 2 ein weißes Zu-satzlicht unter dem Signallicht.",
+      "bild": ["source/img/Ks_allgemein1.png", "source/img/Ks_allgemein2.png", "source/img/Ks_allgemein3.png", "source/img/Ks_allgemein4.png"],
+      "subsection" : 
+      [
+        {
+          "code": "Ks_1",
+          "name": "Ks_1",
+          "beschreibung": "(1) Fahrt (2) Ein grünes Licht bzw. ein grünes Blinklicht. (3) Das Signal Ks 1 blinkt, wenn an dem Vorsignal oder Hauptsignal mit Vorsignalfunktion zusätzlich ein Signal Zs 3v gezeigt wird. (4) Das an einem Hauptsignal gezeigte Signal erlaubt die Anwendung der im Fahrplan zugelassenen Geschwindigkeit.",
+          "bild": ["source/img/Ks_1_1.png", "source/img/Ks_1_2.png"],
+          "Lichtsignal" : "",
+          "Bedeutung": "Weiterfahrt",
+          "Handlung": "Weiterfahrt",
+          "Ausnahmen": ""
+        },
+        {
+          "code": "Ks_2",
+          "name": "Ks_2",
+          "beschreibung": "(1) Halt erwarten. (2) Ein gelbes Licht. (3) Das Signal erlaubt die Vorbeifahrt und kündigt Halt an.",
+          "bild": "source/img/Ks_2.png",
+          "Lichtsignal" : "",
+          "Bedeutung": "Halt erwarten",
+          "Handlung": "Weiterfahrt",
+          "Ausnahmen": ""
+        }
+      ]
     }
     ]
   }
