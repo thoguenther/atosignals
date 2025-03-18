@@ -58,41 +58,45 @@
               "code": "",
               "name": "Mastschilder",
               "beschreibung": "Lichtsignale, an deren Standort bei erloschenem Signalbild zu halten ist, sind durch Mastschilder kenntlich. Die Mastschilder geben das Verhalten bei Halt zeigenden oder gestörten Lichtsignalen vor.",
+              "Lichtsignal" : ["erloschen", "gestört"],
               "subsubsection": [
                 {
-                "name": "Weiß-rot-weißes Mastschild bzw. Mastschild mit einem mit der Spitze nach oben weisenden roten Dreieck (DV 301)",
-                "beschreibung": "An einem durch ein weiß-rot-weißes Mastschild bzw. durch ein Mastschild mit einem mit der Spitze nach oben weisenden roten Dreieck auf weißem Grund (DV 301) gekennzeichneten Lichtsignal, das Halt zeigt oder gestört ist, dürfen Züge nur auf Ersatzsignal, Vorsichtsignal, Gegengleisfahrt-Ersatzsignal, Befehl oder – bei Signal Zs 12 – auf mündlichen bzw. fernmündlichen Auftrag vorbeifahren. Rangierfahrten dürfen nur mit Zustimmung des zuständigen Wärters am Signal vorbeifahren.",
-                "bild": ["source/img/Mastschild_1.avif", "source/img/Mastschild_2.avif"]
-              },
-              {
-                "name": "Mit der Spitze nach unten weisendes gelbes Dreieck",
-                "beschreibung": "Hauptsignale, die mit weiß-rot-weißem Mastschild gekennzeichnet sind und zugleich Vorsignalfunktion besitzen. Ein mit der Spitze nach unten weisendes gelbes Dreieck. Das Mastschild ist rückstrahlend. Das dreieckige gelbe Mastschild ist grundsätzlich unter dem weiß-rot-weißen Mastschild angeordnet.",
-                "bild": "source/img/Mastschild_3.avif"
-            },
-              {
-                "name": "Weiß-gelb-weiß-gelb-weißes Mastschild",
-                "beschreibung": "An einem durch ein weiß-gelb-weiß-gelb-weißes Mastschild gekennzeichneten Lichthauptsignal, das Halt zeigt oder gestört ist, dürfen Züge, wenn nach dem Anhalten vor diesem Signal eine Verständigung mit dem Fahrdienstleiter nicht möglich ist, ohne Zustimmung vorbeifahren und müssen bis zum nächsten Hauptsignal auf Sicht fahren. Hauptsignale mit diesem Mastschild besitzen im Geltungsbereich der DV 301 zugleich eine Vorsignalfunktion.",
-                "bild": "source/img/Mastschild_4.avif"
-            },
-            {
-              "name": "Weiß-schwarz-weiß-schwarz-weißes Mastschild",
-              "beschreibung": "(nur bei den Gleichstrom-S-Bahnen Berlin und Hamburg) Weiß-schwarz-weiß-schwarz-weißes Mastschild An einem durch ein weiß-schwarz-weiß-schwarz-weißes Mastschild gekennzeichneten Lichthauptsignal, das Halt zeigt oder gestört ist, dürfen Züge nach dem Anhalten vor diesem Signal ohne Zustimmung vorbeifahren und müssen bis zum nächsten Hauptsignal auf Sicht fahren. Hauptsignale mit diesem Mastschild besitzen zugleich eine Vorsignalfunktion.",
-              "bild": "source/img/Mastschild_5.avif"
-              },
-              {
-                "name": "Rotes Mastschild",
-                "beschreibung": "(nur bei der Gleichstrom-S-Bahn Berlin)Rotes Mastschild An einem durch ein rotes Mastschild gekennzeichneten Lichthauptsignal, das Halt zeigt oder gestört ist, dürfen Züge nur auf Ersatzsignal, Gegengleisfahrt-Ersatzsignal, Befehl oder – bei Signal Zs 12 – auf mündlichen bzw. fernmündlichen Auftrag vorbeifahren.Bis zum nächsten Hauptsignal ist auf Sicht zu fahren.",
-                "bild": "source/img/Mastschild_6.avif"
-            },
-            {
-              "name": "Weißes Mastschild mit zwei schwarzen Punkten (DV 301)",
-              "beschreibung": "An einem durch ein weißes Mastschild mit zwei schwarzen Punkten gekennzeichneten Lichtsignal, das Halt zeigt, dürfen Züge nur auf Befehl vorbeifahren.Ein mit diesem Mastschild gekennzeichnetes Signal, das Ra 12 (DV 301) zeigt oder erloschen ist, hat für Züge keine Bedeutung.",
-              "bild": "source/img/Mastschild_7.avif"
-            },
-            {
-              "name": "Maste der Formhauptsignale",
-              "beschreibung": "Die Maste der Formhauptsignale sind zur besseren Erkennbarkeit rot-weiß gekennzeichnet. Diese Kennzeichnung enthält keine Information."
-            }
+                  "name": "Weiß-rot-weißes Mastschild bzw. Mastschild mit einem mit der Spitze nach oben weisenden roten Dreieck (DV 301)",
+                  "beschreibung": "An einem durch ein weiß-rot-weißes Mastschild bzw. durch ein Mastschild mit einem mit der Spitze nach oben weisenden roten Dreieck auf weißem Grund (DV 301) gekennzeichneten Lichtsignal, das Halt zeigt oder gestört ist, dürfen Züge nur auf Ersatzsignal, Vorsichtsignal, Gegengleisfahrt-Ersatzsignal, Befehl oder – bei Signal Zs 12 – auf mündlichen bzw. fernmündlichen Auftrag vorbeifahren. Rangierfahrten dürfen nur mit Zustimmung des zuständigen Wärters am Signal vorbeifahren.",
+                  "bild": ["source/img/Mastschild_1.avif", "source/img/Mastschild_2.avif"],
+                  "Bedeutung": "Stop vor dem Schild",
+                  "Ausnahmen": ["Ersatzsignal", "Vorsichtsignal", "Gegengleisfahrt-Ersatzsignal" ,"Befehl Leitstelle", "Zs_12"] 
+                  
+                },
+                {
+                  "name": "Mit der Spitze nach unten weisendes gelbes Dreieck",
+                  "beschreibung": "Hauptsignale, die mit weiß-rot-weißem Mastschild gekennzeichnet sind und zugleich Vorsignalfunktion besitzen. Ein mit der Spitze nach unten weisendes gelbes Dreieck. Das Mastschild ist rückstrahlend. Das dreieckige gelbe Mastschild ist grundsätzlich unter dem weiß-rot-weißen Mastschild angeordnet.",
+                  "bild": "source/img/Mastschild_3.avif"
+                },
+                {
+                  "name": "Weiß-gelb-weiß-gelb-weißes Mastschild",
+                  "beschreibung": "An einem durch ein weiß-gelb-weiß-gelb-weißes Mastschild gekennzeichneten Lichthauptsignal, das Halt zeigt oder gestört ist, dürfen Züge, wenn nach dem Anhalten vor diesem Signal eine Verständigung mit dem Fahrdienstleiter nicht möglich ist, ohne Zustimmung vorbeifahren und müssen bis zum nächsten Hauptsignal auf Sicht fahren. Hauptsignale mit diesem Mastschild besitzen im Geltungsbereich der DV 301 zugleich eine Vorsignalfunktion.",
+                  "bild": "source/img/Mastschild_4.avif"
+                },
+                {
+                  "name": "Weiß-schwarz-weiß-schwarz-weißes Mastschild",
+                  "beschreibung": "(nur bei den Gleichstrom-S-Bahnen Berlin und Hamburg) Weiß-schwarz-weiß-schwarz-weißes Mastschild An einem durch ein weiß-schwarz-weiß-schwarz-weißes Mastschild gekennzeichneten Lichthauptsignal, das Halt zeigt oder gestört ist, dürfen Züge nach dem Anhalten vor diesem Signal ohne Zustimmung vorbeifahren und müssen bis zum nächsten Hauptsignal auf Sicht fahren. Hauptsignale mit diesem Mastschild besitzen zugleich eine Vorsignalfunktion.",
+                  "bild": "source/img/Mastschild_5.avif"
+                },
+                {
+                  "name": "Rotes Mastschild",
+                  "beschreibung": "(nur bei der Gleichstrom-S-Bahn Berlin)Rotes Mastschild An einem durch ein rotes Mastschild gekennzeichneten Lichthauptsignal, das Halt zeigt oder gestört ist, dürfen Züge nur auf Ersatzsignal, Gegengleisfahrt-Ersatzsignal, Befehl oder – bei Signal Zs 12 – auf mündlichen bzw. fernmündlichen Auftrag vorbeifahren.Bis zum nächsten Hauptsignal ist auf Sicht zu fahren.",
+                  "bild": "source/img/Mastschild_6.avif"
+                },
+                {
+                  "name": "Weißes Mastschild mit zwei schwarzen Punkten (DV 301)",
+                  "beschreibung": "An einem durch ein weißes Mastschild mit zwei schwarzen Punkten gekennzeichneten Lichtsignal, das Halt zeigt, dürfen Züge nur auf Befehl vorbeifahren.Ein mit diesem Mastschild gekennzeichnetes Signal, das Ra 12 (DV 301) zeigt oder erloschen ist, hat für Züge keine Bedeutung.",
+                  "bild": "source/img/Mastschild_7.avif"
+                },
+                {
+                  "name": "Maste der Formhauptsignale",
+                  "beschreibung": "Die Maste der Formhauptsignale sind zur besseren Erkennbarkeit rot-weiß gekennzeichnet. Diese Kennzeichnung enthält keine Information."
+                }
               ]
             },
           {
