@@ -16,7 +16,11 @@
               "code": "So_20",
               "name": "Zuordnungstafel",
               "beschreibung": "Das durch die Zuordnungstafel gekennzeichnete Signal gilt für das Gleis, auf das die Spitze des Dreiecks weist. Ein schwarzes Rechteck mit weißem Dreieck Das weiße Dreieck der Zuordnungstafel ist rückstrahlend. Die Zuordnungstafel ist zu beleuchten, wenn auch das gekennzeichnete Signal zu beleuchten ist. Ein Signal ist durch die Zuordnungstafel gekennzeichnet, wenn es auf Grund seines Standorts zwischen zwei Gleisen unzutreffend auch für das Nachbargleis gültig sein würde. Die Zuordnungstafel wird in Verbindung mit folgenden Signalen angewandt: - Signal Ts 1 , - Signale Lf 1, Lf 2, Lf 3, Lf 4, Lf 5, Lf 6 und Lf 7 , - Signale El 1v, El 1, El 2, El 3, El 4 und El 5 , - Signale Ne 1, Ne 2, Ne 3, Ne 4, Ne 5 und Ne 7 , - Signale Bü 0/1, Bü 4 und Bü 5 , - Signale Bü 2 und Bü 3 (jeweils DS 301), - Signale So 1, So 14, So 15 und So 19 (jeweils DV 301), - Signal Pf 2 (DV 301). Ne2 Signaltafel mit Zuordnungstafel für rechtes Gleis Sollen die Signale für beide Gleise gültig sein, sind sie durch zwei Zuordnungstafeln zu kennzeichnen. Ne6 Signaltafel mit Zuordnungstafeln für zwei Gleise Die Zuordnungstafel ist über dem zu kennzeichnenden Signal – bei Signalen Bü 0/1 über dem Mastschild – angebracht. Ist das durch Zuordnungstafel gekennzeichnete Signal zusätzlich durch einen oder durch mehrere Richtungspfeile ergänzt, sind die Richtungspfeile unterhalb des zu kennzeichnenden Signals angebracht.",
-              "bild": "source/img/So_20.avif"
+              "bild": "source/img/So_20.avif",
+              "Lichtsignal" : "",
+              "Bedeutung": "Gleisgültigkeit des beistehenden Signals",
+              "Handlung": "Prüfung Richtung des Pfeils",
+              "Ausnahmen": ""
             },
             {
               "code": "",
@@ -66,7 +70,8 @@
                   "bild": ["source/img/Mastschild_1.avif", "source/img/Mastschild_2.avif"],
                   "Lichtsignal" : ["Hp_0", "gestört"],
                   "Bedeutung": "Stop vor dem Schild",
-                  "Handlung": "Prüfung auf Ersatzsignal oder Vorsichtsignal oder Gegengleisfahrt-Ersatzsignal oder Befehl Fahrdienstleiter oder Zs_12"
+                  "Handlung": "Prüfung auf Ersatzsignal oder Vorsichtsignal oder Gegengleisfahrt-Ersatzsignal oder Befehl Fahrdienstleiter oder Zs_12",
+                  "Ausnahmen": ""
                   
                 },
                 {
@@ -74,7 +79,8 @@
                   "beschreibung": "Ein zusätzlich zum Mastschild angebrachtes dreieckiges gelbes Mastschild mit nach unten weisender Spitze kennzeichnet die Vorsignalfunktion eines Hauptsignals. Das dreieckige gelbe Mastschild ist grundsätzlich unter dem Mastschild des Hauptsignals angeordnet.",
                   "bild": "source/img/Mastschild_3.avif",
                   "Bedeutung": "Vorsignal",
-                  "Handlung": "N/A"
+                  "Handlung": "N/A",
+                  "Ausnahmen": ""
                 },
                 {
                   "name": "Weiß-gelb-weiß-gelb-weißes Mastschild",
@@ -82,7 +88,8 @@
                   "bild": "source/img/Mastschild_4.avif",
                   "Lichtsignal" : "Alle",
                   "Bedeutung": "Stop vor dem Schild",
-                  "Handlung": "Befehl Fahrdienstleiter prüfen und Weiterfahrt"
+                  "Handlung": "Befehl Fahrdienstleiter prüfen und Weiterfahrt",
+                  "Ausnahmen": ""
                 },
                 {
                   "name": "Weiß-schwarz-weiß-schwarz-weißes Mastschild",
@@ -90,7 +97,8 @@
                   "bild": "source/img/Mastschild_5.avif",
                   "Lichtsignal" : ["Hp_0", "gestört"],
                   "Bedeutung": "Weiterfahrt",
-                  "Handlung": "Weiterfahrt"
+                  "Handlung": "Weiterfahrt",
+                  "Ausnahmen": ""
                 },
                 {
                   "name": "Rotes Mastschild",
@@ -98,7 +106,8 @@
                   "bild": "source/img/Mastschild_6.avif",
                   "Lichtsignal" : ["Hp_0", "gestört"],
                   "Bedeutung": "Stop vor dem Schild",
-                  "Handlung": "Prüfung auf Ersatzsignal oder Gegengleisfahrt-Ersatzsignal oder Befehl Zs_12 oder Befehl Fahrdienstleiter"
+                  "Handlung": "Prüfung auf Ersatzsignal oder Gegengleisfahrt-Ersatzsignal oder Befehl Zs_12 oder Befehl Fahrdienstleiter",
+                  "Ausnahmen": ""
                 },
                 {
                   "name": "Weißes Mastschild mit zwei schwarzen Punkten (DV 301)",
@@ -119,7 +128,11 @@
             "code": "",
             "name": "Ungültige Signale",
             "beschreibung": "Ein ungültiges Signal ist durch ein weißes Kreuz mit schwarzem Rand gekennzeichnet oder es ist verdeckt.  Außerdem werden ungültige Formsignale bei Dunkelheit nicht beleuchtet, ungültige Lichtsignale gelöscht.  Ist das Signal Lf 1 durch ein weißes Kreuz mit schwarzem Rand als ungültig gekennzeichnet, sind die Signale Lf 2 und Lf 3 nicht aufgestellt oder verdeckt. Die gelben Lichter leuchten während der Dunkelheit.   Ist das Signal El 3 durch ein weißes Kreuz mit schwarzem Rand als ungültig gekennzeichnet, sind die Signale El 4 und El 5 nicht aufgestellt oder verdeckt. Es ist bei Dunkelheit beleuchtet.",
-            "bild": "source/img/Ungueltige_Signale.avif"
+            "bild": "source/img/Ungueltige_Signale.avif",
+            "Lichtsignal" : "",
+            "Bedeutung": "Signal ist ungültig",
+            "Handlung": "Weiterfahrt",
+            "Ausnahmen": ""
           }
       ]
     },
@@ -134,7 +147,7 @@
         },
         {
           "name": "Vorsignale",
-          "beschreibung": "(1) Ein Vorsignal zeigt an, welches Signalbild am zugehörigen Hauptsignal zu er- warten ist. (2) Die Vorsignale sind entweder ortsfeste Licht- oder Formsignale oder Wärtersignale. (3) Vorsignale sind entweder a) Lichtsignale mit ein oder zwei Lichtern als Tages und Nachtzeichen oder b) eine um eine waagerechte Achse klappbare gelbe runde Scheibe mit schwarzem Ring und weißem Rand. Unter der Scheibe kann sich ein beweglicher - gelber, schwarzgerahmter pfeilförmiger Flügel mit weißem Rand oder - ein weißer pfeilförmiger Flügel mit rotem Rand befinden. Bei über dem Gleis angebrachten Formvorsignalen befindet sich der Flügel über der Scheibe. (4) Die Nachtzeichen der Formvorsignale müssen so lange leuchten wie die der zugehörigen Haupt- oder Schutzsignale. (5) Alleinstehende Vorsignale sind mit einer Vorsignaltafel (Signal Ne 2) gekenn- zeichnet. (6) Vorsignale stehen in der Regel im Abstand des Bremsweges der Strecke vor dem zugehörigen Signal. Stehen sie in einem kürzeren Abstand, so wird dies besonders angezeigt. (7) Lichtvorsignale, die in einem um mehr als 5 % kürzeren Abstand als dem Bremsweg der Strecke vor dem zugehörigen Signal stehen, sind durch ein wei- ßes Zusatzlicht über dem linken Signallicht etwa in Höhe des rechten Signal- lichtes kenntlich. (8)Vorsignale im Geltungsbereich der DV 301, die in einem um mehr als 5 % kür- zeren Abstand aufgestellt sind und nicht mit Zusatzlicht kenntlich gemacht sind, sind durch eine Vorsignaltafel bei verkürztem Vorsignalabstand gekennzeich- net (Richtlinie 301.1401 Abschnitt 2 Absätze 9, 10 und 11). (9)Lichtvorsignale am Standort von Lichthauptsignalen sind dunkel, wenn sie fürdie eingestellte Fahrstraße nicht gelten oder das Hauptsignal Signal Hp 0 zeigt.(10) Wo die Sicht auf das Hauptsignal behindert ist, kann das Vorsignal als Lichtsig-nal wiederholt sein (Vorsignalwiederholer). (11) Vorsignalwiederholer zeigen das gleiche Signalbild wie Vorsignale und sind ge- kennzeichnet durch a) ein weißes Zusatzlicht über dem linken Signallicht etwa in Höhe des rechten Signallichtes. b) eine rechteckige weiße Tafel mit schwarzem Rand und schwarzem Ring am Signalmast. Sie sind nicht mit einer Vorsignaltafel ausgerüstet und werden nicht durch Vor- signalbaken angekündigt. (12) Die Wärtervorsignale zeigen die senkrechte runde Scheibe wie bei ortsfestenFormvorsignalen, jedoch unbeweglich und ohne Flügel, als Nachtzeichen zweigelbe nach rechts steigende Lichter. (13) Wo an nebeneinander verlaufenden Strecken ein links stehendes Wärtervor-signal die Fahrt auf dem Nachbargleis beirren würde, ist auf das Signal verzich-tet und der Zug von der Aufstellung eines Haltsignals zu verständigen. (14) Die Wahrnehmung der Stellung des Vorsignals entbindet den Triebfahrzeug-führer nicht von der Beobachtung des Hauptsignals.",
+          "beschreibung": "(1) Ein Vorsignal zeigt an, welches Signalbild am zugehörigen Hauptsignal zu erwarten ist. (2) Die Vorsignale sind entweder ortsfeste Licht- oder Formsignale oder Wärtersignale. (3) Vorsignale sind entweder a) Lichtsignale mit ein oder zwei Lichtern als Tages und Nachtzeichen oder b) eine um eine waagerechte Achse klappbare gelbe runde Scheibe mit schwarzem Ring und weißem Rand. Unter der Scheibe kann sich ein beweglicher - gelber, schwarzgerahmter pfeilförmiger Flügel mit weißem Rand oder - ein weißer pfeilförmiger Flügel mit rotem Rand befinden. Bei über dem Gleis angebrachten Formvorsignalen befindet sich der Flügel über der Scheibe. (4) Die Nachtzeichen der Formvorsignale müssen so lange leuchten wie die der zugehörigen Haupt- oder Schutzsignale. (5) Alleinstehende Vorsignale sind mit einer Vorsignaltafel (Signal Ne 2) gekenn- zeichnet. (6) Vorsignale stehen in der Regel im Abstand des Bremsweges der Strecke vor dem zugehörigen Signal. Stehen sie in einem kürzeren Abstand, so wird dies besonders angezeigt. (7) Lichtvorsignale, die in einem um mehr als 5 % kürzeren Abstand als dem Bremsweg der Strecke vor dem zugehörigen Signal stehen, sind durch ein wei- ßes Zusatzlicht über dem linken Signallicht etwa in Höhe des rechten Signal- lichtes kenntlich. (8)Vorsignale im Geltungsbereich der DV 301, die in einem um mehr als 5 % kür- zeren Abstand aufgestellt sind und nicht mit Zusatzlicht kenntlich gemacht sind, sind durch eine Vorsignaltafel bei verkürztem Vorsignalabstand gekennzeich- net (Richtlinie 301.1401 Abschnitt 2 Absätze 9, 10 und 11). (9)Lichtvorsignale am Standort von Lichthauptsignalen sind dunkel, wenn sie fürdie eingestellte Fahrstraße nicht gelten oder das Hauptsignal Signal Hp 0 zeigt.(10) Wo die Sicht auf das Hauptsignal behindert ist, kann das Vorsignal als Lichtsig-nal wiederholt sein (Vorsignalwiederholer). (11) Vorsignalwiederholer zeigen das gleiche Signalbild wie Vorsignale und sind ge- kennzeichnet durch a) ein weißes Zusatzlicht über dem linken Signallicht etwa in Höhe des rechten Signallichtes. b) eine rechteckige weiße Tafel mit schwarzem Rand und schwarzem Ring am Signalmast. Sie sind nicht mit einer Vorsignaltafel ausgerüstet und werden nicht durch Vor- signalbaken angekündigt. (12) Die Wärtervorsignale zeigen die senkrechte runde Scheibe wie bei ortsfestenFormvorsignalen, jedoch unbeweglich und ohne Flügel, als Nachtzeichen zweigelbe nach rechts steigende Lichter. (13) Wo an nebeneinander verlaufenden Strecken ein links stehendes Wärtervor-signal die Fahrt auf dem Nachbargleis beirren würde, ist auf das Signal verzich-tet und der Zug von der Aufstellung eines Haltsignals zu verständigen. (14) Die Wahrnehmung der Stellung des Vorsignals entbindet den Triebfahrzeug-führer nicht von der Beobachtung des Hauptsignals.",
           "bild": ["source/img/Vorsignal_1.png", "source/img/Vorsignal_2.png", "source/img/Vorsignal_3.png", "source/img/Vorsignal_4.png"]
         },
         {
@@ -154,22 +167,32 @@
           "name": "Hp_0",
           "beschreibung": "(1) Bedeutung:  Halt  (2) Beschreibung:  Formsignal  Tageszeichen:  Ein Signalflügel – bei zweiflügligen Signalen der obere Flügel – zeigt waagerecht nach rechts. (3)Lichtsignal: Ein rotes Licht oder zwei rote Lichter nebeneinander. (4) Das Signal Hp 0 wird gezeigt am Hauptsignal oder am Sperrsignal. (5) Wird am Hauptsignal zusätzlich zum Signal Hp 0 das Signal Sh 1 bzw. das * Signal Ra 12 (DV 301) gezeigt, ist das Haltegebot für Rangierfahrten aufge- * hoben. Am Hauptsignal mit zwei roten Lichtern verlischt beim Aufleuchten des Sig- nals Sh 1 (DS 301) ein rotes Licht.4) Das Signal Hp 0 wird gezeigt am Hauptsignal oder am Sperrsignal.  (5) Wird am Signal Hp 0 das Signal Sh 1 bzw. das Signal Ra 12 (DV 301) gezeigt, so ist das Haltegebot für Rangierfahrten aufgehoben.  Am Hauptsignal mit zwei roten Lichtern verlischt beim Aufleuchten des Signals Sh 1 (DS 301) ein rotes Licht.",
           "bild": ["source/img/Hp0_Form.svg.png", "source/img/Hp0_Licht.png", "source/img/Hp0_Nacht.svg.png"],
-          "position": ["rechts", "oben", "links (Gegenfahrrichtung)"],
-          "dauer": "warten auf Änderung"
+          "Lichtsignal" : "",
+          "Bedeutung": "Halt",
+          "Handlung": "Stop vor dem Schild und warten auf Änderung",
+          "Ausnahmen": "Prüfung: Mastschilder"
         },
         {
           "code": "Hp_1",
           "name": "Hp_1",
           "beschreibung": "(1) Bedeutung:  Fahrt  (2) Beschreibung:  Formsignal  Tageszeichen:  Ein Signalflügel – bei zweiflügligen Signalen der obere Flügel – zeigt schräg nach rechts aufwärts. Nachtzeichen:  Ein grünes Licht (3) Beschreibung:  Lichtsignal  Ein grünes Licht. (4) Das Signal erlaubt die Fahrt mit der im Fahrplan zugelassenen Geschwindigkeit, sofern sie nicht durch andere Signale oder besondere Anordnungen eingeschränkt ist.",
           "bild": ["source/img/Hp1_Form.svg.png", "source/img/Hp1_Licht.svg.png", "source/img/Hp1_Nacht.svg.png"],
-          "position": ["rechts", "oben", "links (Gegenfahrrichtung)"]
+          "position": ["rechts", "oben", "links (Gegenfahrrichtung)"],
+          "Lichtsignal" : "",
+          "Bedeutung": "Fahrt",
+          "Handlung": "Weiterfahrt",
+          "Ausnahmen": ""
         },
         {
           "code": "Hp_2",
           "name": "Hp_2",
           "beschreibung": "(1) Bedeutung:  Langsamfahrt  (2) Beschreibung:  Formsignal  Tageszeichen:  Zwei Signalflügel zeigen schräg nach rechts aufwärts.  Nachtzeichen:  Ein grünes und senkrecht darunter ein gelbes Licht.  3) Beschreibung:  Lichtsignal  Ein grünes und senkrecht darunter ein gelbes Licht. Signal Hp 2 Lichtsignal  (4) Das Signal schreibt eine Geschwindigkeitsbeschränkung auf 40 km/h vor, wenn nicht eine abweichende Geschwindigkeit durch Signal Zs 3 angezeigt wird. Der Infrastrukturunternehmer kann andere abweichende Geschwindigkeiten bekannt geben. Bei den NE ist das im Fahrplan, in der SbV oder in der La angegeben.  Bei den Eisenbahnen des Bundes werden andere abweichende Geschwindigkeiten im Fahrplan oder in der La angegeben.  Die Geschwindigkeitsbeschränkung gilt vom Hauptsignal ab für den anschließenden Weichenbereich.",
           "bild": ["source/img/Hp2_Form.svg.png", "source/img/Hp2_Licht.svg.png", "source/img/Hp2_Nacht.svg.png"],
-          "position": ["rechts", "oben", "links (Gegenfahrrichtung)"]
+          "position": ["rechts", "oben", "links (Gegenfahrrichtung)"],
+          "Lichtsignal" : "",
+          "Bedeutung": "Langsamfahrt",
+          "Handlung": "Maximalgeschwindigkeit",
+          "Ausnahmen": "Zs_3"
         }
       ]
     }
