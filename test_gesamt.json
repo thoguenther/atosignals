@@ -20,7 +20,8 @@
               "Lichtsignal" : "",
               "Bedeutung": "Gleisgültigkeit des beistehenden Signals",
               "Handlung": "Prüfung Richtung des Pfeils",
-              "Ausnahmen": ""
+              "Ausnahmen": "",
+              "Geschwindigkeit": ""
             },
             {
               "code": "",
@@ -80,7 +81,8 @@
                   "bild": "source/img/Mastschild_3.avif",
                   "Bedeutung": "Vorsignal",
                   "Handlung": "N/A",
-                  "Ausnahmen": ""
+                  "Ausnahmen": "",
+                  "Geschwindigkeit": ""
                 },
                 {
                   "name": "Weiß-gelb-weiß-gelb-weißes Mastschild",
@@ -89,7 +91,8 @@
                   "Lichtsignal" : "Alle",
                   "Bedeutung": "Stop vor dem Schild",
                   "Handlung": "Befehl Fahrdienstleiter prüfen und Weiterfahrt",
-                  "Ausnahmen": ""
+                  "Ausnahmen": "",
+                  "Geschwindigkeit": "0"
                 },
                 {
                   "name": "Weiß-schwarz-weiß-schwarz-weißes Mastschild",
@@ -98,7 +101,8 @@
                   "Lichtsignal" : ["Hp_0", "gestört"],
                   "Bedeutung": "Weiterfahrt",
                   "Handlung": "Weiterfahrt",
-                  "Ausnahmen": ""
+                  "Ausnahmen": "",
+                  "Geschwindigkeit": "0"
                 },
                 {
                   "name": "Rotes Mastschild",
@@ -107,7 +111,8 @@
                   "Lichtsignal" : ["Hp_0", "gestört"],
                   "Bedeutung": "Stop vor dem Schild",
                   "Handlung": "Prüfung auf Ersatzsignal oder Gegengleisfahrt-Ersatzsignal oder Befehl Zs_12 oder Befehl Fahrdienstleiter",
-                  "Ausnahmen": ""
+                  "Ausnahmen": "",
+                  "Geschwindigkeit": "0"
                 },
                 {
                   "name": "Weißes Mastschild mit zwei schwarzen Punkten (DV 301)",
@@ -116,7 +121,8 @@
                   "Lichtsignal" : "Hp_0",
                   "Bedeutung": "Stop vor dem Schild",
                   "Handlung": "Prüfung auf Befehl Fahrdienstleiter",
-                  "Ausnahmen": "Zusatzsignal Ra_12"
+                  "Ausnahmen": "Zusatzsignal Ra_12",
+                  "Geschwindigkeit": "0"
                 },
                 {
                   "name": "Maste der Formhauptsignale",
@@ -132,7 +138,8 @@
             "Lichtsignal" : "",
             "Bedeutung": "Signal ist ungültig",
             "Handlung": "Weiterfahrt",
-            "Ausnahmen": ""
+            "Ausnahmen": "",
+            "Geschwindigkeit": ""
           }
       ]
     },
@@ -170,7 +177,8 @@
           "Lichtsignal" : "",
           "Bedeutung": "Halt",
           "Handlung": "Stop vor dem Schild und warten auf Änderung",
-          "Ausnahmen": "Prüfung: Mastschilder"
+          "Ausnahmen": "Prüfung: Mastschilder",
+          "Geschwindigkeit": "0"
         },
         {
           "code": "Hp_1",
@@ -181,7 +189,8 @@
           "Lichtsignal" : "",
           "Bedeutung": "Fahrt",
           "Handlung": "Weiterfahrt",
-          "Ausnahmen": ""
+          "Ausnahmen": "",
+          "Geschwindigkeit": "MAX"
         },
         {
           "code": "Hp_2",
@@ -192,7 +201,8 @@
           "Lichtsignal" : "",
           "Bedeutung": "Langsamfahrt",
           "Handlung": "Maximalgeschwindigkeit",
-          "Ausnahmen": "Zs_3"
+          "Ausnahmen": "Zs_3",
+          "Geschwindigkeit": "40"
         }
       ]
     },
@@ -211,7 +221,8 @@
           "Lichtsignal" : "",
           "Bedeutung": "Weiterfahrt",
           "Handlung": "Weiterfahrt",
-          "Ausnahmen": ""
+          "Ausnahmen": "",
+          "Geschwindigkeit": "MAX"
         },
         {
           "code": "Ks_2",
@@ -221,7 +232,8 @@
           "Lichtsignal" : "",
           "Bedeutung": "Halt erwarten",
           "Handlung": "Weiterfahrt",
-          "Ausnahmen": ""
+          "Ausnahmen": "",
+          "Geschwindigkeit": ""
         }
       ]
     }
