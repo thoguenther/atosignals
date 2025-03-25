@@ -190,7 +190,7 @@
           "Bedeutung": "Fahrt",
           "Handlung": "Weiterfahrt",
           "Ausnahmen": "",
-          "Geschwindigkeit": "MAX"
+          "Geschwindigkeit": "last_state"
         },
         {
           "code": "Hp_2",
@@ -222,7 +222,7 @@
           "Bedeutung": "Weiterfahrt",
           "Handlung": "Weiterfahrt",
           "Ausnahmen": "",
-          "Geschwindigkeit": "MAX"
+          "Geschwindigkeit": "last_state"
         },
         {
           "code": "Ks_2",
@@ -233,8 +233,233 @@
           "Bedeutung": "Halt erwarten",
           "Handlung": "Weiterfahrt",
           "Ausnahmen": "",
+          "Geschwindigkeit": "last_state"
+        }
+      ]
+    },
+    {
+      "richtlinie": "301.0103",
+      "titel": "Lichthaupt- und Lichtvorsignale (Hl) (DV 301)",
+      "subsection" : 
+      [
+        {
+          "code": "",
+          "name": "Allgemeine Bestimmungen zu den Hl-Signalen",
+          "beschreibung": "Die Lichthaupt- und Lichtvorsignale bestehen aus bei Tag und bei Dunkelheit leuchtenden Lampen, die an einem Signalschirm angebracht sind. Die Hl-Signale gelten nur für Zugfahrten. Ein Hl-Signal mit einem Licht zeigt an, dass die im Fahrplan zugelassene Geschwindigkeit entweder beibehalten werden darf (ein grünes Standlicht) oder so vermindert werden muss, dass die vorangezeigte Geschwindigkeit am nächsten Signal nicht überschritten wird (ein grünes oder gelbes Blinklicht oder ein gelbes Standlicht). Bei einem Hl-Signal, das aus zwei Lichtern besteht, zeigt das untere Licht die  Geschwindigkeit an, die am Hauptsignal nicht überschritten werden darf. Ist anschließend ein Weichenbereich vorhanden, gilt die Geschwindigkeitsanzeige vom Hauptsignal ab im anschließenden Weichenbereich. Dem unteren gelben Licht kann ein gelb- oder grünleuchtender Lichtstreifen zugeordnet sein. Das obere Licht gibt die Geschwindigkeit an, die am nächsten Hauptsignal nicht überschritten werden darf. An einem Lichtvorsignal kann nur das Signal Hl 1, Hl 4, Hl 7 oder Hl 10 er scheinen. Lichtvorsignale im verkürzten Abstand des Bremswegs der Strecke sind gemäß Richtlinie 301.1401 Abschnitt 2 Absatz 9 und 10 gekennzeichnet.",
+          "bild": "",
+          "Lichtsignal" : "",
+          "Bedeutung": "",
+          "Handlung": "",
+          "Ausnahmen": "",
+          "Geschwindigkeit": ""
+        },
+        {
+          "code": "Hl_1",
+          "name": "Hl_1",
+          "beschreibung": "Ein grünes Licht.",
+          "bild": "source/img/Hl_1.png",
+          "Lichtsignal" : "",
+          "Bedeutung": "Fahrt mit Höchstgeschwindigkeit.",
+          "Handlung": "Weiterfahrt",
+          "Ausnahmen": "",
+          "Geschwindigkeit": "MAX"
+        },
+        {
+          "code": "Hl_2",
+          "name": "Hl_2",
+          "beschreibung": "Ein gelbes Licht mit einem grünen Lichtstreifen, darüber ein grünes Licht.",
+          "bild": "source/img/Hl_2.png",
+          "Lichtsignal" : "",
+          "Bedeutung": "Fahrt mit 100 km/h, dann mit Höchstgeschwindigkeit.",
+          "Handlung": "Beschleunigen",
+          "Ausnahmen": "",
+          "Geschwindigkeit": "100",
+          "Zielgeschwindigkeit": "MAX"
+        },
+        {
+          "code": "Hl_3a",
+          "name": "Hl_3a",
+          "beschreibung": "Ein gelbes Licht, darüber ein grünes Licht.",
+          "bild": "source/img/Hl_3a.png",
+          "Lichtsignal" : "",
+          "Bedeutung": "Fahrt mit 40 km/h, dann mit Höchstgeschwindigkeit.",
+          "Handlung": "Beschleunigen",
+          "Ausnahmen": "",
+          "Geschwindigkeit": "40",
+          "Zielgeschwindigkeit": "MAX"
+        },
+        {
+          "code": "Hl_3b",
+          "name": "Hl_3b",
+          "beschreibung": "Ein gelbes Licht mit einem gelben Lichtstreifen, darüber ein grünes Licht.",
+          "bild": "source/img/Hl_3b.png",
+          "Lichtsignal" : "",
+          "Bedeutung": "Fahrt mit 60 km/h, dann mit Höchstgeschwindigkeit.",
+          "Handlung": "Beschleunigen",
+          "Ausnahmen": "",
+          "Geschwindigkeit": "60",
+          "Zielgeschwindigkeit": "MAX"
+        },
+        {
+          "code": "Hl_4",
+          "name": "Hl_4",
+          "beschreibung": "Ein grünes Blinklicht.",
+          "bild": "source/img/Hl_4.png",
+          "Lichtsignal" : "",
+          "Bedeutung": "Höchstgeschwindigkeit auf 100 km/h ermäßigen.",
+          "Handlung": "Verzögern",
+          "Ausnahmen": "",
+          "Geschwindigkeit": "100",
+          "Zielgeschwindigkeit": "MAX"
+        },
+        {
+          "code": "Hl_5",
+          "name": "Hl_5",
+          "beschreibung": "Ein gelbes Licht mit einem grünen Lichtstreifen, darüber ein grünes Blinklicht.",
+          "bild": "source/img/Hl_5.png",
+          "Lichtsignal" : "",
+          "Bedeutung": "Fahrt mit 100 km/h.",
+          "Handlung": "Weiterfahrt",
+          "Ausnahmen": "",
+          "Geschwindigkeit": "100"
+        },
+        {
+          "code": "Hl_6a",
+          "name": "Hl_6a",
+          "beschreibung": "Ein gelbes Licht, darüber ein grünes Blinklicht.",
+          "bild": "source/img/Hl_6a.png",
+          "Lichtsignal" : "",
+          "Bedeutung": "Fahrt mit 40 km/h, dann mit 100 km/h.",
+          "Handlung": "Beschleunigen",
+          "Ausnahmen": "",
+          "Geschwindigkeit": "40",
+          "Zielgeschwindigkeit": "100"
+        },
+        {
+          "code": "Hl_6b",
+          "name": "Hl_6b",
+          "beschreibung": "Ein gelbes Licht mit einem gelben Lichtstreifen, darüber ein grünes Blinklicht.",
+          "bild": "source/img/Hl_6b.png",
+          "Lichtsignal" : "",
+          "Bedeutung": "Fahrt mit 60 km/h, dann mit 100 km/h.",
+          "Handlung": "Beschleunigen",
+          "Ausnahmen": "",
+          "Geschwindigkeit": "60",
+          "Zielgeschwindigkeit": "100"
+        },
+        {
+          "code": "Hl_7",
+          "name": "Hl_7",
+          "beschreibung": "Ein gelbes Blinklicht.",
+          "bild": "source/img/Hl_7.png",
+          "Lichtsignal" : "",
+          "Bedeutung": "Höchstgeschwindigkeit auf 40 km/h (60 km/h) ermäßigen.",
+          "Handlung": "Verzögern",
+          "Ausnahmen": "",
+          "Geschwindigkeit": "MAX",
+          "Zielgeschwindigkeit": "100"
+        },
+        {
+          "code": "Hl_8",
+          "name": "Hl_8",
+          "beschreibung": "Ein gelbes Licht mit einem grünen Lichtstreifen, darüber ein gelbes Blinklicht.",
+          "bild": "source/img/Hl_8.png",
+          "Lichtsignal" : "",
+          "Bedeutung": "Geschwindigkeit 100 km/h auf 40 km/h (60 km/h) ermäßigen.",
+          "Handlung": "Verzögern",
+          "Ausnahmen": "",
+          "Geschwindigkeit": "100",
+          "Zielgeschwindigkeit": "40"
+        },
+        {
+          "code": "Hl_9a",
+          "name": "Hl_9a",
+          "beschreibung": "Ein gelbes Licht, darüber ein gelbes Blinklicht.",
+          "bild": "source/img/Hl_9a.png",
+          "Lichtsignal" : "",
+          "Bedeutung": "Fahrt mit 40 km/h, dann mit 40 km/h (60 km/h).",
+          "Handlung": "Weiterfahrt",
+          "Ausnahmen": "",
+          "Geschwindigkeit": "40"
+        },
+        {
+          "code": "Hl_9b",
+          "name": "Hl_9b",
+          "beschreibung": "Ein gelbes Licht mit einem gelben Lichtstreifen, darüber ein gelbes Blinklicht.",
+          "bild": "source/img/Hl_9b.png",
+          "Lichtsignal" : "",
+          "Bedeutung": "Fahrt mit 60 km/h, dann mit 40 km/h (60 km/h).",
+          "Handlung": "Weiterfahrt",
+          "Ausnahmen": "",
+          "Geschwindigkeit": "60"
+        },
+        {
+          "code": "Hl_10",
+          "name": "Hl_10",
+          "beschreibung": "Ein gelbes Licht.",
+          "bild": "source/img/Hl_10.png",
+          "Lichtsignal" : "",
+          "Bedeutung": "Halt erwarten.",
+          "Handlung": "Verzögern",
+          "Ausnahmen": "",
+          "Geschwindigkeit": "MAX",
+          "Zielgeschwindigkeit": "0"
+        },
+        {
+          "code": "Hl_11",
+          "name": "Hl_11",
+          "beschreibung": "Ein gelbes Licht mit einem grünen Lichtstreifen, darüber ein gelbes Licht.",
+          "bild": "source/img/Hl_11.png",
+          "Lichtsignal" : "",
+          "Bedeutung": "Geschwindigkeit 100 km/h ermäßigen, „Halt“ erwarten.",
+          "Handlung": "Verzögern",
+          "Ausnahmen": "",
+          "Geschwindigkeit": "100",
+          "Zielgeschwindigkeit": "0"
+        },
+        {
+          "code": "Hl_12a",
+          "name": "Hl_12a",
+          "beschreibung": "Zwei gelbe Lichter übereinander.",
+          "bild": "source/img/Hl_12a.png",
+          "Lichtsignal" : "",
+          "Bedeutung": "Geschwindigkeit 40 km/h ermäßigen, „Halt“ erwarten.",
+          "Handlung": "Verzögern",
+          "Ausnahmen": "",
+          "Geschwindigkeit": "40",
+          "Zielgeschwindigkeit": "0"
+        },
+        {
+          "code": "Hl_12b",
+          "name": "Hl_12b",
+          "beschreibung": "Ein gelbes Licht mit einem gelben Lichtstreifen, darüber ein gelbes Licht.",
+          "bild": "source/img/Hl_12b.png",
+          "Lichtsignal" : "",
+          "Bedeutung": "Geschwindigkeit 60 km/h ermäßigen, „Halt“ erwarten.",
+          "Handlung": "Verzögern",
+          "Ausnahmen": "",
+          "Geschwindigkeit": "60",
+          "Zielgeschwindigkeit": "0"
+        }
+      ]
+    },
+    {
+      "richtlinie": "301.0104",
+      "titel": "Haupt- und Vorsignalverbindungen (Sv)",
+      "subsection" : 
+      [
+        {
+          "code": "",
+          "name": "Allgemeines",
+          "beschreibung": "(1) Haupt- und Vorsignalverbindungen sind nur bei Stadtschnellbahnen auf eige-nem Bahnkörper (S-Bahnen) vorhanden. Eine Haupt- und Vorsignalverbindung ist ein Lichtsignal besonderer Art, dasHaupt- und Vorsignal auf einem Signalschirm nebeneinander vereinigt. Die linken Lichter entsprechen den Hauptsignalbildern Hp 0, Hp 1 oder Hp 2 und geben an, ob der anschließende Gleisabschnitt von einem Zug befahren werden darf. Die rechten Lichter entsprechen den Vorsignalbildern Vr 0, Vr 1 oder Vr 2 zu dem am nächsten Sv-Signal leuchtenden Hauptsignalbild. (2) Die Signale können sich rechts oder links neben oder über dem Gleis befin-den. (3) Wo die Sicht auf Sv-Signale behindert ist, können die den Vorsignalbildernentsprechenden Lichter wiederholt sein (Vorsignalwiederholer). Die Signale sind dann durch ein links angeordnetes weißes Zusatzlicht kennt- lich. (4) Signale (ausgenommen Signal Sv 0), die in einem um mehr als 5 % kürzerenAbstand als dem erforderlichen Bremsweg vor dem folgenden Signal stehen,sind durch einen weißleuchtenden Pfeil über den Signalbildern kenntlich.",
+          "bild": "",
+          "Lichtsignal" : "",
+          "Bedeutung": "",
+          "Handlung": "",
+          "Ausnahmen": "",
           "Geschwindigkeit": ""
         }
+        
       ]
     }
     ]
