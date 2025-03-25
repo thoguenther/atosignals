@@ -451,15 +451,99 @@
         {
           "code": "",
           "name": "Allgemeines",
-          "beschreibung": "(1) Haupt- und Vorsignalverbindungen sind nur bei Stadtschnellbahnen auf eige-nem Bahnkörper (S-Bahnen) vorhanden. Eine Haupt- und Vorsignalverbindung ist ein Lichtsignal besonderer Art, dasHaupt- und Vorsignal auf einem Signalschirm nebeneinander vereinigt. Die linken Lichter entsprechen den Hauptsignalbildern Hp 0, Hp 1 oder Hp 2 und geben an, ob der anschließende Gleisabschnitt von einem Zug befahren werden darf. Die rechten Lichter entsprechen den Vorsignalbildern Vr 0, Vr 1 oder Vr 2 zu dem am nächsten Sv-Signal leuchtenden Hauptsignalbild. (2) Die Signale können sich rechts oder links neben oder über dem Gleis befin-den. (3) Wo die Sicht auf Sv-Signale behindert ist, können die den Vorsignalbildernentsprechenden Lichter wiederholt sein (Vorsignalwiederholer). Die Signale sind dann durch ein links angeordnetes weißes Zusatzlicht kennt- lich. (4) Signale (ausgenommen Signal Sv 0), die in einem um mehr als 5 % kürzerenAbstand als dem erforderlichen Bremsweg vor dem folgenden Signal stehen,sind durch einen weißleuchtenden Pfeil über den Signalbildern kenntlich.",
-          "bild": "",
+          "beschreibung": "(1) Haupt- und Vorsignalverbindungen sind nur bei Stadtschnellbahnen auf eigenem Bahnkörper (S-Bahnen) vorhanden. Eine Haupt- und Vorsignalverbindung ist ein Lichtsignal besonderer Art, dasHaupt- und Vorsignal auf einem Signalschirm nebeneinander vereinigt. Die linken Lichter entsprechen den Hauptsignalbildern Hp 0, Hp 1 oder Hp 2 und geben an, ob der anschließende Gleisabschnitt von einem Zug befahren werden darf. Die rechten Lichter entsprechen den Vorsignalbildern Vr 0, Vr 1 oder Vr 2 zu dem am nächsten Sv-Signal leuchtenden Hauptsignalbild. (2) Die Signale können sich rechts oder links neben oder über dem Gleis befin-den. (3) Wo die Sicht auf Sv-Signale behindert ist, können die den Vorsignalbildernentsprechenden Lichter wiederholt sein (Vorsignalwiederholer). Die Signale sind dann durch ein links angeordnetes weißes Zusatzlicht kennt- lich. (4) Signale (ausgenommen Signal Sv 0), die in einem um mehr als 5 % kürzerenAbstand als dem erforderlichen Bremsweg vor dem folgenden Signal stehen,sind durch einen weißleuchtenden Pfeil über den Signalbildern kenntlich.",
+          "bild": "source/img/Sv_a.png",
           "Lichtsignal" : "",
           "Bedeutung": "",
           "Handlung": "",
           "Ausnahmen": "",
-          "Geschwindigkeit": ""
+          "Geschwindigkeit": "",
+          "Zielgeschwindigkeit": ""
+        },
+        {
+          "code": "Sv_0",
+          "name": "Sv_0",
+          "beschreibung": "Zwei gelbe Lichter waagerecht nebeneinander.",
+          "bild": "source/img/Sv_0.png",
+          "Lichtsignal" : "",
+          "Bedeutung": "Zughalt! Weiterfahrt auf Sicht. Züge dürfen nach dem Anhalten vor diesem Signal ohne Zustimmung vorbeifahren. Hierfür und für das Verhalten nach der Vorbeifahrt sind die vom Eisenbahninfrastrukturunternehmer für die Gleichstrom-S-Bahn Hamburg gegebenen örtlichen Zusätze zu beachten.  (4) Bestimmte Signale können an Stelle des Signals Sv 0 das Hauptsignal Hp 0 zeigen.",
+          "Handlung": "Halt und Weiterfahrt",
+          "Ausnahmen": "",
+          "Geschwindigkeit": "",
+          "Zielgeschwindigkeit": ""
+        },
+        {
+          "code": "Sv_1",
+          "name": "Sv_1",
+          "beschreibung": "Zwei grüne Lichter waagerecht nebeneinander.",
+          "bild": "source/img/Sv_1.png",
+          "Lichtsignal" : "",
+          "Bedeutung": "Fahrt! Fahrt erwarten.",
+          "Handlung": "Weiterfahrt",
+          "Ausnahmen": "",
+          "Geschwindigkeit": "MAX",
+          "Zielgeschwindigkeit": "MAX"
+        },
+        {
+          "code": "Sv_2",
+          "name": "Sv_2",
+          "beschreibung": "Ein grünes, rechts daneben in gleicher Höhe ein gelbes Licht.",
+          "bild": "source/img/Sv_2.png",
+          "Lichtsignal" : "",
+          "Bedeutung": "Fahrt! Halt erwarten.",
+          "Handlung": "Verzögern",
+          "Ausnahmen": "",
+          "Geschwindigkeit": "MAX",
+          "Zielgeschwindigkeit": "0"
+        },
+        {
+          "code": "Sv_3",
+          "name": "Sv_3",
+          "beschreibung": "Links ein grünes Licht; rechts in gleicher Höhe ein grünes und senkrecht darunter ein gelbes Licht.",
+          "bild": "source/img/Sv_3.png",
+          "Lichtsignal" : "",
+          "Bedeutung": "Fahrt! Langsamfahrt erwarten.",
+          "Handlung": "Verzögern",
+          "Ausnahmen": "",
+          "Geschwindigkeit": "MAX",
+          "Zielgeschwindigkeit": "40"
+        },
+        {
+          "code": "Sv_4",
+          "name": "Sv_4",
+          "beschreibung": "Links ein grünes und senkrecht darunter ein gelbes Licht; rechts in Höhe des oberen linken Lichtes ein grünes Licht.",
+          "bild": "source/img/Sv_4.png",
+          "Lichtsignal" : "",
+          "Bedeutung": "Langsamfahrt! Fahrt erwarten.",
+          "Handlung": "Beschleunigen",
+          "Ausnahmen": "",
+          "Geschwindigkeit": "40",
+          "Zielgeschwindigkeit": "MAX"
+        },
+        {
+          "code": "Sv_5",
+          "name": "Sv_5",
+          "beschreibung": "Links ein grünes und senkrecht darunter ein gelbes Licht; rechts daneben in gleicher Höhe die gleichen Lichter.",
+          "bild": "source/img/Sv_5.png",
+          "Lichtsignal" : "",
+          "Bedeutung": "Langsamfahrt! Langsamfahrt erwarten.",
+          "Handlung": "Weiterfahrt",
+          "Ausnahmen": "",
+          "Geschwindigkeit": "40",
+          "Zielgeschwindigkeit": "40"
+        },
+        {
+          "code": "Sv_6",
+          "name": "Sv_6",
+          "beschreibung": "Links ein grünes und senkrecht darunter ein gelbes Licht; rechts daneben in gleicher Höhe die gleichen Lichter.",
+          "bild": "source/img/Sv_6.png",
+          "Lichtsignal" : "",
+          "Bedeutung": "Langsamfahrt! Halt erwarten.",
+          "Handlung": "Verzögern",
+          "Ausnahmen": "",
+          "Geschwindigkeit": "40",
+          "Zielgeschwindigkeit": "0"
         }
-        
       ]
     }
     ]
