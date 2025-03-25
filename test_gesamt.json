@@ -545,7 +545,52 @@
           "Zielgeschwindigkeit": "0"
         }
       ]
+    },
+    {
+      "richtlinie": "301.0201",
+      "titel": "Vr-Signale",
+      "beschreibung": "(1) Das Signal Vr 0 kann auch ein Schutzsignal (Sh 0 und Sh 2) ankündigen. (2) Das Signal Vr 0 kann auch das Signal Hp 0 am Sperrsignal (Lichtsignal) ankündigen. An Vorsignalen im Geltungsbereich der DV 301, die nicht an Hauptsignalen stehen, kann bis auf weiteres nur ein gelbes Licht gezeigt werden.",
+      "subsection" : 
+      [
+        {
+          "code": "Vr_0",
+          "name": "Vr_0",
+          "beschreibung": "Halt erwarten",
+          "bild": ["source/img/Vr_0_Licht_1.png, source/img/Vr_0_Licht_2.png, source/img/Vr_0_Nacht_1.png, source/img/Vr_0_Nacht_2.png, source/img/Vr_0_Tag.png"],
+          "Lichtsignal" : "Zwei gelbe Lichter nach rechts steigend. An Vorsignalen im Geltungsbereich der DV 301, die nicht an Hauptsignalen stehen, kann bis auf weiteres nur ein gelbes Licht gezeigt werden.",
+          "Bedeutung": "Halt erwarten",
+          "Handlung": "Verzögern",
+          "Ausnahmen": "",
+          "Geschwindigkeit": "last_state",
+          "Zielgeschwindigkeit": "0"
+        },
+        {
+          "code": "Vr_1",
+          "name": "Vr_1",
+          "beschreibung": "Formsignal: Tageszeichen: Die runde Scheibe liegt waagerecht. Wo ein Flügel vorhanden ist, zeigt er senkrecht nach unten. Nachtzeichen: Zwei grüne Lichter nach rechts steigend. An Vorsignalen im Geltungsbereich der DV 301, die nicht an Hauptsignalen stehen, kann bis auf weiteres ein grünes Licht gezeigt werden.",
+          "bild": ["source/img/Vr_1_Licht_1.png, source/img/Vr_1_Licht_2.png, source/img/Vr_1_Nacht_1.png, source/img/Vr_1_Nacht_2.png, source/img/Vr_1_Tag.png"],
+          "Lichtsignal" : "Zwei grüne Lichter nach rechts steigend. An Vorsignalen im Geltungsbereich der DV 301, die nicht an Hauptsignalen stehen, kann bis auf weiteres ein grünes Licht gezeigt werden.",
+          "Bedeutung": "Fahrt erwarten",
+          "Handlung": "Beschleunigen",
+          "Ausnahmen": "",
+          "Geschwindigkeit": "last_state",
+          "Zielgeschwindigkeit": "MAX"
+        },
+        {
+          "code": "Vr_2",
+          "name": "Vr_2",
+          "beschreibung": "Formsignal: Tageszeichen Die runde Scheibe steht senkrecht, der Flügel zeigt schräg nach rechts ab- wärts. Nachtzeichen: Ein gelbes Licht und nach rechts steigend ein grünes Licht. Das Signal kann im Geltungsbereich der DV 301 auch ein grünes Licht und nach rechts steigend ein gelbes Licht zeigen.",
+          "bild": ["source/img/Vr_2_Licht_1.png, source/img/Vr_2_Licht_2.png, source/img/Vr_2_Nacht_1.png, source/img/Vr_2_Nacht_2.png, source/img/Vr_2_Tag.png"],
+          "Lichtsignal" : "Ein gelbes Licht und nach rechts steigend ein grünes Licht. Das Signal kann im Geltungsbereich der DV 301 auch ein grünes Licht und nach rechts steigend ein gelbes Licht zeigen.",
+          "Bedeutung": "Langsamfahrt erwarten",
+          "Handlung": "Weiterfahrt",
+          "Ausnahmen": "",
+          "Geschwindigkeit": "last_state",
+          "Zielgeschwindigkeit": "40"
+        }
+      ]
     }
+
     ]
   }
 }
