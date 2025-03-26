@@ -555,8 +555,8 @@
         {
           "code": "Vr_0",
           "name": "Vr_0",
-          "beschreibung": "Halt erwarten",
-          "bild": ["source/img/Vr_0_Licht_1.png, source/img/Vr_0_Licht_2.png, source/img/Vr_0_Nacht_1.png, source/img/Vr_0_Nacht_2.png, source/img/Vr_0_Tag.png"],
+          "beschreibung": "Formsignal: Tageszeichen: Die runde Scheibe steht senkrecht. Wo ein Flügel vorhanden ist, zeigt er senkrecht nach unten. Nachtzeichen: Zwei gelbe Lichter nach rechts steigend. An Vorsignalen im Geltungsbereich der DV 301, die nicht an Hauptsignalen stehen, kann bis auf weiteres nur ein gelbes Licht gezeigt werden. Lichtsignal: Zwei gelbe Lichter nach rechts steigend. An Vorsignalen im Geltungsbereich der DV 301, die nicht an Hauptsignalen stehen, kann bis auf weiteres nur ein gelbes Licht gezeigt werden.",
+          "bild": ["source/img/Vr_0_Licht_1.png", "source/img/Vr_0_Licht_2.png", "source/img/Vr_0_Nacht_1.png", "source/img/Vr_0_Nacht_2.png", "source/img/Vr_0_Tag.png"],
           "Lichtsignal" : "Zwei gelbe Lichter nach rechts steigend. An Vorsignalen im Geltungsbereich der DV 301, die nicht an Hauptsignalen stehen, kann bis auf weiteres nur ein gelbes Licht gezeigt werden.",
           "Bedeutung": "Halt erwarten",
           "Handlung": "Verzögern",
@@ -568,7 +568,7 @@
           "code": "Vr_1",
           "name": "Vr_1",
           "beschreibung": "Formsignal: Tageszeichen: Die runde Scheibe liegt waagerecht. Wo ein Flügel vorhanden ist, zeigt er senkrecht nach unten. Nachtzeichen: Zwei grüne Lichter nach rechts steigend. An Vorsignalen im Geltungsbereich der DV 301, die nicht an Hauptsignalen stehen, kann bis auf weiteres ein grünes Licht gezeigt werden.",
-          "bild": ["source/img/Vr_1_Licht_1.png, source/img/Vr_1_Licht_2.png, source/img/Vr_1_Nacht_1.png, source/img/Vr_1_Nacht_2.png, source/img/Vr_1_Tag.png"],
+          "bild": ["source/img/Vr_1_Licht_1.png", "source/img/Vr_1_Licht_2.png", "source/img/Vr_1_Nacht_1.png", "source/img/Vr_1_Nacht_2.png", "source/img/Vr_1_Tag.png"],
           "Lichtsignal" : "Zwei grüne Lichter nach rechts steigend. An Vorsignalen im Geltungsbereich der DV 301, die nicht an Hauptsignalen stehen, kann bis auf weiteres ein grünes Licht gezeigt werden.",
           "Bedeutung": "Fahrt erwarten",
           "Handlung": "Beschleunigen",
@@ -580,13 +580,117 @@
           "code": "Vr_2",
           "name": "Vr_2",
           "beschreibung": "Formsignal: Tageszeichen Die runde Scheibe steht senkrecht, der Flügel zeigt schräg nach rechts ab- wärts. Nachtzeichen: Ein gelbes Licht und nach rechts steigend ein grünes Licht. Das Signal kann im Geltungsbereich der DV 301 auch ein grünes Licht und nach rechts steigend ein gelbes Licht zeigen.",
-          "bild": ["source/img/Vr_2_Licht_1.png, source/img/Vr_2_Licht_2.png, source/img/Vr_2_Nacht_1.png, source/img/Vr_2_Nacht_2.png, source/img/Vr_2_Tag.png"],
+          "bild": ["source/img/Vr_2_Licht_1.png", "source/img/Vr_2_Licht_2.png", "source/img/Vr_2_Nacht_1.png", "source/img/Vr_2_Nacht_2.png", "source/img/Vr_2_Tag.png"],
           "Lichtsignal" : "Ein gelbes Licht und nach rechts steigend ein grünes Licht. Das Signal kann im Geltungsbereich der DV 301 auch ein grünes Licht und nach rechts steigend ein gelbes Licht zeigen.",
           "Bedeutung": "Langsamfahrt erwarten",
           "Handlung": "Weiterfahrt",
           "Ausnahmen": "",
           "Geschwindigkeit": "last_state",
           "Zielgeschwindigkeit": "40"
+        }
+      ]
+    },
+    {
+      "richtlinie": "301.0301",
+      "titel": "Zusatzsignale (Zs)",
+      "beschreibung": "Zusatzsignale gelten für Zugfahrten. Das Signal Zs 103 (DV 301) gilt nur für Rangierfahrten. Ortsfeste Zusatzsignale werden in der Regel an Haupt- oder Vorsignalen gezeigt. Die Signale Zs 2, Zs 2v, Zs 3, Zs 3v, Zs 6, und Zs 10 (DS 301) können alleinstehend gezeigt werden.",
+      "subsection" : 
+      [
+        {
+          "code": "Zs_1",
+          "name": "Zs_1",
+          "beschreibung": "Drei weiße Lichter in Form eines A oder ein weißes Blinklicht. Das Ersatzsignal gilt auch, wenn es erlischt, bevor die Spitze des Zuges am Signal vorbeigefahren ist.",
+          "bild": ["source/img/Zs_1_1.png", "source/img/Zs_1_2.png"],
+          "Lichtsignal" : "",
+          "Bedeutung": "Am Signal Hp 0 oder am gestörten Lichthauptsignal ohne schriftlichen Befehl vorbeifahren.",
+          "Handlung": "Weiterfahrt",
+          "Ausnahmen": "",
+          "Geschwindigkeit": "last_state",
+          "Zielgeschwindigkeit": "last_state"
+        },
+        {
+          "code": "Zs_2",
+          "name": "Zs_2",
+          "beschreibung": "Der Richtungsanzeiger gibt durch einen Kennbuchstaben an, für welche Fahrtrichtung oder für welches Streckengleis mehrerer nebeneinander verlaufender Strecken das Hauptsignal auf Fahrt steht. Er wird auch angewandt, wenn dem Triebfahrzeugführer bei größeren Bahn- höfen die Einfahrt in einen bestimmten Bahnhofsteil (z. B. Rangier- oder Personenbahnhof) angezeigt werden soll. Der Infrastrukturunternehmer gibt die verwendeten Kennbuchstaben bekannt. Die verwendeten Buchstaben sind im Fahrplan enthalten. Außerdem können die verwendeten Buchstaben in örtlichen Zusätzen enthalten sein.",
+          "bild": "source/img/Zs_2.png",
+          "Lichtsignal" : "",
+          "Bedeutung": "Die Fahrstraße führt in die angezeigte Richtung.",
+          "Handlung": "Weiterfahrt",
+          "Ausnahmen": "",
+          "Geschwindigkeit": "last_state",
+          "Zielgeschwindigkeit": "last_state"
+        },
+        {
+          "code": "Zs_2v",
+          "name": "Zs_2v",
+          "beschreibung": "Ein gelbleuchtender Buchstabe.",
+          "bild": "source/img/Zs_2v.png",
+          "Lichtsignal" : "",
+          "Bedeutung": "Richtungsanzeiger (Zs_2) erwarten.",
+          "Handlung": "Weiterfahrt",
+          "Ausnahmen": "",
+          "Geschwindigkeit": "last_state",
+          "Zielgeschwindigkeit": "last_state"
+        },
+        {
+          "code": "Zs_3",
+          "name": "Zs_3",
+          "beschreibung": "Formsignal: Eine weiße Kennziffer auf dreieckiger schwarzer Tafel mit weißem Rand. Die Tafel steht in der Regel auf der Spitze; bei beschränktem Raum kann die Spitze nach oben zeigen. Lichtsignal: Eine weiß leuchtende Kennziffer. Die gezeigte Kennziffer bedeutet, dass der 10fache Wert in km/h als Fahrge- schwindigkeit zugelassen ist. Das Signal wird auch an Blocksignalen selbsttätiger Blockstellen (Sbk) angewendet, wenn das nächste Signal im verkürzten Bremswegabstand folgt. In diesem Falle gilt die angezeigte Geschwindigkeit bei Vorbeifahrt der Spitze des Zuges am Signal. Die Kennziffer 3 kann anzeigen, dass in Stumpfgleise eingefahren wird oderdass ein ausreichender Durchrutschweg fehlt. Die Kennziffern 1 und 2 können anzeigen, dass besonders früh zu halten oderin ein besetztes Gleis einzufahren ist. Wird innerhalb des anschließenden Weichenbereichs durch ein Signal Zs 3 eine andere Geschwindigkeit angezeigt, gilt diese bis zum Ende des Weichenbereichs. Eine durch Hauptsignal oder Signal Zs 3 vorgeschriebene Geschwindigkeitsbeschränkung kann durch ein alleinstehendes Signal Zs 3 bereits vor dem Ende des anschließenden Weichenbereichs geändert werden. Das Formsignal ist rückstrahlend oder bei Dunkelheit beleuchtet, es kann bisauf weiteres nicht rückstrahlend oder beleuchtet sein. Das Formsignal an Lichthauptsignalen zeigt mit der Spitze nach oben.",
+          "bild": ["source/img/Zs_3_F6_1.png", "source/img/Zs_3_F6.png", "source/img/Zs_3_L8.png"],
+          "Lichtsignal" : "",
+          "Bedeutung": "Die durch die Kennziffer angezeigte Geschwindigkeit darf vom Signal ab im anschließenden Weichenbereich nicht überschritten werden.",
+          "Handlung": "Weiterfahrt",
+          "Ausnahmen": "",
+          "Geschwindigkeit": "last_state",
+          "Zielgeschwindigkeit": "last_state"
+        },
+        {
+          "code": "Zs_3v",
+          "name": "Zs_3v",
+          "beschreibung": "Lichtsignal: Eine gelbleuchtende Kennziffer. Formsignal: Eine gelbe Kennziffer auf dreieckiger schwarzer Tafel mit gelbem Rand. Das Formsignal ist rückstrahlend. Die gezeigte Kennziffer bedeutet, dass der 10fache Wert in km/h als Fahrgeschwindigkeit zugelassen ist.",
+          "bild": ["source/img/Zs_3v_Form.png", "source/img/Zs_3v_Licht.png"],
+          "Lichtsignal" : "",
+          "Bedeutung": "Geschwindigkeitsanzeiger (Zs_3) erwarten",
+          "Handlung": "Weiterfahrt",
+          "Ausnahmen": "",
+          "Geschwindigkeit": "last_state",
+          "Zielgeschwindigkeit": "last_state"
+        },
+        {
+          "code": "Zs_7",
+          "name": "Zs_7",
+          "beschreibung": "Drei gelbe Lichter in Form eines V. Der Auftrag, auf Sicht weiterzufahren, gilt bis zum nächsten Hauptsignal. Das Signal gilt weiter, auch wenn es erlischt, bevor die Spitze des Zuges daran vorbeigefahren ist. Für das Verhalten nach der Vorbeifahrt sind bei den Gleichstrom-S-Bahnen Berlin und Hamburg die örtlichen Zusätze zu beachten.",
+          "bild": ["source/img/Zs_3v_Form.png", "source/img/Zs_3v_Licht.png"],
+          "Lichtsignal" : "",
+          "Bedeutung": "Am Signal Hp 0 oder am gestörten Lichthauptsignal ohne schriftlichen Befehl vorbeifahren! Weiterfahrt auf Sicht.",
+          "Handlung": "Weiterfahrt",
+          "Ausnahmen": "",
+          "Geschwindigkeit": "last_state",
+          "Zielgeschwindigkeit": "30"
+        },
+        {
+          "code": "Zs_9",
+          "name": "Zs_9",
+          "beschreibung": "Eine dreieckige, weiße Tafel mit rotem Rand und schwarzem Gatter. Die Bahnübergangstafel steht vor einem mit weiß-gelb-weiß-gelb-weißem, rotem oder weiß-schwarz-weiß-schwarz-weißem Mastschild gekennzeichneten Lichthauptsignal, das nur dann einen Fahrtbegriff zeigen kann, wenn der Bahnübergang technisch gesichert ist. (4) Gilt die Bahnübergangstafel für mehrere Bahnübergänge, so ist die entsprechende Anzahl als schwarze Zahl im Signal Zs 9 dargestellt. Die genannten Verhaltensregeln gelten dann für jeden dieser Bahnübergänge.",
+          "bild": "source/img/Zs_9.png",
+          "Lichtsignal" : "",
+          "Bedeutung": "Nach dem zulässigen Vorbeifahren an dem Halt zeigenden oder gestörten Lichthauptsignal Halt vor dem Bahnübergang! Weiterfahrt nach Sicherung.",
+          "Handlung": "Weiterfahrt",
+          "Ausnahmen": "",
+          "Geschwindigkeit": "last_state",
+          "Zielgeschwindigkeit": "30"
+        },
+        {
+          "code": "Zs_11",
+          "name": "Zs_11",
+          "beschreibung": "Eine weiße Tafel mit rotem Rand und rotem „M“ in Schreibschrift.",
+          "bild": ["source/img/Zs_10_Form.png"],
+          "Lichtsignal" : "",
+          "Bedeutung": "Am Halt zeigenden oder gestörten Hauptsignal auf mündlichen oder fernmündlichen Auftrag vorbeifahren.",
+          "Handlung": "Halt und Weiterfahrt",
+          "Ausnahmen": "",
+          "Geschwindigkeit": "",
+          "Zielgeschwindigkeit": ""
         }
       ]
     }
