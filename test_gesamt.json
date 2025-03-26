@@ -705,6 +705,100 @@
           "Zielgeschwindigkeit": ""
         }
       ]
+    },
+    {
+      "richtlinie": "301.0501",
+      "titel": "Langsamfahrsignale (Lf)",
+      "beschreibung": "Die Langsamfahrsignale dienen zur Kennzeichnung von Langsamfahrstellen. Vorübergehende Langsamfahrstellen sind bei Eisenbahnen des Bundes in der Regel durch Anfang- und Endscheibe (Signale Lf 2 und Lf 3) gekennzeichnet. (2) Langsamfahrsignale werden nicht aufgestellt, wenn die reduzierte Geschwindigkeit nur für einzelne Zuggattungen bzw. Züge gilt. Die Geschwindigkeitsreduzierung wird in diesem Fall den betroffenen Zügen durch das Infrastrukturunternehmen schriftlich bekanntgegeben. (3) Für Züge mit technischer Überwachung eines bekanntgegebenen besonderen Geschwindigkeitsprofils gelten die Signale Lf 6 und Lf 7 nicht. (4) Die Langsamfahrsignale Lf 1, Lf 1/2 (DV 301), Lf 2 und Lf 3 gelten für Züge  und Rangierfahrten. Sie sind nicht ortsfest und dürfen bei den Eisenbahnen des Bundes nur auf besonderen Auftrag des Eisenbahninfrastrukturunternehmers aufgestellt werden. Bei den NE kann der Betriebsleiter auch andere Stellen hierfür bestimmen. (5) Die nur für eine Zugfahrt geltenden oder die wegen aufgehobener Signalabhängigkeit erforderlichen Geschwindigkeitsbeschränkungen werden nicht signalisiert, wenn die Züge durch Befehl – nicht aber durch die La – unterrichtet werden.",
+      "subsection" : 
+      [
+        {
+          "code": "Lf_1",
+          "name": "Lf_1",
+          "beschreibung": "Tageszeichen: Eine auf der Spitze stehende dreieckige gelbe Scheibe mit weißem Rand zeigt eine schwarze Kennziffer. Bei beschränktem Raum kann die Dreieckspitze nach oben zeigen. Nachtzeichen: Unter dem beleuchteten Tageszeichen zwei schräg nach links steigende gelbe Lichter. Bei beschränktem Raum befinden sich die Lichter vor dem Tageszeichen. (3) Die gezeigte Kennziffer bedeutet, dass der 10fache Wert in km/h als Fahrgeschwindigkeit zugelassen ist. (4) Auf NE, die mit höchstens 50 km/h befahren werden, kann auch das Tageszeichen verwendet werden. Die oberste Landesverkehrsbehörde kann die Anwendung des Tageszeichens auch bei Geschwindigkeiten über 50 km/h genehmigen. (5) Die gelbe Scheibe darf rückstrahlend sein; sie ist dann bei Anwendung des Nachtzeichens nicht beleuchtet. Die Lampen für die gelben von rechts nach links steigenden Lichter sind bei den Eisenbahnen des Bundes auch am Tage am Signal angebracht, sie werden jedoch nur bei Anwendung des Nachtzeichens beleuchtet. Die Lichter des Nachtzeichens sind bei beschränktem Raum bis zu 15 m vor dem Signal aufgestellt. (6) Das Signal Lf 1 kündigt an, dass auf dem in der Regel durch die Signale Lf 2  und Lf 3 gekennzeichneten Gleisabschnitt höchstens die durch die Kennziffer angezeigte Geschwindigkeit angewandt werden darf, bis das letzte Fahrzeug des Zuges oder der Rangierfahrt den Abschnitt verlassen hat. (7) Als Kennziffer werden die Ziffern bzw. Zahlen 0,5; 1, 2, 3, 4, 5, 6, 7, 8, 9, 10,11, 12, 13, 14 und 15 verwendet. (8) Das Signal Lf 1 steht in der Regel im Abstand des Bremsweges der Strecke  vor dem Signal Lf 2. (9) Beginnt eine Langsamfahrstelle nach einer Strecken- oder Fahrwegverzweigung, ist das Signal Lf 1 durch einen gelben Richtungspfeil mit schwarzem Rand ergänzt, um anzuzeigen, für welche Richtung die Geschwindigkeitsbeschränkung gilt. Züge werden durch Befehl oder die La verständigt, für welche Richtung das Signal gilt. Bei einem rückstrahlenden Signal Lf 1 muss auch der Richtungspfeil rück- strahlend sein. (10) Schließt sich unmittelbar an eine Langsamfahrstelle eine weitere an, die mit niedrigerer Geschwindigkeit zu befahren ist, so ist das Signal Lf 1 für diese zweite Langsamfahrstelle hinter dem Signal Lf 2 der ersten aufgestellt. Wenn nötig, muss die erste Langsamfahrstelle bis zur Länge des Bremswe- ges der Strecke gegen die Fahrtrichtung verlängert werden. Wird die zweite Langsamfahrstelle mit höherer Geschwindigkeit befahren, so ist das Signal Lf 1 hierfür erst unmittelbar vor dem zugehörigen Signal Lf 2 aufgestellt. (11) Bei den Eisenbahnen des Bundes darf der Eisenbahninfrastrukturunterneh- mer – bei den NE der Betriebsleiter – in zwingenden Fällen zulassen, dass das Signal Lf 1 auch in einem kürzeren Abstand als dem Bremsweg der Strecke aufgestellt wird, wenn der verkürzte Abstand dem tatsächlich erforderli- chen Bremsweg entspricht. Der verkürzte Abstand ist dann mit Befehl, in der La oder in einer betriebli- chen Anweisung bekannt gegeben. (12) Wenn Züge hinter dem Signal Lf 1 beginnen oder ihre Fahrt fortsetzen oder aus der Führung von ETCS entlassen werden, ist ein zweites Signal Lf 1 ohne die gelben Lichter aufgestellt. Der Standort des zweiten Signals Lf 1 ist dann mit Befehl, in der La oder in einer betrieblichen Anweisung bekannt gegeben.",
+          "bild": ["source/img/Lf_1_1.png", "source/img/Lf_1_2.png", "source/img/Lf_1_Nacht_1.png", "source/img/Lf_1_Nacht_2.png"],
+          "Lichtsignal" : "",
+          "Bedeutung": "Es folgt eine vorübergehende Langsamfahrstelle, auf der die angezeigte Geschwindigkeit nicht überschritten werden darf.",
+          "Handlung": "Weiterfahrt",
+          "Ausnahmen": "",
+          "Geschwindigkeit": "last_state",
+          "Zielgeschwindigkeit": "last_state"
+        },
+        {
+          "code": "Lf_1_2",
+          "name": "Lf_1_2",
+          "beschreibung": "Eine rechteckige, gelbe Scheibe mit weißem Rand zeigt eine schwarze Kenn- ziffer. Die durch die Kennziffer angezeigte Geschwindigkeitsbeschränkung gilt, bis das letzte Fahrzeug den Gleisabschnitt verlassen hat. (4) Für die Anwendung der Kennziffern gilt Abschnitt 2 Absatz 7 sinngemäß. (5) Das Signal Lf 1/2 ist bei Dunkelheit zu beleuchten. Der Eisenbahninfrastrukturunternehmer darf Ausnahmen zulassen. (6) Das Signal zeigt Geschwindigkeitsbeschränkungen auf den Bahnhofshauptgleisen an, soweit diese keine durchgehenden Hauptgleise sind. Es steht am Anfang des langsam zu befahrenden Gleises unmittelbar rechts neben dem Gleis und wird nicht signalmäßig vorangekündigt. Reicht die Entfernung vom Gleisanfang bis zum Beginn des langsam zu befahrenden Gleisabschnitts für die Abbremsung aus (siehe Abschnitt 2 Absatz 11), so sind anstelle des Signals Lf 1/2 die Signale Lf 1 und Lf 2 aufzustellen. (7) Der Triebfahrzeugführer wird über die aufgestellten Signale Lf 1/2 durch die La unterrichtet. Er hat sich bei der Einfahrt auf die in der La angegebene Geschwindigkeit – bei unterschiedlichen Geschwindigkeitsangaben für einzelne Gleise auf die niedrigste – einzurichten. Ab Signal Lf 1/2 darf die dort angezeigte Geschwindigkeit nicht überschritten werden. Bei Ausfahrten wird der Triebfahrzeugführer durch das Signal Lf 3 darauf hingewiesen, dass für das betreffende Gleis eine Geschwindigkeitsbeschränkung besteht. (8) Solange ein Signal Lf 1/2 als ungültig gekennzeichnet ist, darf das Signal Lf 3 nicht aufgestellt sein.",
+          "bild": "source/img/Lf_12.png",
+          "Lichtsignal" : "",
+          "Bedeutung": "Auf dem am Signal beginnenden, in der Regel durch eine Endscheibe begrenzten Gleisabschnitt darf die angezeigte Geschwindigkeit nicht überschritten werden.",
+          "Handlung": "Weiterfahrt",
+          "Ausnahmen": "",
+          "Geschwindigkeit": "last_state",
+          "Zielgeschwindigkeit": "last_state"
+        },
+        {
+          "code": "Lf_2",
+          "name": "Lf_2",
+          "beschreibung": "Eine rechteckige, auf der Schmalseite stehende oder quadratische gelbe Scheibe mit weißem Rand und schwarzem A. (3) Das Signal Lf 2 steht am Anfang des langsam zu befahrenden Gleisab-  schnitts. (4) Das Signal Lf 2 ist bei Dunkelheit beleuchtet oder es ist rückstrahlend. (5) Bei den NE bestimmt der Betriebsleiter, ob das Signal Lf 2 aufzustellen ist Er bestimmt auch, ob es zu beleuchten ist. (6) Am Signal Lf 2 ist der gemäß Abschnitt 2 Absatz 9 angebrachte Richtungs-  pfeil wiederholt, wenn auch das Signal Lf 2 vor der Strecken- oder Fahrweg- verzweigung steht. Bei einem rückstrahlenden Signal Lf 2 ist auch der Richtungspfeil rückstrah- lend. (7) Innerhalb einer vorübergehenden Langsamfahrstelle ist ein weiteres Signal Lf 1 – ohne die gelben Lichter – und unmittelbar dahinter ein weiteres Signal Lf 2 aufgestellt, a) am Halteplatz der Züge, wenn Züge in der vorübergehenden Langsam- fahrstelle planmäßig beginnen oder ihre Fahrt mit Personalwechsel fortset- zen, b) hinter der letzten Weiche im Fahrweg, wenn Züge von einmündenden Hauptgleisen in die vorübergehende Langsamfahrstelle einfahren und die am Hauptsignal zugelassene Geschwindigkeit geringer ist als in der Lang- samfahrstelle. Der Standort dieser zweiten Signale ist dann mit Befehl, in der La oder in einer betrieblichen Anweisung bekannt gegeben.",
+          "bild": "source/img/Lf_2.png",
+          "Lichtsignal" : "",
+          "Bedeutung": "Anfang der vorübergehenden Langsamfahrstelle.",
+          "Handlung": "Weiterfahrt",
+          "Ausnahmen": "",
+          "Geschwindigkeit": "last_state",
+          "Zielgeschwindigkeit": "40"
+        },
+        {
+          "code": "Lf_3",
+          "name": "Lf_3",
+          "beschreibung": "Eine rechteckige, auf der Schmalseite stehende oder quadratische weiße Scheibe mit schwarzem E. Das Signal Lf 3 steht am Ende des langsam zu befahrenden Gleisabschnitts. Auf eingleisigen Strecken kann das Signal Lf 3 unmittelbar links neben dem Gleis aufgestellt sein. Bei der DB AG steht das Signal an eingleisigen Strecken unmittelbar rechts. (4) Das Signal Lf 3 ist nicht aufgestellt, wenn eine zweite Langsamfahrstelle unmittelbar anschließt. (5) Wenn zur Kennzeichnung des Endes einer vorübergehenden Langsamfahrstelle nach dem Befahren von Bahnübergängen unter dem hierfür aufgestellten Signal Lf 3 eine Tafel mit der Aufschrift „BÜ“ angebracht ist, darf abweichend von Abschnitt 2 Absatz 6 die Geschwindigkeit erhöht werden, wenn das führende Fahrzeug die Mitte des Bahnübergangs erreicht hat. Das Signal Lf 3 ist bei Dunkelheit beleuchtet oder es ist rückstrahlend. (7) Bei den NE bestimmt der Betriebsleiter, ob das Signal Lf 3 aufzustellen ist. Er bestimmt auch, ob es zu beleuchten ist.",
+          "bild": "source/img/Lf_3.png",
+          "Lichtsignal" : "",
+          "Bedeutung": "Ende der vorübergehenden Langsamfahrstelle.",
+          "Handlung": "Weiterfahrt",
+          "Ausnahmen": "",
+          "Geschwindigkeit": "40",
+          "Zielgeschwindigkeit": "last_state"
+        },
+        {
+          "code": "Lf_4",
+          "name": "Lf_4",
+          "beschreibung": "Eine auf der Spitze stehende dreieckige weiße Tafel mit schwarzem Rand zeigt eine schwarze Kennziffer. Bei beschränktem Raum kann die Dreieckspitze nach oben zeigen. Die gezeigte Kennziffer bedeutet, dass der 10fache Wert in km/h als Fahrgeschwindigkeit zugelassen ist.  Wegen der Kennziffer siehe Abschnitt 2 Absatz 7. (4) Das Signal Lf 4 steht nur auf Nebenbahnen und ist beleuchtet, wenn der Betrieb es erfordert. Es ist in der Regel im Abstand des Bremsweges der Strecke vor dem lang- sam zu befahrenden Gleisabschnitt aufgestellt; vor Bahnübergängen gemäß Absatz 5c kann es auch in einem für das Abbremsen ausreichenden Abstand stehen. (5) Das Signal Lf 4 ist aufgestellt, a) wo die zulässige Geschwindigkeit vor der ständigen Langsamfahrstelle um 25 % und mehr größer ist als auf der Langsamfahrstelle. Das Signal kann entfallen, wenn ein sonstiger geeigneter Anhalt für den Triebfahrzeugführer vorhanden ist, b) wo an einem Vorsignal angezeigt werden soll, dass vom zugehörigen Hauptsignal ab bei Stellung Hp 1 die angezeigte Geschwindigkeit nicht überschritten werden darf, c) wo die Geschwindigkeit vor Bahnübergängen ermäßigt werden muss. Die Geschwindigkeitsbeschränkung muss am Signal Lf 5, wo dieses nicht aufgestellt ist, vor dem Bahnübergang durchgeführt sein. Sie ist beizubehalten, bis das erste Fahrzeug etwa die Straßenmitte erreicht hat.",
+          "bild": ["source/img/Lf_4_1.png", "source/img/Lf_4_2.png"],
+          "Lichtsignal" : "",
+          "Bedeutung": "Es folgt eine ständige Langsamfahrstelle, auf der die angezeigte Geschwindigkeit nicht überschritten werden darf.",
+          "Handlung": "Weiterfahrt",
+          "Ausnahmen": "",
+          "Geschwindigkeit": "last_state",
+          "Zielgeschwindigkeit": "last_state"
+        },
+        {
+          "code": "Lf_5",
+          "name": "Lf_5",
+          "beschreibung": "Eine rechteckige, auf der Schmalseite stehende weiße Tafel mit schwarzem A. (3) Das Signal Lf 5 ist nur auf Nebenbahnen dort aufgestellt, wo es erforderlich ist, vor Bahnübergängen die Stelle besonders zu kennzeichnen, von der ab die mit Signal Lf 4 angezeigte Geschwindigkeit gilt.",
+          "bild": "source/img/Lf_5.png",
+          "Lichtsignal" : "",
+          "Bedeutung": "Die auf der Geschwindigkeitstafel (Lf 4) angezeigte Geschwindigkeitsbeschränkung muss durchgeführt sein.",
+          "Handlung": "Weiterfahrt",
+          "Ausnahmen": "",
+          "Geschwindigkeit": "last_state",
+          "Zielgeschwindigkeit": "last_state"
+        },
+        {
+          "code": "Lf_6",
+          "name": "Lf_6",
+          "beschreibung": "Eine auf der Spitze stehende, schwarz- und weißumrandete dreieckige gelbe Tafel zeigt eine schwarze Kennziffer. Die gezeigte Kennziffer bedeutet, dass der 10fache Wert in km/h als Fahrgeschwindigkeit vom Signal Lf 7 ab zugelassen ist. Bei beschränktem Raum kann die Dreieckspitze nach oben zeigen. (3) Das Signal Lf 6 ist bei Dunkelheit beleuchtet oder es ist rückstrahlend. (4) Das Signal Lf 6 ist aufgestellt, wenn ab dem Signal Lf 7 eine verminderte Geschwindigkeit zugelassen ist. Es steht in der Regel im Abstand des Bremsweges der Strecke vor dem Signal Lf 7; auf Nebenbahnen vor Bahnübergängen steht es in der Regel in einem für das Abbremsen ausreichenden Abstand vor dem Signal Lf 7. Auf diesen verkürzten Abstand ist dann im Fahrplan oder in einer schriftlichen Anweisung hingewiesen. Außerdem darf bei Eisenbahnen des Bundes der Eisenbahninfrastrukturunternehmer – bei NE der Betriebsleiter – in zwingenden Fällen zulassen, dass das Signal Lf 6 auch in einem kürzeren Abstand als dem Bremsweg der Strecke aufgestellt wird, wenn der verkürzte Abstand mindestens dem tatsächlich erforderlichen Bremsweg entspricht. Der verkürzte Abstand ist dann im Fahrplan oder in schriftlichen Anweisungen bekannt gegeben. (5) Als Kennziffer werden die Ziffern bzw. Zahlen 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 und 15 verwendet. (6) Beginnt die mit Signal Lf 6 angekündigte Geschwindigkeitsbeschränkung nach einer Strecken- oder Fahrwegverzweigung, ist das Signal Lf 6 durch einen gelben Richtungspfeil mit schwarzem Rand zu ergänzen, um anzuzeigen, für welche Richtung die Geschwindigkeitsbeschränkung gilt. Bei einem rückstrahlenden Signal ist auch der Richtungspfeil rückstrahlend. (7) Züge werden durch den Fahrplan oder in schriftlichen Anweisungen verständigt, für welche Richtung das Signal gilt. Die Richtung ist in örtlichen Zusätzen angegeben. (8) Auf Nebenbahnen – ausgenommen bei Geschwindigkeitsbeschränkungen vor Bahnübergängen – kann das Signal Lf 6 mit Genehmigung der Aufsichtsbehörde entfallen, wenn ein sonstiger durch die Gestaltung der Bahnanlagen geeigneter Anhalt für den Triebfahrzeugführer vorhanden ist. Dieser geeigne- te Anhalt ist dann im Fahrplan bekannt gegeben.",
+          "bild": ["source/img/Lf_6_1.png", "source/img/Lf_6_2.png"],
+          "Lichtsignal" : "",
+          "Bedeutung": "Ein Geschwindigkeitssignal (Lf 7) ist zu erwarten.",
+          "Handlung": "Weiterfahrt",
+          "Ausnahmen": "",
+          "Geschwindigkeit": "last_state",
+          "Zielgeschwindigkeit": "last_state"
+        }
+
+        
+      ]
     }
 
     ]
