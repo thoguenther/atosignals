@@ -681,10 +681,22 @@
           "Zielgeschwindigkeit": "30"
         },
         {
-          "code": "Zs_11",
-          "name": "Zs_11",
+          "code": "Zs_10",
+          "name": "Zs_10",
+          "beschreibung": "Formsignal: Ein weißer Pfeil mit der Spitze nach oben auf pfeilförmiger, schwarzer Tafel. Lichtsignal: Ein weißleuchtender Pfeil mit der Spitze nach oben. Das Signal Zs 10 gilt nur für Zugfahrten, die durch Fahrtstellung eines Hauptsignals zugelassen worden sind, und zeigt an, dass eine mit Signal Hp 2 oder mit Signal Zs 3 vorgeschriebene Geschwindigkeitsbeschränkung bereits vor dem Ende des anschließenden Weichenbereichs aufgehoben ist. (4) Das Formsignal ist rückstrahlend. (5) Innerhalb eines anschließenden Weichenbereichs können mehrere Signale Zs 10 für verschiedene Fahrwege aufgestellt sein.",
+          "bild": ["source/img/Zs_10_Form.png", "source/img/Zs_10_Licht.png"],
+          "Lichtsignal" : "",
+          "Bedeutung": "Ende der Geschwindigkeitsbeschränkung.",
+          "Handlung": "Weiterfahrt",
+          "Ausnahmen": "",
+          "Geschwindigkeit": "last_state",
+          "Zielgeschwindigkeit": "MAX"
+        },
+        {
+          "code": "Zs_12",
+          "name": "Zs_12",
           "beschreibung": "Eine weiße Tafel mit rotem Rand und rotem „M“ in Schreibschrift.",
-          "bild": ["source/img/Zs_10_Form.png"],
+          "bild": ["source/img/Zs_12.png"],
           "Lichtsignal" : "",
           "Bedeutung": "Am Halt zeigenden oder gestörten Hauptsignal auf mündlichen oder fernmündlichen Auftrag vorbeifahren.",
           "Handlung": "Halt und Weiterfahrt",
