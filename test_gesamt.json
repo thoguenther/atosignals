@@ -795,9 +795,65 @@
           "Ausnahmen": "",
           "Geschwindigkeit": "last_state",
           "Zielgeschwindigkeit": "last_state"
+        },
+        {
+          "code": "Lf_7",
+          "name": "Lf_7",
+          "beschreibung": "Eine rechteckige, auf der Schmalseite stehende oder quadratische weiße Tafel mit schwarzem Rand zeigt eine schwarze Kennziffer. Die gezeigte Kennziffer bedeutet, dass der 10fache Wert in km/h als Fahrgeschwindigkeit zugelassen ist. (3) Das Signal Lf 7 kennzeichnet einen Geschwindigkeitswechsel. (4) Das Signal ist bei Dunkelheit beleuchtet oder es ist rückstrahlend. (5) Als Kennziffer werden die Ziffern bzw. Zahlen 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15 und 16 verwendet. (6) Das an einem Hauptsignal aufgestellte Signal Lf 7 gilt nur bei Stellung Hp 1, Ks 1 ohne Zs 3 oder Ks 2 ohne Zs 3. (7) Ein zu signalisierender Geschwindigkeitswechsel liegt auch vor, wenn an Abzweigstellen und an Streckenverzweigungen in Bahnhöfen bei Übergang von einer Strecke auf eine andere eine Geschwindigkeitsänderung zu beachten ist. (8) Auf Nebenbahnen – ausgenommen bei Geschwindigkeitsbeschränkungen vor Bahnübergängen – kann das Signal Lf 7 mit Genehmigung der Aufsichtsbe- hörde entfallen, wenn ein sonstiger geeigneter Anhalt durch die Gestaltung der Bahnanlagen für den Triebfahrzeugführer vorhanden ist. Dieser geeignete Anhalt ist dann im Fahrplan bekannt gegeben. (9) Wenn zur Kennzeichnung des Endes einer Geschwindigkeitsbeschränkung nach dem Befahren von Bahnübergängen unter dem hierfür aufgestellten Signal Lf 7 eine Tafel mit der Aufschrift „BÜ“ angebracht ist, darf die Geschwindigkeit erhöht werden, wenn das führende Fahrzeug die Mitte des Bahnübergangs erreicht hat.",
+          "bild": "source/img/Lf_7.png", 
+          "Lichtsignal" : "",
+          "Bedeutung": "Die angezeigte Geschwindigkeit darf vom Signal ab nicht überschritten werden.",
+          "Handlung": "Weiterfahrt",
+          "Ausnahmen": "",
+          "Geschwindigkeit": "last_state",
+          "Zielgeschwindigkeit": "last_state"
         }
 
         
+      ]
+    },
+    {
+      "richtlinie": "301.0601",
+      "titel": "Schutzsignale (Sh)",
+      "beschreibung": "(1) Schutzsignale dienen dazu, ein Gleis abzuriegeln, den Auftrag zum Halten zuerteilen oder die Aufhebung eines Fahrverbots anzuzeigen. (2) Die Schutzsignale gelten für Zug- und Rangierfahrten. (3) Die Signale Sh 0 und Sh 1 werden verwendet am Sperrsignal, Gleissperren-signal (Formsignal) und Abschlusssignal von Stumpfgleisen. (4) Das Formsignal kann mit einem Wartezeichen (Signal Ra 11) verbunden sein. (5) Abweichend von Richtlinie 301.0002 Abschnitt 2 Absatz 3 dürfen die Signalebei Gleiswaagen, Schiebebühnen und Drehscheiben links aufgestellt sein. (6) Signale Sh 0 an Gleisabschlüssen, die Stumpfgleiseinfahrten begrenzen, sind bei Dunkelheit beleuchtet. Übrige Signale Sh 0 und Formsignale Sh 1 sind rückstrahlend oder beleuchtet, wenn der Betrieb es erfordert.",
+      "subsection" : 
+      [
+        {
+          "code": "Sh_0",
+          "name": "Sh_0",
+          "beschreibung": "Ein waagerechter schwarzer Streifen in runder weißer Scheibe auf schwarzem Grund. (3) Bei Gleiswaagen und Drehscheiben zeigt das Signal an, dass sie nicht befahren werden dürfen. Das Gleissperrensignal zeigt an, dass die Gleissperre aufgelegt ist. (4) Der Eisenbahninfrastrukturunternehmer bestimmt, wo die Stellung des Signals auch von hinten erkennbar sein soll. Es zeigt dann bei Tage zwei weiße runde Scheiben auf schwarzem Grund waagerecht nebeneinander; bei Dunkelheit sind die Scheiben rückstrahlend oder beleuchtet.",
+          "bild": "source/img/Sh_0.png",
+          "Lichtsignal" : "",
+          "Bedeutung": "Halt! Fahrverbot.",
+          "Handlung": "Stop vor dem Schild und warten auf Änderung",
+          "Ausnahmen": "",
+          "Geschwindigkeit": "last_state",
+          "Zielgeschwindigkeit": "0"
+        },
+        {
+          "code": "Sh_1",
+          "name": "Sh_1",
+          "beschreibung": "Signal Sh 1 Formsignal: Ein nach rechts steigender schwarzer Streifen auf runder weißer Scheibe. Signal Sh 1 Lichtsignal (DS 301), Signal Ra 12 (DV 301): Zwei weiße Lichter nach rechts steigend. (3) In Verbindung mit Signal Hp 0 zeigt das Signal an, dass das Haltegebot für Rangierfahrten aufgehoben ist. (4) Durch das Signal Sh 1 am Gleissperrensignal wird keine Zustimmung des Weichenwärters erteilt. Das Signal Sh 1 am Gleissperrensignal zeigt an, dass die Gleissperre abgelegt ist. (5) Wenn mehrere Rangierfahrten vor dem Signal halten oder sich ihm nähern, gilt die Zustimmung nur für die erste Rangierfahrt. (6) Erlischt das Signal Sh 1 – Lichtsignal (DS 301) – bzw. das Signal Ra 12 erlischt vorzei (DV 301), bevor die Spitze der Rangierfahrt daran vorbeigefahren ist, so ist das erneute Aufleuchten des Signals abzuwarten. (7) Ist das Formsignal mit einem Wartezeichen verbunden, so ist stets eine besondere Zustimmung des Weichenwärters zur Vorbeifahrt abzuwarten. (8) Der Eisenbahninfrastrukturunternehmer bestimmt, wo die Stellung des Formsignals auch von hinten erkennbar sein soll. Es zeigt dann bei Tage eine wei- ße runde Scheibe auf schwarzem Grund, bei Dunkelheit ist die Scheibe rückstrahlend oder beleuchtet.",
+          "bild": ["source/img/Sh_1_Form.png", "source/img/Sh_1_Licht.png"],
+          "Lichtsignal" : "",
+          "Bedeutung": "Fahrverbot aufgehoben",
+          "Handlung": "Beschleunigen",
+          "Ausnahmen": "",
+          "Geschwindigkeit": "last_state",
+          "Zielgeschwindigkeit": "MAX"
+        },
+        {
+          "code": "Sh_2",
+          "name": "Sh_2",
+          "beschreibung": "Tageszeichen: Eine rechteckige rote Scheibe mit weißem Rand. 301.0601 Seite 3 Bedeutung Beschreibung Nachtzeichen: Ein rotes Licht am Tageszeichen oder am Ausleger des Wasserkrans. Verwendung (3) Das Signal wird verwendet als - Wärterhaltscheibe, - Abschlusssignal eines Stumpfgleises. (4) Die Wärterhaltscheibe ist nicht ortsfest.  Aufstellung *  Ist die Regelaufstellung des Signals Sh 2 gemäß Richtlinie 301.0002 Ab- schnitt 2 Absatz 3 nicht möglich, ist es im Gleis aufgestellt. (5) Die Wärterhaltscheibe wird verwendet  Wärterhalt- scheibe a) zur Kennzeichnung einer Gleisstelle, die vorübergehend nicht befahren werden darf, b) zur Kennzeichnung einer Stelle, an der Züge ausnahmsweise anhalten sol- len. (6) Auf freier Strecke wird die Wärterhaltscheibe in mindestens 50 m Sicherheits- abstand vor der zu schützenden Stelle aufgestellt. (7) Zur Abriegelung eines Gleises im Tunnel oder in dessen Nähe wird die Wär- Tunnel terhaltscheibe außerhalb des Tunnels aufgestellt. Ausnahmen für lange Tunnel ordnet bei den Eisenbahnen des Bundes der Ei- senbahninfrastrukturunternehmer – bei den NE der Betriebsleiter – an. (8) Der Haltauftrag wird durch Entfernen oder Wegdrehen bzw. Wegklappen des Aufheben des Signals aufgehoben, soweit der Auftrag zur Vorbeifahrt an der Wärterhalt- Haltauftrags scheibe nicht durch Befehl erteilt wird. (9) Bei ausreichender Außenbeleuchtung oder bei einfachen Verhältnissen wird am Abschlusssignal des Einfahrstumpfgleises nur das Tageszeichen gezeigt. Das Abschlusssignal übriger Stumpfgleise ist rückstrahlend oder beleuchtet, wenn der Betrieb es erfordert.",
+          "bild": ["source/img/Sh_2_Form.png", "source/img/Sh_2_Licht.png"],
+          "Lichtsignal" : "",
+          "Bedeutung": "Schutzhalt",
+          "Handlung": "Fahrverbot aufgehoben",
+          "Ausnahmen": "",
+          "Geschwindigkeit": "last_state",
+          "Zielgeschwindigkeit": "0"
+        }
       ]
     }
 
