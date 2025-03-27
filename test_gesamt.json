@@ -849,7 +849,27 @@
           "bild": ["source/img/Sh_2_Form.png", "source/img/Sh_2_Licht.png"],
           "Lichtsignal" : "",
           "Bedeutung": "Schutzhalt",
-          "Handlung": "Fahrverbot aufgehoben",
+          "Handlung": "Halt",
+          "Ausnahmen": "",
+          "Geschwindigkeit": "last_state",
+          "Zielgeschwindigkeit": "0"
+        }
+      ]
+    },
+    {
+      "richtlinie": "301.1401",
+      "titel": "Nebensignale (Ne)",
+      "beschreibung": "",
+      "subsection" : 
+      [
+        {
+          "code": "Ne_1",
+          "name": "Ne_1",
+          "beschreibung": "(2) Eine weiße Trapeztafel mit schwarzem Rand an schwarz und weiß schräg gestreiftem Pfahl. (4) Bei den Eisenbahnen des Bundes steht die Trapeztafel vor Bahnhöfen ohne Einfahrsignale. Auf Strecken mit Zugleitbetrieb kann sie auch vor anderen Zuglaufstellen stehen. An Gleisen entgegen der gewöhnlichen Fahrtrichtung kann die Trapeztafel aufgestellt sein, wenn dort kein gültiges Haupt– oder Sperrsignal vorhanden ist. Sie ist dann mit einer Kilometerangabe ergänzt. Bei den NE bestimmt der Betriebsleiter, wo die Trapeztafel aufgestellt ist. (5) Bei den Eisenbahnen des Bundes bestimmt der Eisenbahninfrastrukturunternehmer – bei den NE der Betriebsleiter –, wo bei ungünstigen Sichtverhältnissen das Signal rückstrahlend oder bei Dunkelheit beleuchtet ist.",
+          "bild": "source/img/Ne_0.png",
+          "Lichtsignal" : "",
+          "Bedeutung": "Kennzeichnung der Stelle, wo bestimmte Züge vor einer Betriebsstelle zu halten haben.",
+          "Handlung": "Halt",
           "Ausnahmen": "",
           "Geschwindigkeit": "last_state",
           "Zielgeschwindigkeit": "0"
