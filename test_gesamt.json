@@ -923,14 +923,79 @@
           "code": "Lf_1_2",
           "name": "Lf_1_2",
           "beschreibung": "Eine rechteckige, gelbe Scheibe mit weißem Rand zeigt eine schwarze Kenn- ziffer. Die durch die Kennziffer angezeigte Geschwindigkeitsbeschränkung gilt, bis das letzte Fahrzeug den Gleisabschnitt verlassen hat. (4) Für die Anwendung der Kennziffern gilt Abschnitt 2 Absatz 7 sinngemäß. (5) Das Signal Lf 1/2 ist bei Dunkelheit zu beleuchten. Der Eisenbahninfrastrukturunternehmer darf Ausnahmen zulassen. (6) Das Signal zeigt Geschwindigkeitsbeschränkungen auf den Bahnhofshauptgleisen an, soweit diese keine durchgehenden Hauptgleise sind. Es steht am Anfang des langsam zu befahrenden Gleises unmittelbar rechts neben dem Gleis und wird nicht signalmäßig vorangekündigt. Reicht die Entfernung vom Gleisanfang bis zum Beginn des langsam zu befahrenden Gleisabschnitts für die Abbremsung aus (siehe Abschnitt 2 Absatz 11), so sind anstelle des Signals Lf 1/2 die Signale Lf 1 und Lf 2 aufzustellen. (7) Der Triebfahrzeugführer wird über die aufgestellten Signale Lf 1/2 durch die La unterrichtet. Er hat sich bei der Einfahrt auf die in der La angegebene Geschwindigkeit – bei unterschiedlichen Geschwindigkeitsangaben für einzelne Gleise auf die niedrigste – einzurichten. Ab Signal Lf 1/2 darf die dort angezeigte Geschwindigkeit nicht überschritten werden. Bei Ausfahrten wird der Triebfahrzeugführer durch das Signal Lf 3 darauf hingewiesen, dass für das betreffende Gleis eine Geschwindigkeitsbeschränkung besteht. (8) Solange ein Signal Lf 1/2 als ungültig gekennzeichnet ist, darf das Signal Lf 3 nicht aufgestellt sein.",
-          "bild": "source/img/Lf_12.png",
           "Lichtsignal" : "",
           "Bedeutung": "Auf dem am Signal beginnenden, in der Regel durch eine Endscheibe begrenzten Gleisabschnitt darf die angezeigte Geschwindigkeit nicht überschritten werden.",
+          "Ausnahmen": "",          
           "Handlung": "Weiterfahrt",
-          "Ausnahmen": "",
           "Geschwindigkeit": "last_state",
-          "Zielgeschwindigkeit": "last_state"
-        },
+
+          "Schilder": [
+            {
+                "Zielgeschwindigkeit": "5",
+                "bild": "source/img/Lf_12/00.5.jpeg"
+            },
+            {
+                "Zielgeschwindigkeit": "10",
+                "bild": "source/img/Lf_12/01.jpeg"
+            },
+            {
+                "Zielgeschwindigkeit": "20",
+                "bild": "source/img/Lf_12/02.jpeg"
+            },
+            {
+                "Zielgeschwindigkeit": "30",
+                "bild": "source/img/Lf_12/03.jpeg"
+            },
+            {
+                "Zielgeschwindigkeit": "40",
+                "bild": "source/img/Lf_12/04.jpeg"
+            },
+            {
+                "Zielgeschwindigkeit": "50",
+                "bild": "source/img/Lf_12/05.jpeg"
+            },
+            {
+                "Zielgeschwindigkeit": "60",
+                "bild": "source/img/Lf_12/06.jpeg"
+            },
+            {
+                "Zielgeschwindigkeit": "70",
+                "bild": "source/img/Lf_12/07.jpeg"
+            },
+            {
+                "Zielgeschwindigkeit": "80",
+                "bild": "source/img/Lf_12/08.jpeg"
+            },
+            {
+                "Zielgeschwindigkeit": "90",
+                "bild": "source/img/Lf_12/09.jpeg"
+            },
+            {
+                "Zielgeschwindigkeit": "100",
+                "bild": "source/img/Lf_12/10.jpeg"
+            },
+            {
+                "Zielgeschwindigkeit": "110",
+                "bild": "source/img/Lf_12/11.jpeg"
+            },
+            {
+                "Zielgeschwindigkeit": "120",
+                "bild": "source/img/Lf_12/12.jpeg"
+            },
+            {
+                "Zielgeschwindigkeit": "130",
+                "bild": "source/img/Lf_12/13.jpeg"
+            },
+            {
+                "Zielgeschwindigkeit": "140",
+                "bild": "source/img/Lf_12/14.jpeg"
+            },
+            {
+                "Zielgeschwindigkeit": "150",
+                "bild": "source/img/Lf_12/15.jpeg"
+            }
+          ]
+        },        
         {
           "code": "Lf_2",
           "name": "Lf_2",
