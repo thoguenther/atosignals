@@ -846,13 +846,78 @@
           "code": "Lf_1",
           "name": "Lf_1",
           "beschreibung": "Tageszeichen: Eine auf der Spitze stehende dreieckige gelbe Scheibe mit weißem Rand zeigt eine schwarze Kennziffer. Bei beschränktem Raum kann die Dreieckspitze nach oben zeigen. Nachtzeichen: Unter dem beleuchteten Tageszeichen zwei schräg nach links steigende gelbe Lichter. Bei beschränktem Raum befinden sich die Lichter vor dem Tageszeichen. (3) Die gezeigte Kennziffer bedeutet, dass der 10fache Wert in km/h als Fahrgeschwindigkeit zugelassen ist. (4) Auf NE, die mit höchstens 50 km/h befahren werden, kann auch das Tageszeichen verwendet werden. Die oberste Landesverkehrsbehörde kann die Anwendung des Tageszeichens auch bei Geschwindigkeiten über 50 km/h genehmigen. (5) Die gelbe Scheibe darf rückstrahlend sein; sie ist dann bei Anwendung des Nachtzeichens nicht beleuchtet. Die Lampen für die gelben von rechts nach links steigenden Lichter sind bei den Eisenbahnen des Bundes auch am Tage am Signal angebracht, sie werden jedoch nur bei Anwendung des Nachtzeichens beleuchtet. Die Lichter des Nachtzeichens sind bei beschränktem Raum bis zu 15 m vor dem Signal aufgestellt. (6) Das Signal Lf 1 kündigt an, dass auf dem in der Regel durch die Signale Lf 2  und Lf 3 gekennzeichneten Gleisabschnitt höchstens die durch die Kennziffer angezeigte Geschwindigkeit angewandt werden darf, bis das letzte Fahrzeug des Zuges oder der Rangierfahrt den Abschnitt verlassen hat. (7) Als Kennziffer werden die Ziffern bzw. Zahlen 0,5; 1, 2, 3, 4, 5, 6, 7, 8, 9, 10,11, 12, 13, 14 und 15 verwendet. (8) Das Signal Lf 1 steht in der Regel im Abstand des Bremsweges der Strecke  vor dem Signal Lf 2. (9) Beginnt eine Langsamfahrstelle nach einer Strecken- oder Fahrwegverzweigung, ist das Signal Lf 1 durch einen gelben Richtungspfeil mit schwarzem Rand ergänzt, um anzuzeigen, für welche Richtung die Geschwindigkeitsbeschränkung gilt. Züge werden durch Befehl oder die La verständigt, für welche Richtung das Signal gilt. Bei einem rückstrahlenden Signal Lf 1 muss auch der Richtungspfeil rück- strahlend sein. (10) Schließt sich unmittelbar an eine Langsamfahrstelle eine weitere an, die mit niedrigerer Geschwindigkeit zu befahren ist, so ist das Signal Lf 1 für diese zweite Langsamfahrstelle hinter dem Signal Lf 2 der ersten aufgestellt. Wenn nötig, muss die erste Langsamfahrstelle bis zur Länge des Bremswe- ges der Strecke gegen die Fahrtrichtung verlängert werden. Wird die zweite Langsamfahrstelle mit höherer Geschwindigkeit befahren, so ist das Signal Lf 1 hierfür erst unmittelbar vor dem zugehörigen Signal Lf 2 aufgestellt. (11) Bei den Eisenbahnen des Bundes darf der Eisenbahninfrastrukturunterneh- mer – bei den NE der Betriebsleiter – in zwingenden Fällen zulassen, dass das Signal Lf 1 auch in einem kürzeren Abstand als dem Bremsweg der Strecke aufgestellt wird, wenn der verkürzte Abstand dem tatsächlich erforderli- chen Bremsweg entspricht. Der verkürzte Abstand ist dann mit Befehl, in der La oder in einer betriebli- chen Anweisung bekannt gegeben. (12) Wenn Züge hinter dem Signal Lf 1 beginnen oder ihre Fahrt fortsetzen oder aus der Führung von ETCS entlassen werden, ist ein zweites Signal Lf 1 ohne die gelben Lichter aufgestellt. Der Standort des zweiten Signals Lf 1 ist dann mit Befehl, in der La oder in einer betrieblichen Anweisung bekannt gegeben.",
-          "bild": ["source/img/Lf_1_1.png", "source/img/Lf_1_2.png", "source/img/Lf_1_Nacht_1.png", "source/img/Lf_1_Nacht_2.png"],
           "Lichtsignal" : "",
           "Bedeutung": "Es folgt eine vorübergehende Langsamfahrstelle, auf der die angezeigte Geschwindigkeit nicht überschritten werden darf.",
+          "Ausnahmen": "",          
           "Handlung": "Weiterfahrt",
-          "Ausnahmen": "",
           "Geschwindigkeit": "last_state",
-          "Zielgeschwindigkeit": "last_state"
+
+          "Schilder": [
+            {
+                "Zielgeschwindigkeit": "5",
+                "bild": ["source/img/Lf_1_1/00.5.jpeg", "source/img/Lf_1_2/00.5.jpeg", "source/img/Lf_1_Nacht_1/00.5.jpeg", "source/img/Lf_1_Nacht_2/00.5.jpeg"]
+            },
+            {
+                "Zielgeschwindigkeit": "10",
+                "bild": ["source/img/Lf_1_1/01.jpeg", "source/img/Lf_1_2/01.jpeg", "source/img/Lf_1_Nacht_1/01.jpeg", "source/img/Lf_1_Nacht_2/01.jpeg"]
+            },
+            {
+                "Zielgeschwindigkeit": "20",
+                "bild": ["source/img/Lf_1_1/02.jpeg", "source/img/Lf_1_2/02.jpeg", "source/img/Lf_1_Nacht_1/02.jpeg", "source/img/Lf_1_Nacht_2/02.jpeg"]
+            },
+            {
+                "Zielgeschwindigkeit": "30",
+                "bild": ["source/img/Lf_1_1/03.jpeg", "source/img/Lf_1_2/03.jpeg", "source/img/Lf_1_Nacht_1/03.jpeg", "source/img/Lf_1_Nacht_2/03.jpeg"]
+            },
+            {
+                "Zielgeschwindigkeit": "40",
+                "bild": ["source/img/Lf_1_1/04.jpeg", "source/img/Lf_1_2/04.jpeg", "source/img/Lf_1_Nacht_1/04.jpeg", "source/img/Lf_1_Nacht_2/04.jpeg"]
+            },
+            {
+                "Zielgeschwindigkeit": "50",
+                "bild": ["source/img/Lf_1_1/05.jpeg", "source/img/Lf_1_2/05.jpeg", "source/img/Lf_1_Nacht_1/05.jpeg", "source/img/Lf_1_Nacht_2/05.jpeg"]
+            },
+            {
+                "Zielgeschwindigkeit": "60",
+                "bild": ["source/img/Lf_1_1/06.jpeg", "source/img/Lf_1_2/06.jpeg", "source/img/Lf_1_Nacht_1/06.jpeg", "source/img/Lf_1_Nacht_2/06.jpeg"]
+            },
+            {
+                "Zielgeschwindigkeit": "70",
+                "bild": ["source/img/Lf_1_1/07.jpeg", "source/img/Lf_1_2/07.jpeg", "source/img/Lf_1_Nacht_1/07.jpeg", "source/img/Lf_1_Nacht_2/07.jpeg"]
+            },
+            {
+                "Zielgeschwindigkeit": "80",
+                "bild": ["source/img/Lf_1_1/08.jpeg", "source/img/Lf_1_2/08.jpeg", "source/img/Lf_1_Nacht_1/08.jpeg", "source/img/Lf_1_Nacht_2/08.jpeg"]
+            },
+            {
+                "Zielgeschwindigkeit": "90",
+                "bild": ["source/img/Lf_1_1/09.jpeg", "source/img/Lf_1_2/09.jpeg", "source/img/Lf_1_Nacht_1/09.jpeg", "source/img/Lf_1_Nacht_2/09.jpeg"]
+            },
+            {
+                "Zielgeschwindigkeit": "100",
+                "bild": ["source/img/Lf_1_1/10.jpeg", "source/img/Lf_1_2/10.jpeg", "source/img/Lf_1_Nacht_1/10.jpeg", "source/img/Lf_1_Nacht_2/10.jpeg"]
+            },
+            {
+                "Zielgeschwindigkeit": "110",
+                "bild": ["source/img/Lf_1_1/11.jpeg", "source/img/Lf_1_2/11.jpeg", "source/img/Lf_1_Nacht_1/11.jpeg", "source/img/Lf_1_Nacht_2/11.jpeg"]
+            },
+            {
+                "Zielgeschwindigkeit": "120",
+                "bild": ["source/img/Lf_1_1/12.jpeg", "source/img/Lf_1_2/12.jpeg", "source/img/Lf_1_Nacht_1/12.jpeg", "source/img/Lf_1_Nacht_2/12.jpeg"]
+            },
+            {
+                "Zielgeschwindigkeit": "130",
+                "bild": ["source/img/Lf_1_1/13.jpeg", "source/img/Lf_1_2/13.jpeg", "source/img/Lf_1_Nacht_1/13.jpeg", "source/img/Lf_1_Nacht_2/13.jpeg"]
+            },
+            {
+                "Zielgeschwindigkeit": "140",
+                "bild": ["source/img/Lf_1_1/14.jpeg", "source/img/Lf_1_2/14.jpeg", "source/img/Lf_1_Nacht_1/14.jpeg", "source/img/Lf_1_Nacht_2/14.jpeg"]
+            },
+            {
+                "Zielgeschwindigkeit": "150",
+                "bild": ["source/img/Lf_1_1/15.jpeg", "source/img/Lf_1_2/15.jpeg", "source/img/Lf_1_Nacht_1/15.jpeg", "source/img/Lf_1_Nacht_2/15.jpeg"]
+            }
+          ]
         },
         {
           "code": "Lf_1_2",
