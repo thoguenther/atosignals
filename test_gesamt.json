@@ -1020,7 +1020,6 @@
           "Geschwindigkeit": "40",
           "Zielgeschwindigkeit": "last_state"
         },
-
         {
           "code": "Lf_4",
           "name": "Lf_4",
@@ -1114,28 +1113,154 @@
           "code": "Lf_6",
           "name": "Lf_6",
           "beschreibung": "Eine auf der Spitze stehende, schwarz- und weißumrandete dreieckige gelbe Tafel zeigt eine schwarze Kennziffer. Die gezeigte Kennziffer bedeutet, dass der 10fache Wert in km/h als Fahrgeschwindigkeit vom Signal Lf 7 ab zugelassen ist. Bei beschränktem Raum kann die Dreieckspitze nach oben zeigen. (3) Das Signal Lf 6 ist bei Dunkelheit beleuchtet oder es ist rückstrahlend. (4) Das Signal Lf 6 ist aufgestellt, wenn ab dem Signal Lf 7 eine verminderte Geschwindigkeit zugelassen ist. Es steht in der Regel im Abstand des Bremsweges der Strecke vor dem Signal Lf 7; auf Nebenbahnen vor Bahnübergängen steht es in der Regel in einem für das Abbremsen ausreichenden Abstand vor dem Signal Lf 7. Auf diesen verkürzten Abstand ist dann im Fahrplan oder in einer schriftlichen Anweisung hingewiesen. Außerdem darf bei Eisenbahnen des Bundes der Eisenbahninfrastrukturunternehmer – bei NE der Betriebsleiter – in zwingenden Fällen zulassen, dass das Signal Lf 6 auch in einem kürzeren Abstand als dem Bremsweg der Strecke aufgestellt wird, wenn der verkürzte Abstand mindestens dem tatsächlich erforderlichen Bremsweg entspricht. Der verkürzte Abstand ist dann im Fahrplan oder in schriftlichen Anweisungen bekannt gegeben. (5) Als Kennziffer werden die Ziffern bzw. Zahlen 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 und 15 verwendet. (6) Beginnt die mit Signal Lf 6 angekündigte Geschwindigkeitsbeschränkung nach einer Strecken- oder Fahrwegverzweigung, ist das Signal Lf 6 durch einen gelben Richtungspfeil mit schwarzem Rand zu ergänzen, um anzuzeigen, für welche Richtung die Geschwindigkeitsbeschränkung gilt. Bei einem rückstrahlenden Signal ist auch der Richtungspfeil rückstrahlend. (7) Züge werden durch den Fahrplan oder in schriftlichen Anweisungen verständigt, für welche Richtung das Signal gilt. Die Richtung ist in örtlichen Zusätzen angegeben. (8) Auf Nebenbahnen – ausgenommen bei Geschwindigkeitsbeschränkungen vor Bahnübergängen – kann das Signal Lf 6 mit Genehmigung der Aufsichtsbehörde entfallen, wenn ein sonstiger durch die Gestaltung der Bahnanlagen geeigneter Anhalt für den Triebfahrzeugführer vorhanden ist. Dieser geeigne- te Anhalt ist dann im Fahrplan bekannt gegeben.",
-          "bild": ["source/img/Lf_6_1.png", "source/img/Lf_6_2.png"],
           "Lichtsignal" : "",
           "Bedeutung": "Ein Geschwindigkeitssignal (Lf 7) ist zu erwarten.",
-          "Handlung": "Weiterfahrt",
           "Ausnahmen": "",
+          "Handlung": "Weiterfahrt",
           "Geschwindigkeit": "last_state",
-          "Zielgeschwindigkeit": "last_state"
+          "Schilder": [
+            {
+                "Zielgeschwindigkeit": "5",
+                "bild": ["source/img/Lf_6_1/00.5.jpeg", "source/img/Lf_6_2/00.5.jpeg"]
+            },
+            {
+                "Zielgeschwindigkeit": "10",
+                "bild": ["source/img/Lf_6_1/01.jpeg", "source/img/Lf_6_2/01.jpeg"]
+            },
+            {
+                "Zielgeschwindigkeit": "20",
+                "bild": ["source/img/Lf_6_1/02.jpeg", "source/img/Lf_6_2/02.jpeg"]
+            },
+            {
+                "Zielgeschwindigkeit": "30",
+                "bild": ["source/img/Lf_6_1/03.jpeg", "source/img/Lf_6_2/03.jpeg"]
+            },
+            {
+                "Zielgeschwindigkeit": "40",
+                "bild": ["source/img/Lf_6_1/04.jpeg", "source/img/Lf_6_2/04.jpeg"]
+            },
+            {
+                "Zielgeschwindigkeit": "50",
+                "bild": ["source/img/Lf_6_1/05.jpeg", "source/img/Lf_6_2/05.jpeg"]
+            },
+            {
+                "Zielgeschwindigkeit": "60",
+                "bild": ["source/img/Lf_6_1/06.jpeg", "source/img/Lf_6_2/06.jpeg"]
+            },
+            {
+                "Zielgeschwindigkeit": "70",
+                "bild": ["source/img/Lf_6_1/07.jpeg", "source/img/Lf_6_2/07.jpeg"]
+            },
+            {
+                "Zielgeschwindigkeit": "80",
+                "bild": ["source/img/Lf_6_1/08.jpeg", "source/img/Lf_6_2/08.jpeg"]
+            },
+            {
+                "Zielgeschwindigkeit": "90",
+                "bild": ["source/img/Lf_6_1/09.jpeg", "source/img/Lf_6_2/09.jpeg"]
+            },
+            {
+                "Zielgeschwindigkeit": "100",
+                "bild": ["source/img/Lf_6_1/10.jpeg", "source/img/Lf_6_2/10.jpeg"]
+            },
+            {
+                "Zielgeschwindigkeit": "110",
+                "bild": ["source/img/Lf_6_1/11.jpeg", "source/img/Lf_6_2/11.jpeg"]
+            },
+            {
+                "Zielgeschwindigkeit": "120",
+                "bild": ["source/img/Lf_6_1/12.jpeg", "source/img/Lf_6_2/12.jpeg"]
+            },
+            {
+                "Zielgeschwindigkeit": "130",
+                "bild": ["source/img/Lf_6_1/13.jpeg", "source/img/Lf_6_2/13.jpeg"]
+            },
+            {
+                "Zielgeschwindigkeit": "140",
+                "bild": ["source/img/Lf_6_1/14.jpeg", "source/img/Lf_6_2/14.jpeg"]
+            },
+            {
+                "Zielgeschwindigkeit": "150",
+                "bild": ["source/img/Lf_6_1/15.jpeg", "source/img/Lf_6_2/15.jpeg"]
+            }
+          ]
         },
         {
           "code": "Lf_7",
           "name": "Lf_7",
           "beschreibung": "Eine rechteckige, auf der Schmalseite stehende oder quadratische weiße Tafel mit schwarzem Rand zeigt eine schwarze Kennziffer. Die gezeigte Kennziffer bedeutet, dass der 10fache Wert in km/h als Fahrgeschwindigkeit zugelassen ist. (3) Das Signal Lf 7 kennzeichnet einen Geschwindigkeitswechsel. (4) Das Signal ist bei Dunkelheit beleuchtet oder es ist rückstrahlend. (5) Als Kennziffer werden die Ziffern bzw. Zahlen 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15 und 16 verwendet. (6) Das an einem Hauptsignal aufgestellte Signal Lf 7 gilt nur bei Stellung Hp 1, Ks 1 ohne Zs 3 oder Ks 2 ohne Zs 3. (7) Ein zu signalisierender Geschwindigkeitswechsel liegt auch vor, wenn an Abzweigstellen und an Streckenverzweigungen in Bahnhöfen bei Übergang von einer Strecke auf eine andere eine Geschwindigkeitsänderung zu beachten ist. (8) Auf Nebenbahnen – ausgenommen bei Geschwindigkeitsbeschränkungen vor Bahnübergängen – kann das Signal Lf 7 mit Genehmigung der Aufsichtsbe- hörde entfallen, wenn ein sonstiger geeigneter Anhalt durch die Gestaltung der Bahnanlagen für den Triebfahrzeugführer vorhanden ist. Dieser geeignete Anhalt ist dann im Fahrplan bekannt gegeben. (9) Wenn zur Kennzeichnung des Endes einer Geschwindigkeitsbeschränkung nach dem Befahren von Bahnübergängen unter dem hierfür aufgestellten Signal Lf 7 eine Tafel mit der Aufschrift „BÜ“ angebracht ist, darf die Geschwindigkeit erhöht werden, wenn das führende Fahrzeug die Mitte des Bahnübergangs erreicht hat.",
-          "bild": "source/img/Lf_7.png", 
           "Lichtsignal" : "",
           "Bedeutung": "Die angezeigte Geschwindigkeit darf vom Signal ab nicht überschritten werden.",
-          "Handlung": "Weiterfahrt",
           "Ausnahmen": "",
+          "Handlung": "Weiterfahrt",
           "Geschwindigkeit": "last_state",
-          "Zielgeschwindigkeit": "last_state"
-        }
-
-        
+          "Schilder": [
+            {
+                "Zielgeschwindigkeit": "5",
+                "bild": "source/img/Lf_7/00.5.jpeg"
+            },
+            {
+                "Zielgeschwindigkeit": "10",
+                "bild": "source/img/Lf_7/01.jpeg"
+            },
+            {
+                "Zielgeschwindigkeit": "20",
+                "bild": "source/img/Lf_7/02.jpeg"
+            },
+            {
+                "Zielgeschwindigkeit": "30",
+                "bild": "source/img/Lf_7/03.jpeg"
+            },
+            {
+                "Zielgeschwindigkeit": "40",
+                "bild": "source/img/Lf_7/04.jpeg"
+            },
+            {
+                "Zielgeschwindigkeit": "50",
+                "bild": "source/img/Lf_7/05.jpeg"
+            },
+            {
+                "Zielgeschwindigkeit": "60",
+                "bild": "source/img/Lf_7/06.jpeg"
+            },
+            {
+                "Zielgeschwindigkeit": "70",
+                "bild": "source/img/Lf_7/07.jpeg"
+            },
+            {
+                "Zielgeschwindigkeit": "80",
+                "bild": "source/img/Lf_7/08.jpeg"
+            },
+            {
+                "Zielgeschwindigkeit": "90",
+                "bild": "source/img/Lf_7/09.jpeg"
+            },
+            {
+                "Zielgeschwindigkeit": "100",
+                "bild": "source/img/Lf_7/10.jpeg"
+            },
+            {
+                "Zielgeschwindigkeit": "110",
+                "bild": "source/img/Lf_7/11.jpeg"
+            },
+            {
+                "Zielgeschwindigkeit": "120",
+                "bild": "source/img/Lf_7/12.jpeg"
+            },
+            {
+                "Zielgeschwindigkeit": "130",
+                "bild": "source/img/Lf_7/13.jpeg"
+            },
+            {
+                "Zielgeschwindigkeit": "140",
+                "bild": "source/img/Lf_7/14.jpeg"
+            },
+            {
+                "Zielgeschwindigkeit": "150",
+                "bild": "source/img/Lf_7/15.jpeg"
+            }
+          ]
+        }        
       ]
     },
     {
