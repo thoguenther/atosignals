@@ -1,0 +1,114 @@
+{"name": "Signale",
+  "sections":
+  [
+    {
+      "name": "Hektometerzeichen",
+      "beschreibung":"Kennzeichnung der Streckenkilometrierung. Die obere Zahl gibt den Kilometer an, die untere den Hektometer.",
+      "kurzbeschreibung":"Kennzeichnung der Streckenkilometrierung.",
+      "Formsignal": "img/Hektometerzeichen.png",
+      "Lichtsignal": "",
+      "Nachtsignal": "",
+      "Gültigkeitsbeginn": "from signal",
+      "Gültigkeitsdauer": "next Hektometerzeichen",
+      "Aufhebesignal": "next Hektometerzeichen",
+      "Signaltyp": "info",
+      "Klasse": "Orientierungszeichen",
+      "Gleisbezug": "true",
+      "Handlung": "Weiterfahrt",
+      "Zielgeschwindigkeit": "last_state"
+    },
+    {
+      "name": "Zs_3",
+      "beschreibung":"Kennzeichnung der Streckenkilometrierung. Die obere Zahl gibt den Kilometer an, die untere den Hektometer.",
+      "kurzbeschreibung":"Kennzeichnung der Streckenkilometrierung.",
+      "Formsignal": "img/Hektometerzeichen.png",
+      "Lichtsignal": "",
+      "Nachtsignal": "",
+      "Gültigkeitsbeginn": "from signal",
+      "Gültigkeitsdauer": "next Hektometerzeichen",
+      "Aufhebesignal": "next Hektometerzeichen",
+      "Signaltyp": "info",
+      "Klasse": "Orientierungszeichen",
+      "Gleisbezug": "true",
+      "Handlung": "Weiterfahrt",
+      "Zielgeschwindigkeit": "last_state"
+    },
+    {
+      "code": "Zs_3",
+      "name": "Zs_3",
+      "beschreibung": "Formsignal: Eine weiße Kennziffer auf dreieckiger schwarzer Tafel mit weißem Rand. Die Tafel steht in der Regel auf der Spitze; bei beschränktem Raum kann die Spitze nach oben zeigen. Lichtsignal: Eine weiß leuchtende Kennziffer. Die gezeigte Kennziffer bedeutet, dass der 10fache Wert in km/h als Fahrge- schwindigkeit zugelassen ist. Das Signal wird auch an Blocksignalen selbsttätiger Blockstellen (Sbk) angewendet, wenn das nächste Signal im verkürzten Bremswegabstand folgt. In diesem Falle gilt die angezeigte Geschwindigkeit bei Vorbeifahrt der Spitze des Zuges am Signal. Die Kennziffer 3 kann anzeigen, dass in Stumpfgleise eingefahren wird oderdass ein ausreichender Durchrutschweg fehlt. Die Kennziffern 1 und 2 können anzeigen, dass besonders früh zu halten oderin ein besetztes Gleis einzufahren ist. Wird innerhalb des anschließenden Weichenbereichs durch ein Signal Zs 3 eine andere Geschwindigkeit angezeigt, gilt diese bis zum Ende des Weichenbereichs. Eine durch Hauptsignal oder Signal Zs 3 vorgeschriebene Geschwindigkeitsbeschränkung kann durch ein alleinstehendes Signal Zs 3 bereits vor dem Ende des anschließenden Weichenbereichs geändert werden. Das Formsignal ist rückstrahlend oder bei Dunkelheit beleuchtet, es kann bisauf weiteres nicht rückstrahlend oder beleuchtet sein. Das Formsignal an Lichthauptsignalen zeigt mit der Spitze nach oben.",
+      "Lichtsignal" : "",
+      "Bedeutung": "Die durch die Kennziffer angezeigte Geschwindigkeit darf vom Signal ab im anschließenden Weichenbereich nicht überschritten werden.",
+      "Ausnahmen": "",          
+      "Handlung": "Weiterfahrt",
+      "Geschwindigkeit": "last_state",
+
+      "Schilder": [
+        {
+          "Zielgeschwindigkeit": "5",
+          "bild": ["source/img/zs3_1/00.5.jpeg", "source/img/zs3_2/00.5.jpeg"]            
+        },
+        {
+          "Zielgeschwindigkeit": "10",
+          "bild": ["source/img/zs3_1/01.jpeg", "source/img/zs3_2/01.jpeg"]
+        },
+        {
+          "Zielgeschwindigkeit": "20",
+          "bild": ["source/img/zs3_1/02.jpeg", "source/img/zs3_2/02.jpeg"]
+        },
+        {
+          "Zielgeschwindigkeit": "30",
+          "bild": ["source/img/zs3_1/03.jpeg", "source/img/zs3_2/03.jpeg"]
+        },
+        {
+          "Zielgeschwindigkeit": "40",
+          "bild": ["source/img/zs3_1/04.jpeg", "source/img/zs3_2/04.jpeg"]
+        },
+        {
+          "Zielgeschwindigkeit": "50",
+          "bild": ["source/img/zs3_1/05.jpeg", "source/img/zs3_2/05.jpeg"]
+        },
+        {
+          "Zielgeschwindigkeit": "60",
+          "bild": ["source/img/zs3_1/06.jpeg", "source/img/zs3_2/06.jpeg"]
+        },
+        {
+          "Zielgeschwindigkeit": "70",
+          "bild": ["source/img/zs3_1/07.jpeg", "source/img/zs3_2/07.jpeg"]
+        },
+        {
+          "Zielgeschwindigkeit": "80",
+          "bild": ["source/img/zs3_1/08.jpeg", "source/img/zs3_2/08.jpeg"]
+        },
+        {
+          "Zielgeschwindigkeit": "90",
+          "bild": ["source/img/zs3_1/09.jpeg", "source/img/zs3_2/09.jpeg"]
+        },
+        {
+          "Zielgeschwindigkeit": "100",
+          "bild": ["source/img/zs3_1/10.jpeg", "source/img/zs3_2/10.jpeg"]
+        },
+        {
+          "Zielgeschwindigkeit": "110",
+          "bild": ["source/img/zs3_1/11.jpeg", "source/img/zs3_2/11.jpeg"]
+        },
+        {
+          "Zielgeschwindigkeit": "120",
+          "bild": ["source/img/zs3_1/12.jpeg", "source/img/zs3_2/12.jpeg"]
+        },
+        {
+          "Zielgeschwindigkeit": "130",
+          "bild": ["source/img/zs3_1/13.jpeg", "source/img/zs3_2/13.jpeg"]
+        },
+        {
+          "Zielgeschwindigkeit": "140",
+          "bild": ["source/img/zs3_1/14.jpeg", "source/img/zs3_2/14.jpeg"]
+        },
+        {
+          "Zielgeschwindigkeit": "150",
+          "bild": ["source/img/zs3_1/15.jpeg", "source/img/zs3_2/15.jpeg"]
+        }
+      ]
+    }
+  ]
+}
