@@ -1,0 +1,46 @@
+,
+{
+  "name":,
+  "beschreibung":"str",
+  "kurzbeschreibung":"str",
+  "bild": "",
+  "beleuchtungstyp": "Formsignal, Lichtsignal, Nachtsignal", // Formsignal = ... Lichtsignal = ......
+  "Gültigkeitsbeginn": "",
+  "Gültigkeitsdauer": "",
+  "Aufhebesignal": "",
+  "Signaltyp": "info oder handlung",// Definition eifügne
+  "Gleisbezug": "bool"
+},
+{"Streckenzustand":[{
+    "Witterung": "nass, Schnee, trocken, laub",
+    "Sicht": "Regen, Nebel, Hagel, Gegenlicht, Schnee, Dunkelheit",
+    "Streckensicht": "Kurve mit Verdeckung, Gerade",
+    "Gleiszustand": "",
+    "Vegation auf der Strecke": "keine, starke Vegetation aus dem Gleis, Bewuchs von der Seite, eventl. Verdeckung von Signalen",
+    "Sicherheitszäune":,
+    "Oberleitungen":,
+    "Baustellen",
+    "Hindernisse auf Strecke":,
+    "Mögliche Hindernisse neben der Strecke":,
+},
+{
+  "Verkehrszustand": [
+    {"Verkehr im Gleis": "Gegenverkehr, Vorrausfahrender Vekehr",
+    "welche Schiene": "selbe oder gegenschiene",
+    "welches Fahrzeug": "Einschinen Fahrzeug, oder normaler Zug"
+  }
+  ]
+},
+{
+  "Situationen": "Bahnübergang, Bahnhof, offene Strecke, Baustelle"
+}
+
+{
+  "Fahrzeugzustand":[
+    {}
+  ]
+},
+{
+  "Innenraumzustand":[]
+}
+]}

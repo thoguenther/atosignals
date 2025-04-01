@@ -1020,18 +1020,84 @@
           "Geschwindigkeit": "40",
           "Zielgeschwindigkeit": "last_state"
         },
+
         {
           "code": "Lf_4",
           "name": "Lf_4",
           "beschreibung": "Eine auf der Spitze stehende dreieckige weiße Tafel mit schwarzem Rand zeigt eine schwarze Kennziffer. Bei beschränktem Raum kann die Dreieckspitze nach oben zeigen. Die gezeigte Kennziffer bedeutet, dass der 10fache Wert in km/h als Fahrgeschwindigkeit zugelassen ist.  Wegen der Kennziffer siehe Abschnitt 2 Absatz 7. (4) Das Signal Lf 4 steht nur auf Nebenbahnen und ist beleuchtet, wenn der Betrieb es erfordert. Es ist in der Regel im Abstand des Bremsweges der Strecke vor dem lang- sam zu befahrenden Gleisabschnitt aufgestellt; vor Bahnübergängen gemäß Absatz 5c kann es auch in einem für das Abbremsen ausreichenden Abstand stehen. (5) Das Signal Lf 4 ist aufgestellt, a) wo die zulässige Geschwindigkeit vor der ständigen Langsamfahrstelle um 25 % und mehr größer ist als auf der Langsamfahrstelle. Das Signal kann entfallen, wenn ein sonstiger geeigneter Anhalt für den Triebfahrzeugführer vorhanden ist, b) wo an einem Vorsignal angezeigt werden soll, dass vom zugehörigen Hauptsignal ab bei Stellung Hp 1 die angezeigte Geschwindigkeit nicht überschritten werden darf, c) wo die Geschwindigkeit vor Bahnübergängen ermäßigt werden muss. Die Geschwindigkeitsbeschränkung muss am Signal Lf 5, wo dieses nicht aufgestellt ist, vor dem Bahnübergang durchgeführt sein. Sie ist beizubehalten, bis das erste Fahrzeug etwa die Straßenmitte erreicht hat.",
-          "bild": ["source/img/Lf_4_1.png", "source/img/Lf_4_2.png"],
           "Lichtsignal" : "",
           "Bedeutung": "Es folgt eine ständige Langsamfahrstelle, auf der die angezeigte Geschwindigkeit nicht überschritten werden darf.",
+          "Ausnahmen": "",          
           "Handlung": "Weiterfahrt",
-          "Ausnahmen": "",
           "Geschwindigkeit": "last_state",
-          "Zielgeschwindigkeit": "last_state"
-        },
+
+          "Schilder": [
+            {
+                "Zielgeschwindigkeit": "5",
+                "bild": ["source/img/Lf_4_1/00.5.jpeg", "source/img/Lf_4_2/00.5.jpeg"]
+            },
+            {
+                "Zielgeschwindigkeit": "10",
+                "bild": ["source/img/Lf_4_1/01.jpeg", "source/img/Lf_4_2/01.jpeg"]
+            },
+            {
+                "Zielgeschwindigkeit": "20",
+                "bild": ["source/img/Lf_4_1/02.jpeg", "source/img/Lf_4_2/02.jpeg"]
+            },
+            {
+                "Zielgeschwindigkeit": "30",
+                "bild": ["source/img/Lf_4_1/03.jpeg", "source/img/Lf_4_2/03.jpeg"]
+            },
+            {
+                "Zielgeschwindigkeit": "40",
+                "bild": ["source/img/Lf_4_1/04.jpeg", "source/img/Lf_4_2/04.jpeg"]
+            },
+            {
+                "Zielgeschwindigkeit": "50",
+                "bild": ["source/img/Lf_4_1/05.jpeg", "source/img/Lf_4_2/05.jpeg"]
+            },
+            {
+                "Zielgeschwindigkeit": "60",
+                "bild": ["source/img/Lf_4_1/06.jpeg", "source/img/Lf_4_2/06.jpeg"]
+            },
+            {
+                "Zielgeschwindigkeit": "70",
+                "bild": ["source/img/Lf_4_1/07.jpeg", "source/img/Lf_4_2/07.jpeg"]
+            },
+            {
+                "Zielgeschwindigkeit": "80",
+                "bild": ["source/img/Lf_4_1/08.jpeg", "source/img/Lf_4_2/08.jpeg"]
+            },
+            {
+                "Zielgeschwindigkeit": "90",
+                "bild": ["source/img/Lf_4_1/09.jpeg", "source/img/Lf_4_2/09.jpeg"]
+            },
+            {
+                "Zielgeschwindigkeit": "100",
+                "bild": ["source/img/Lf_4_1/10.jpeg", "source/img/Lf_4_2/10.jpeg"]
+            },
+            {
+                "Zielgeschwindigkeit": "110",
+                "bild": ["source/img/Lf_4_1/11.jpeg", "source/img/Lf_4_2/11.jpeg"]
+            },
+            {
+                "Zielgeschwindigkeit": "120",
+                "bild": ["source/img/Lf_4_1/12.jpeg", "source/img/Lf_4_2/12.jpeg"]
+            },
+            {
+                "Zielgeschwindigkeit": "130",
+                "bild": ["source/img/Lf_4_1/13.jpeg", "source/img/Lf_4_2/13.jpeg"]
+            },
+            {
+                "Zielgeschwindigkeit": "140",
+                "bild": ["source/img/Lf_4_1/14.jpeg", "source/img/Lf_4_2/14.jpeg"]
+            },
+            {
+                "Zielgeschwindigkeit": "150",
+                "bild": ["source/img/Lf_4_1/15.jpeg", "source/img/Lf_4_2/15.jpeg"]
+            }
+          ]
+        },       
         {
           "code": "Lf_5",
           "name": "Lf_5",
