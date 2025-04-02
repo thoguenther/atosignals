@@ -19,7 +19,50 @@
     "Gleiszustand": "gut, Schaden (VLM: Schäden durch äußere Einflüsse: Unfälle, Naturkatastrophen oder Vandalismus können physische Schäden an den Gleisen verursachen.)",
     "Vegetation auf der Strecke": "keine, starke Vegetation auf dem Gleis, Bewuchs von der Seite (VLM)",
     "Baustellen":"bool (VLM fragen ob gerade eine Baustellenumgebung ist.",
-    "Hindernisse auf Strecke": "bool (VLM fragen)",
-    "Mögliche Hindernisse neben der Strecke": "bool (VLM fragen)"
+    "Hindernisse auf Strecke": 
+    ["bool (VLM fragen)",{
+      "Auto": 
+      ["bool",{
+        "Bewegung": "static, on track, off track"
+      }],
+      "Person": 
+      ["bool",{
+        "Bewegung": "static, on track, off track"
+      }],
+      "Tier": 
+      ["bool",{
+        "Bewegung": "static, on track, off track"
+      }],
+      "UNKNOWN": 
+      ["bool",{
+        "Bewegung": "static, on track, off track"
+      }],
+      "Schienenfahrzeug": 
+      ["bool",{
+        "Bewegung": "static, on track, off track",
+        "Art": "Zweischienenfahrzeug, Einschienfahzeug",
+        "Schienenbelegung": "selbe Schiene, Gegenschiene, Beide Schienen"
+      }]
+      
+    }],
+    "Mögliche Hindernisse neben der Strecke":
+    ["bool (VLM fragen)",{
+      "Auto": 
+      ["bool",{
+        "Bewegung": "static, track direction, non track direction"
+      }],
+      "Person": 
+      ["bool",{
+        "Bewegung": "static, track direction, non track direction"
+      }],
+      "Tier": 
+      ["bool",{
+        "Bewegung": "static, track direction, non track direction"
+      }],
+      "UNKNOWN": 
+      ["bool",{
+        "Bewegung": "static, track direction, non track direction"
+      }]      
+    }]
   }
 }
