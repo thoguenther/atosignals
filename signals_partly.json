@@ -2,7 +2,7 @@
   "sections":
   [
     {
-      "name": "Hektometerzeichen",
+      "name": "Hectometer_Sign",
       "beschreibung":"Kennzeichnung der Streckenkilometrierung. Die obere Zahl gibt den Kilometer an, die untere den Hektometer.",
       "kurzbeschreibung":"Kennzeichnung der Streckenkilometrierung.",
       "Formsignal": "img/Hektometerzeichen.png",
@@ -13,102 +13,293 @@
       "Aufhebesignal": "next Hektometerzeichen",
       "Signaltyp": "info",
       "Klasse": "Orientierungszeichen",
-      "Gleisbezug": "true",
       "Handlung": "Weiterfahrt",
       "Zielgeschwindigkeit": "last_state"
     },
     {
-      "name": "Zs_3",
-      "beschreibung":"Kennzeichnung der Streckenkilometrierung. Die obere Zahl gibt den Kilometer an, die untere den Hektometer.",
-      "kurzbeschreibung":"Kennzeichnung der Streckenkilometrierung.",
-      "Formsignal": "img/Hektometerzeichen.png",
-      "Lichtsignal": "",
+      "name": "Zs_10",
+      "beschreibung": "Ende der Geschwindigkeitsbeschränkung.",
+      "kurzbeschreibung": "Ende der Geschwindigkeitsbeschränkung.",
+      "Formsignal": "source/img/Zs_10_Form.jpeg", 
+      "Lichtsignal": "source/img/Zs_10_Licht.jpeg",
       "Nachtsignal": "",
       "Gültigkeitsbeginn": "from signal",
-      "Gültigkeitsdauer": "next Hektometerzeichen",
-      "Aufhebesignal": "next Hektometerzeichen",
-      "Signaltyp": "info",
-      "Klasse": "Orientierungszeichen",
-      "Gleisbezug": "true",
+      "Gültigkeitsdauer": "",
+      "Aufhebesignal": "Zs_10 OR next Zs_3",
+      "Signaltyp": "action",
+      "Klasse": "Zusatzsignal",
       "Handlung": "Weiterfahrt",
-      "Zielgeschwindigkeit": "last_state"
+      "Zielgeschwindigkeit": "Fahrplan"
     },
     {
-      "code": "Zs_3",
-      "name": "Zs_3",
+      "name": "Zs_3_unrecognizable",
       "beschreibung": "Formsignal: Eine weiße Kennziffer auf dreieckiger schwarzer Tafel mit weißem Rand. Die Tafel steht in der Regel auf der Spitze; bei beschränktem Raum kann die Spitze nach oben zeigen. Lichtsignal: Eine weiß leuchtende Kennziffer. Die gezeigte Kennziffer bedeutet, dass der 10fache Wert in km/h als Fahrge- schwindigkeit zugelassen ist. Das Signal wird auch an Blocksignalen selbsttätiger Blockstellen (Sbk) angewendet, wenn das nächste Signal im verkürzten Bremswegabstand folgt. In diesem Falle gilt die angezeigte Geschwindigkeit bei Vorbeifahrt der Spitze des Zuges am Signal. Die Kennziffer 3 kann anzeigen, dass in Stumpfgleise eingefahren wird oderdass ein ausreichender Durchrutschweg fehlt. Die Kennziffern 1 und 2 können anzeigen, dass besonders früh zu halten oderin ein besetztes Gleis einzufahren ist. Wird innerhalb des anschließenden Weichenbereichs durch ein Signal Zs 3 eine andere Geschwindigkeit angezeigt, gilt diese bis zum Ende des Weichenbereichs. Eine durch Hauptsignal oder Signal Zs 3 vorgeschriebene Geschwindigkeitsbeschränkung kann durch ein alleinstehendes Signal Zs 3 bereits vor dem Ende des anschließenden Weichenbereichs geändert werden. Das Formsignal ist rückstrahlend oder bei Dunkelheit beleuchtet, es kann bisauf weiteres nicht rückstrahlend oder beleuchtet sein. Das Formsignal an Lichthauptsignalen zeigt mit der Spitze nach oben.",
-      "Lichtsignal" : "",
-      "Bedeutung": "Die durch die Kennziffer angezeigte Geschwindigkeit darf vom Signal ab im anschließenden Weichenbereich nicht überschritten werden.",
-      "Ausnahmen": "",          
+      "kurzbeschreibung": "Kennzeichnung der Geschwindigkeitsbegrenzung",
+      "Formsignal": ["source/img/zs_3_1/unrecog.jpeg", "source/img/zs_3_2/unrecog.jpeg"],
+      "Lichtsignal": "",
+      "Nachtsignal": "",
+      "Gültigkeitsbeginn": "from signal",
+      "Gültigkeitsdauer": "bis Weiche",
+      "Aufhebesignal": "Zs_10 OR next Zs_3",
+      "Signaltyp": "info",
+      "Klasse": "Zusatzsignal",
       "Handlung": "Weiterfahrt",
-      "Geschwindigkeit": "last_state",
-
-      "Schilder": [
-        {
-          "Zielgeschwindigkeit": "5",
-          "bild": ["source/img/zs3_1/00.5.jpeg", "source/img/zs3_2/00.5.jpeg"]            
-        },
-        {
-          "Zielgeschwindigkeit": "10",
-          "bild": ["source/img/zs3_1/01.jpeg", "source/img/zs3_2/01.jpeg"]
-        },
-        {
-          "Zielgeschwindigkeit": "20",
-          "bild": ["source/img/zs3_1/02.jpeg", "source/img/zs3_2/02.jpeg"]
-        },
-        {
-          "Zielgeschwindigkeit": "30",
-          "bild": ["source/img/zs3_1/03.jpeg", "source/img/zs3_2/03.jpeg"]
-        },
-        {
-          "Zielgeschwindigkeit": "40",
-          "bild": ["source/img/zs3_1/04.jpeg", "source/img/zs3_2/04.jpeg"]
-        },
-        {
-          "Zielgeschwindigkeit": "50",
-          "bild": ["source/img/zs3_1/05.jpeg", "source/img/zs3_2/05.jpeg"]
-        },
-        {
-          "Zielgeschwindigkeit": "60",
-          "bild": ["source/img/zs3_1/06.jpeg", "source/img/zs3_2/06.jpeg"]
-        },
-        {
-          "Zielgeschwindigkeit": "70",
-          "bild": ["source/img/zs3_1/07.jpeg", "source/img/zs3_2/07.jpeg"]
-        },
-        {
-          "Zielgeschwindigkeit": "80",
-          "bild": ["source/img/zs3_1/08.jpeg", "source/img/zs3_2/08.jpeg"]
-        },
-        {
-          "Zielgeschwindigkeit": "90",
-          "bild": ["source/img/zs3_1/09.jpeg", "source/img/zs3_2/09.jpeg"]
-        },
-        {
-          "Zielgeschwindigkeit": "100",
-          "bild": ["source/img/zs3_1/10.jpeg", "source/img/zs3_2/10.jpeg"]
-        },
-        {
-          "Zielgeschwindigkeit": "110",
-          "bild": ["source/img/zs3_1/11.jpeg", "source/img/zs3_2/11.jpeg"]
-        },
-        {
-          "Zielgeschwindigkeit": "120",
-          "bild": ["source/img/zs3_1/12.jpeg", "source/img/zs3_2/12.jpeg"]
-        },
-        {
-          "Zielgeschwindigkeit": "130",
-          "bild": ["source/img/zs3_1/13.jpeg", "source/img/zs3_2/13.jpeg"]
-        },
-        {
-          "Zielgeschwindigkeit": "140",
-          "bild": ["source/img/zs3_1/14.jpeg", "source/img/zs3_2/14.jpeg"]
-        },
-        {
-          "Zielgeschwindigkeit": "150",
-          "bild": ["source/img/zs3_1/15.jpeg", "source/img/zs3_2/15.jpeg"]
-        }
-      ]
+      "Zielgeschwindigkeit": "last_state"
+    },
+    {
+      "name": "Zs_3_0.5",
+      "beschreibung": "Formsignal: Eine weiße Kennziffer auf dreieckiger schwarzer Tafel mit weißem Rand. Die Tafel steht in der Regel auf der Spitze; bei beschränktem Raum kann die Spitze nach oben zeigen. Lichtsignal: Eine weiß leuchtende Kennziffer. Die gezeigte Kennziffer bedeutet, dass der 10fache Wert in km/h als Fahrge- schwindigkeit zugelassen ist. Das Signal wird auch an Blocksignalen selbsttätiger Blockstellen (Sbk) angewendet, wenn das nächste Signal im verkürzten Bremswegabstand folgt. In diesem Falle gilt die angezeigte Geschwindigkeit bei Vorbeifahrt der Spitze des Zuges am Signal. Die Kennziffer 3 kann anzeigen, dass in Stumpfgleise eingefahren wird oderdass ein ausreichender Durchrutschweg fehlt. Die Kennziffern 1 und 2 können anzeigen, dass besonders früh zu halten oderin ein besetztes Gleis einzufahren ist. Wird innerhalb des anschließenden Weichenbereichs durch ein Signal Zs 3 eine andere Geschwindigkeit angezeigt, gilt diese bis zum Ende des Weichenbereichs. Eine durch Hauptsignal oder Signal Zs 3 vorgeschriebene Geschwindigkeitsbeschränkung kann durch ein alleinstehendes Signal Zs 3 bereits vor dem Ende des anschließenden Weichenbereichs geändert werden. Das Formsignal ist rückstrahlend oder bei Dunkelheit beleuchtet, es kann bisauf weiteres nicht rückstrahlend oder beleuchtet sein. Das Formsignal an Lichthauptsignalen zeigt mit der Spitze nach oben.",
+      "kurzbeschreibung": "Kennzeichnung der Geschwindigkeitsbegrenzung",
+      "Formsignal": ["source/img/zs_3_1/00.5.jpeg", "source/img/zs_3_2/00.5.jpeg"],
+      "Lichtsignal": "source/img/zs_3_licht/00.5.jpeg",
+      "Nachtsignal": "",
+      "Gültigkeitsbeginn": "from signal",
+      "Gültigkeitsdauer": "bis Weiche",
+      "Aufhebesignal": "Zs_10 OR next Zs_3",
+      "Signaltyp": "info",
+      "Klasse": "Zusatzsignal",
+      "Handlung": "Weiterfahrt",
+      "Zielgeschwindigkeit": "5"
+    },
+    {
+      "name": "Zs_3_1",
+      "beschreibung": "Formsignal: Eine weiße Kennziffer auf dreieckiger schwarzer Tafel mit weißem Rand. Die Tafel steht in der Regel auf der Spitze; bei beschränktem Raum kann die Spitze nach oben zeigen. Lichtsignal: Eine weiß leuchtende Kennziffer. Die gezeigte Kennziffer bedeutet, dass der 10fache Wert in km/h als Fahrge- schwindigkeit zugelassen ist. Das Signal wird auch an Blocksignalen selbsttätiger Blockstellen (Sbk) angewendet, wenn das nächste Signal im verkürzten Bremswegabstand folgt. In diesem Falle gilt die angezeigte Geschwindigkeit bei Vorbeifahrt der Spitze des Zuges am Signal. Die Kennziffer 3 kann anzeigen, dass in Stumpfgleise eingefahren wird oderdass ein ausreichender Durchrutschweg fehlt. Die Kennziffern 1 und 2 können anzeigen, dass besonders früh zu halten oderin ein besetztes Gleis einzufahren ist. Wird innerhalb des anschließenden Weichenbereichs durch ein Signal Zs 3 eine andere Geschwindigkeit angezeigt, gilt diese bis zum Ende des Weichenbereichs. Eine durch Hauptsignal oder Signal Zs 3 vorgeschriebene Geschwindigkeitsbeschränkung kann durch ein alleinstehendes Signal Zs 3 bereits vor dem Ende des anschließenden Weichenbereichs geändert werden. Das Formsignal ist rückstrahlend oder bei Dunkelheit beleuchtet, es kann bisauf weiteres nicht rückstrahlend oder beleuchtet sein. Das Formsignal an Lichthauptsignalen zeigt mit der Spitze nach oben.",
+      "kurzbeschreibung": "Kennzeichnung der Geschwindigkeitsbegrenzung",
+      "Formsignal": ["source/img/zs_3_1/01.jpeg", "source/img/zs_3_2/01.jpeg"],
+      "Lichtsignal": "source/img/zs_3_licht/01.jpeg",
+      "Nachtsignal": "",
+      "Gültigkeitsbeginn": "from signal",
+      "Gültigkeitsdauer": "bis Weiche",
+      "Aufhebesignal": "Zs_10 OR next Zs_3",
+      "Signaltyp": "info",
+      "Klasse": "Zusatzsignal",
+      "Handlung": "Weiterfahrt",
+      "Zielgeschwindigkeit": "10"
+    },
+    {
+      "name": "Zs_3_2",
+      "beschreibung": "Formsignal: Eine weiße Kennziffer auf dreieckiger schwarzer Tafel mit weißem Rand. Die Tafel steht in der Regel auf der Spitze; bei beschränktem Raum kann die Spitze nach oben zeigen. Lichtsignal: Eine weiß leuchtende Kennziffer. Die gezeigte Kennziffer bedeutet, dass der 10fache Wert in km/h als Fahrge- schwindigkeit zugelassen ist. Das Signal wird auch an Blocksignalen selbsttätiger Blockstellen (Sbk) angewendet, wenn das nächste Signal im verkürzten Bremswegabstand folgt. In diesem Falle gilt die angezeigte Geschwindigkeit bei Vorbeifahrt der Spitze des Zuges am Signal. Die Kennziffer 3 kann anzeigen, dass in Stumpfgleise eingefahren wird oderdass ein ausreichender Durchrutschweg fehlt. Die Kennziffern 1 und 2 können anzeigen, dass besonders früh zu halten oderin ein besetztes Gleis einzufahren ist. Wird innerhalb des anschließenden Weichenbereichs durch ein Signal Zs 3 eine andere Geschwindigkeit angezeigt, gilt diese bis zum Ende des Weichenbereichs. Eine durch Hauptsignal oder Signal Zs 3 vorgeschriebene Geschwindigkeitsbeschränkung kann durch ein alleinstehendes Signal Zs 3 bereits vor dem Ende des anschließenden Weichenbereichs geändert werden. Das Formsignal ist rückstrahlend oder bei Dunkelheit beleuchtet, es kann bisauf weiteres nicht rückstrahlend oder beleuchtet sein. Das Formsignal an Lichthauptsignalen zeigt mit der Spitze nach oben.",
+      "kurzbeschreibung": "Kennzeichnung der Geschwindigkeitsbegrenzung",
+      "Formsignal": ["source/img/zs_3_1/02.jpeg", "source/img/zs_3_2/02.jpeg"],
+      "Lichtsignal": "source/img/zs_3_licht/02.jpeg",
+      "Nachtsignal": "",
+      "Gültigkeitsbeginn": "from signal",
+      "Gültigkeitsdauer": "bis Weiche",
+      "Aufhebesignal": "Zs_10 OR next Zs_3",
+      "Signaltyp": "info",
+      "Klasse": "Zusatzsignal",
+      "Handlung": "Weiterfahrt",
+      "Zielgeschwindigkeit": "20"
+    },
+    {
+      "name": "Zs_3_3",
+      "beschreibung": "Formsignal: Eine weiße Kennziffer auf dreieckiger schwarzer Tafel mit weißem Rand. Die Tafel steht in der Regel auf der Spitze; bei beschränktem Raum kann die Spitze nach oben zeigen. Lichtsignal: Eine weiß leuchtende Kennziffer. Die gezeigte Kennziffer bedeutet, dass der 10fache Wert in km/h als Fahrge- schwindigkeit zugelassen ist. Das Signal wird auch an Blocksignalen selbsttätiger Blockstellen (Sbk) angewendet, wenn das nächste Signal im verkürzten Bremswegabstand folgt. In diesem Falle gilt die angezeigte Geschwindigkeit bei Vorbeifahrt der Spitze des Zuges am Signal. Die Kennziffer 3 kann anzeigen, dass in Stumpfgleise eingefahren wird oderdass ein ausreichender Durchrutschweg fehlt. Die Kennziffern 1 und 2 können anzeigen, dass besonders früh zu halten oderin ein besetztes Gleis einzufahren ist. Wird innerhalb des anschließenden Weichenbereichs durch ein Signal Zs 3 eine andere Geschwindigkeit angezeigt, gilt diese bis zum Ende des Weichenbereichs. Eine durch Hauptsignal oder Signal Zs 3 vorgeschriebene Geschwindigkeitsbeschränkung kann durch ein alleinstehendes Signal Zs 3 bereits vor dem Ende des anschließenden Weichenbereichs geändert werden. Das Formsignal ist rückstrahlend oder bei Dunkelheit beleuchtet, es kann bisauf weiteres nicht rückstrahlend oder beleuchtet sein. Das Formsignal an Lichthauptsignalen zeigt mit der Spitze nach oben.",
+      "kurzbeschreibung": "Kennzeichnung der Geschwindigkeitsbegrenzung",
+      "Formsignal": ["source/img/zs_3_1/03.jpeg", "source/img/zs_3_2/03.jpeg"],
+      "Lichtsignal": "source/img/zs_3_licht/03.jpeg",
+      "Nachtsignal": "",
+      "Gültigkeitsbeginn": "from signal",
+      "Gültigkeitsdauer": "bis Weiche",
+      "Aufhebesignal": "Zs_10 OR next Zs_3",
+      "Signaltyp": "info",
+      "Klasse": "Zusatzsignal",
+      "Handlung": "Weiterfahrt",
+      "Zielgeschwindigkeit": "30"
+    },
+    {
+      "name": "Zs_3_4",
+      "beschreibung": "Formsignal: Eine weiße Kennziffer auf dreieckiger schwarzer Tafel mit weißem Rand. Die Tafel steht in der Regel auf der Spitze; bei beschränktem Raum kann die Spitze nach oben zeigen. Lichtsignal: Eine weiß leuchtende Kennziffer. Die gezeigte Kennziffer bedeutet, dass der 10fache Wert in km/h als Fahrge- schwindigkeit zugelassen ist. Das Signal wird auch an Blocksignalen selbsttätiger Blockstellen (Sbk) angewendet, wenn das nächste Signal im verkürzten Bremswegabstand folgt. In diesem Falle gilt die angezeigte Geschwindigkeit bei Vorbeifahrt der Spitze des Zuges am Signal. Die Kennziffer 3 kann anzeigen, dass in Stumpfgleise eingefahren wird oderdass ein ausreichender Durchrutschweg fehlt. Die Kennziffern 1 und 2 können anzeigen, dass besonders früh zu halten oderin ein besetztes Gleis einzufahren ist. Wird innerhalb des anschließenden Weichenbereichs durch ein Signal Zs 3 eine andere Geschwindigkeit angezeigt, gilt diese bis zum Ende des Weichenbereichs. Eine durch Hauptsignal oder Signal Zs 3 vorgeschriebene Geschwindigkeitsbeschränkung kann durch ein alleinstehendes Signal Zs 3 bereits vor dem Ende des anschließenden Weichenbereichs geändert werden. Das Formsignal ist rückstrahlend oder bei Dunkelheit beleuchtet, es kann bisauf weiteres nicht rückstrahlend oder beleuchtet sein. Das Formsignal an Lichthauptsignalen zeigt mit der Spitze nach oben.",
+      "kurzbeschreibung": "Kennzeichnung der Geschwindigkeitsbegrenzung",
+      "Formsignal": ["source/img/zs_3_1/04.jpeg", "source/img/zs_3_2/04.jpeg"],
+      "Lichtsignal": "source/img/zs_3_licht/04.jpeg",
+      "Nachtsignal": "",
+      "Gültigkeitsbeginn": "from signal",
+      "Gültigkeitsdauer": "bis Weiche",
+      "Aufhebesignal": "Zs_10 OR next Zs_3",
+      "Signaltyp": "info",
+      "Klasse": "Zusatzsignal",
+      "Handlung": "Weiterfahrt",
+      "Zielgeschwindigkeit": "40"
+    },
+    {
+      "name": "Zs_3_5",
+      "beschreibung": "Formsignal: Eine weiße Kennziffer auf dreieckiger schwarzer Tafel mit weißem Rand. Die Tafel steht in der Regel auf der Spitze; bei beschränktem Raum kann die Spitze nach oben zeigen. Lichtsignal: Eine weiß leuchtende Kennziffer. Die gezeigte Kennziffer bedeutet, dass der 10fache Wert in km/h als Fahrge- schwindigkeit zugelassen ist. Das Signal wird auch an Blocksignalen selbsttätiger Blockstellen (Sbk) angewendet, wenn das nächste Signal im verkürzten Bremswegabstand folgt. In diesem Falle gilt die angezeigte Geschwindigkeit bei Vorbeifahrt der Spitze des Zuges am Signal. Die Kennziffer 3 kann anzeigen, dass in Stumpfgleise eingefahren wird oderdass ein ausreichender Durchrutschweg fehlt. Die Kennziffern 1 und 2 können anzeigen, dass besonders früh zu halten oderin ein besetztes Gleis einzufahren ist. Wird innerhalb des anschließenden Weichenbereichs durch ein Signal Zs 3 eine andere Geschwindigkeit angezeigt, gilt diese bis zum Ende des Weichenbereichs. Eine durch Hauptsignal oder Signal Zs 3 vorgeschriebene Geschwindigkeitsbeschränkung kann durch ein alleinstehendes Signal Zs 3 bereits vor dem Ende des anschließenden Weichenbereichs geändert werden. Das Formsignal ist rückstrahlend oder bei Dunkelheit beleuchtet, es kann bisauf weiteres nicht rückstrahlend oder beleuchtet sein. Das Formsignal an Lichthauptsignalen zeigt mit der Spitze nach oben.",
+      "kurzbeschreibung": "Kennzeichnung der Geschwindigkeitsbegrenzung",
+      "Formsignal": ["source/img/zs_3_1/05.jpeg", "source/img/zs_3_2/05.jpeg"],
+      "Lichtsignal": "source/img/zs_3_licht/05.jpeg",
+      "Nachtsignal": "",
+      "Gültigkeitsbeginn": "from signal",
+      "Gültigkeitsdauer": "bis Weiche",
+      "Aufhebesignal": "Zs_10 OR next Zs_3",
+      "Signaltyp": "info",
+      "Klasse": "Zusatzsignal",
+      "Handlung": "Weiterfahrt",
+      "Zielgeschwindigkeit": "50"
+    },
+    {
+      "name": "Zs_3_5",
+      "beschreibung": "Formsignal: Eine weiße Kennziffer auf dreieckiger schwarzer Tafel mit weißem Rand. Die Tafel steht in der Regel auf der Spitze; bei beschränktem Raum kann die Spitze nach oben zeigen. Lichtsignal: Eine weiß leuchtende Kennziffer. Die gezeigte Kennziffer bedeutet, dass der 10fache Wert in km/h als Fahrge- schwindigkeit zugelassen ist. Das Signal wird auch an Blocksignalen selbsttätiger Blockstellen (Sbk) angewendet, wenn das nächste Signal im verkürzten Bremswegabstand folgt. In diesem Falle gilt die angezeigte Geschwindigkeit bei Vorbeifahrt der Spitze des Zuges am Signal. Die Kennziffer 3 kann anzeigen, dass in Stumpfgleise eingefahren wird oderdass ein ausreichender Durchrutschweg fehlt. Die Kennziffern 1 und 2 können anzeigen, dass besonders früh zu halten oderin ein besetztes Gleis einzufahren ist. Wird innerhalb des anschließenden Weichenbereichs durch ein Signal Zs 3 eine andere Geschwindigkeit angezeigt, gilt diese bis zum Ende des Weichenbereichs. Eine durch Hauptsignal oder Signal Zs 3 vorgeschriebene Geschwindigkeitsbeschränkung kann durch ein alleinstehendes Signal Zs 3 bereits vor dem Ende des anschließenden Weichenbereichs geändert werden. Das Formsignal ist rückstrahlend oder bei Dunkelheit beleuchtet, es kann bisauf weiteres nicht rückstrahlend oder beleuchtet sein. Das Formsignal an Lichthauptsignalen zeigt mit der Spitze nach oben.",
+      "kurzbeschreibung": "Kennzeichnung der Geschwindigkeitsbegrenzung",
+      "Formsignal": ["source/img/zs_3_1/05.jpeg", "source/img/zs_3_2/05.jpeg"],
+      "Lichtsignal": "source/img/zs_3_licht/05.jpeg",
+      "Nachtsignal": "",
+      "Gültigkeitsbeginn": "from signal",
+      "Gültigkeitsdauer": "bis Weiche",
+      "Aufhebesignal": "Zs_10 OR next Zs_3",
+      "Signaltyp": "info",
+      "Klasse": "Zusatzsignal",
+      "Handlung": "Weiterfahrt",
+      "Zielgeschwindigkeit": "50"
+    },
+    {
+      "name": "Zs_3_6",
+      "beschreibung": "Formsignal: Eine weiße Kennziffer auf dreieckiger schwarzer Tafel mit weißem Rand. Die Tafel steht in der Regel auf der Spitze; bei beschränktem Raum kann die Spitze nach oben zeigen. Lichtsignal: Eine weiß leuchtende Kennziffer. Die gezeigte Kennziffer bedeutet, dass der 10fache Wert in km/h als Fahrge- schwindigkeit zugelassen ist. Das Signal wird auch an Blocksignalen selbsttätiger Blockstellen (Sbk) angewendet, wenn das nächste Signal im verkürzten Bremswegabstand folgt. In diesem Falle gilt die angezeigte Geschwindigkeit bei Vorbeifahrt der Spitze des Zuges am Signal. Die Kennziffer 3 kann anzeigen, dass in Stumpfgleise eingefahren wird oderdass ein ausreichender Durchrutschweg fehlt. Die Kennziffern 1 und 2 können anzeigen, dass besonders früh zu halten oderin ein besetztes Gleis einzufahren ist. Wird innerhalb des anschließenden Weichenbereichs durch ein Signal Zs 3 eine andere Geschwindigkeit angezeigt, gilt diese bis zum Ende des Weichenbereichs. Eine durch Hauptsignal oder Signal Zs 3 vorgeschriebene Geschwindigkeitsbeschränkung kann durch ein alleinstehendes Signal Zs 3 bereits vor dem Ende des anschließenden Weichenbereichs geändert werden. Das Formsignal ist rückstrahlend oder bei Dunkelheit beleuchtet, es kann bisauf weiteres nicht rückstrahlend oder beleuchtet sein. Das Formsignal an Lichthauptsignalen zeigt mit der Spitze nach oben.",
+      "kurzbeschreibung": "Kennzeichnung der Geschwindigkeitsbegrenzung",
+      "Formsignal": ["source/img/zs_3_1/06.jpeg", "source/img/zs_3_2/06.jpeg"],
+      "Lichtsignal": "source/img/zs_3_licht/06.jpeg",
+      "Nachtsignal": "",
+      "Gültigkeitsbeginn": "from signal",
+      "Gültigkeitsdauer": "bis Weiche",
+      "Aufhebesignal": "Zs_10 OR next Zs_3",
+      "Signaltyp": "info",
+      "Klasse": "Zusatzsignal",
+      "Handlung": "Weiterfahrt",
+      "Zielgeschwindigkeit": "60"
+    },
+    {
+      "name": "Zs_3_7",
+      "beschreibung": "Formsignal: Eine weiße Kennziffer auf dreieckiger schwarzer Tafel mit weißem Rand. Die Tafel steht in der Regel auf der Spitze; bei beschränktem Raum kann die Spitze nach oben zeigen. Lichtsignal: Eine weiß leuchtende Kennziffer. Die gezeigte Kennziffer bedeutet, dass der 10fache Wert in km/h als Fahrge- schwindigkeit zugelassen ist. Das Signal wird auch an Blocksignalen selbsttätiger Blockstellen (Sbk) angewendet, wenn das nächste Signal im verkürzten Bremswegabstand folgt. In diesem Falle gilt die angezeigte Geschwindigkeit bei Vorbeifahrt der Spitze des Zuges am Signal. Die Kennziffer 3 kann anzeigen, dass in Stumpfgleise eingefahren wird oderdass ein ausreichender Durchrutschweg fehlt. Die Kennziffern 1 und 2 können anzeigen, dass besonders früh zu halten oderin ein besetztes Gleis einzufahren ist. Wird innerhalb des anschließenden Weichenbereichs durch ein Signal Zs 3 eine andere Geschwindigkeit angezeigt, gilt diese bis zum Ende des Weichenbereichs. Eine durch Hauptsignal oder Signal Zs 3 vorgeschriebene Geschwindigkeitsbeschränkung kann durch ein alleinstehendes Signal Zs 3 bereits vor dem Ende des anschließenden Weichenbereichs geändert werden. Das Formsignal ist rückstrahlend oder bei Dunkelheit beleuchtet, es kann bisauf weiteres nicht rückstrahlend oder beleuchtet sein. Das Formsignal an Lichthauptsignalen zeigt mit der Spitze nach oben.",
+      "kurzbeschreibung": "Kennzeichnung der Geschwindigkeitsbegrenzung",
+      "Formsignal": ["source/img/zs_3_1/07.jpeg", "source/img/zs_3_2/07.jpeg"],
+      "Lichtsignal": "source/img/zs_3_licht/07.jpeg",
+      "Nachtsignal": "",
+      "Gültigkeitsbeginn": "from signal",
+      "Gültigkeitsdauer": "bis Weiche",
+      "Aufhebesignal": "Zs_10 OR next Zs_3",
+      "Signaltyp": "info",
+      "Klasse": "Zusatzsignal",
+      "Handlung": "Weiterfahrt",
+      "Zielgeschwindigkeit": "70"
+    },
+    {
+      "name": "Zs_3_8",
+      "beschreibung": "Formsignal: Eine weiße Kennziffer auf dreieckiger schwarzer Tafel mit weißem Rand. Die Tafel steht in der Regel auf der Spitze; bei beschränktem Raum kann die Spitze nach oben zeigen. Lichtsignal: Eine weiß leuchtende Kennziffer. Die gezeigte Kennziffer bedeutet, dass der 10fache Wert in km/h als Fahrge- schwindigkeit zugelassen ist. Das Signal wird auch an Blocksignalen selbsttätiger Blockstellen (Sbk) angewendet, wenn das nächste Signal im verkürzten Bremswegabstand folgt. In diesem Falle gilt die angezeigte Geschwindigkeit bei Vorbeifahrt der Spitze des Zuges am Signal. Die Kennziffer 3 kann anzeigen, dass in Stumpfgleise eingefahren wird oderdass ein ausreichender Durchrutschweg fehlt. Die Kennziffern 1 und 2 können anzeigen, dass besonders früh zu halten oderin ein besetztes Gleis einzufahren ist. Wird innerhalb des anschließenden Weichenbereichs durch ein Signal Zs 3 eine andere Geschwindigkeit angezeigt, gilt diese bis zum Ende des Weichenbereichs. Eine durch Hauptsignal oder Signal Zs 3 vorgeschriebene Geschwindigkeitsbeschränkung kann durch ein alleinstehendes Signal Zs 3 bereits vor dem Ende des anschließenden Weichenbereichs geändert werden. Das Formsignal ist rückstrahlend oder bei Dunkelheit beleuchtet, es kann bisauf weiteres nicht rückstrahlend oder beleuchtet sein. Das Formsignal an Lichthauptsignalen zeigt mit der Spitze nach oben.",
+      "kurzbeschreibung": "Kennzeichnung der Geschwindigkeitsbegrenzung",
+      "Formsignal": ["source/img/zs_3_1/08.jpeg", "source/img/zs_3_2/08.jpeg"],
+      "Lichtsignal": "source/img/zs_3_licht/08.jpeg",
+      "Nachtsignal": "",
+      "Gültigkeitsbeginn": "from signal",
+      "Gültigkeitsdauer": "bis Weiche",
+      "Aufhebesignal": "Zs_10 OR next Zs_3",
+      "Signaltyp": "info",
+      "Klasse": "Zusatzsignal",
+      "Handlung": "Weiterfahrt",
+      "Zielgeschwindigkeit": "80"
+    },
+    {
+      "name": "Zs_3_9",
+      "beschreibung": "Formsignal: Eine weiße Kennziffer auf dreieckiger schwarzer Tafel mit weißem Rand. Die Tafel steht in der Regel auf der Spitze; bei beschränktem Raum kann die Spitze nach oben zeigen. Lichtsignal: Eine weiß leuchtende Kennziffer. Die gezeigte Kennziffer bedeutet, dass der 10fache Wert in km/h als Fahrge- schwindigkeit zugelassen ist. Das Signal wird auch an Blocksignalen selbsttätiger Blockstellen (Sbk) angewendet, wenn das nächste Signal im verkürzten Bremswegabstand folgt. In diesem Falle gilt die angezeigte Geschwindigkeit bei Vorbeifahrt der Spitze des Zuges am Signal. Die Kennziffer 3 kann anzeigen, dass in Stumpfgleise eingefahren wird oderdass ein ausreichender Durchrutschweg fehlt. Die Kennziffern 1 und 2 können anzeigen, dass besonders früh zu halten oderin ein besetztes Gleis einzufahren ist. Wird innerhalb des anschließenden Weichenbereichs durch ein Signal Zs 3 eine andere Geschwindigkeit angezeigt, gilt diese bis zum Ende des Weichenbereichs. Eine durch Hauptsignal oder Signal Zs 3 vorgeschriebene Geschwindigkeitsbeschränkung kann durch ein alleinstehendes Signal Zs 3 bereits vor dem Ende des anschließenden Weichenbereichs geändert werden. Das Formsignal ist rückstrahlend oder bei Dunkelheit beleuchtet, es kann bisauf weiteres nicht rückstrahlend oder beleuchtet sein. Das Formsignal an Lichthauptsignalen zeigt mit der Spitze nach oben.",
+      "kurzbeschreibung": "Kennzeichnung der Geschwindigkeitsbegrenzung",
+      "Formsignal": ["source/img/zs_3_1/09.jpeg", "source/img/zs_3_2/09.jpeg"],
+      "Lichtsignal": "source/img/zs_3_licht/09.jpeg",
+      "Nachtsignal": "",
+      "Gültigkeitsbeginn": "from signal",
+      "Gültigkeitsdauer": "bis Weiche",
+      "Aufhebesignal": "Zs_10 OR next Zs_3",
+      "Signaltyp": "info",
+      "Klasse": "Zusatzsignal",
+      "Handlung": "Weiterfahrt",
+      "Zielgeschwindigkeit": "90"
+    },
+    {
+      "name": "Zs_3_10",
+      "beschreibung": "Formsignal: Eine weiße Kennziffer auf dreieckiger schwarzer Tafel mit weißem Rand. Die Tafel steht in der Regel auf der Spitze; bei beschränktem Raum kann die Spitze nach oben zeigen. Lichtsignal: Eine weiß leuchtende Kennziffer. Die gezeigte Kennziffer bedeutet, dass der 10fache Wert in km/h als Fahrge- schwindigkeit zugelassen ist. Das Signal wird auch an Blocksignalen selbsttätiger Blockstellen (Sbk) angewendet, wenn das nächste Signal im verkürzten Bremswegabstand folgt. In diesem Falle gilt die angezeigte Geschwindigkeit bei Vorbeifahrt der Spitze des Zuges am Signal. Die Kennziffer 3 kann anzeigen, dass in Stumpfgleise eingefahren wird oderdass ein ausreichender Durchrutschweg fehlt. Die Kennziffern 1 und 2 können anzeigen, dass besonders früh zu halten oderin ein besetztes Gleis einzufahren ist. Wird innerhalb des anschließenden Weichenbereichs durch ein Signal Zs 3 eine andere Geschwindigkeit angezeigt, gilt diese bis zum Ende des Weichenbereichs. Eine durch Hauptsignal oder Signal Zs 3 vorgeschriebene Geschwindigkeitsbeschränkung kann durch ein alleinstehendes Signal Zs 3 bereits vor dem Ende des anschließenden Weichenbereichs geändert werden. Das Formsignal ist rückstrahlend oder bei Dunkelheit beleuchtet, es kann bisauf weiteres nicht rückstrahlend oder beleuchtet sein. Das Formsignal an Lichthauptsignalen zeigt mit der Spitze nach oben.",
+      "kurzbeschreibung": "Kennzeichnung der Geschwindigkeitsbegrenzung",
+      "Formsignal": ["source/img/zs_3_1/10.jpeg", "source/img/zs_3_2/10.jpeg"],
+      "Lichtsignal": "source/img/zs_3_licht/10.jpeg",
+      "Nachtsignal": "",
+      "Gültigkeitsbeginn": "from signal",
+      "Gültigkeitsdauer": "bis Weiche",
+      "Aufhebesignal": "Zs_10 OR next Zs_3",
+      "Signaltyp": "info",
+      "Klasse": "Zusatzsignal",
+      "Handlung": "Weiterfahrt",
+      "Zielgeschwindigkeit": "100"
+    },
+    {
+      "name": "Zs_3_11",
+      "beschreibung": "Formsignal: Eine weiße Kennziffer auf dreieckiger schwarzer Tafel mit weißem Rand. Die Tafel steht in der Regel auf der Spitze; bei beschränktem Raum kann die Spitze nach oben zeigen. Lichtsignal: Eine weiß leuchtende Kennziffer. Die gezeigte Kennziffer bedeutet, dass der 10fache Wert in km/h als Fahrge- schwindigkeit zugelassen ist. Das Signal wird auch an Blocksignalen selbsttätiger Blockstellen (Sbk) angewendet, wenn das nächste Signal im verkürzten Bremswegabstand folgt. In diesem Falle gilt die angezeigte Geschwindigkeit bei Vorbeifahrt der Spitze des Zuges am Signal. Die Kennziffer 3 kann anzeigen, dass in Stumpfgleise eingefahren wird oderdass ein ausreichender Durchrutschweg fehlt. Die Kennziffern 1 und 2 können anzeigen, dass besonders früh zu halten oderin ein besetztes Gleis einzufahren ist. Wird innerhalb des anschließenden Weichenbereichs durch ein Signal Zs 3 eine andere Geschwindigkeit angezeigt, gilt diese bis zum Ende des Weichenbereichs. Eine durch Hauptsignal oder Signal Zs 3 vorgeschriebene Geschwindigkeitsbeschränkung kann durch ein alleinstehendes Signal Zs 3 bereits vor dem Ende des anschließenden Weichenbereichs geändert werden. Das Formsignal ist rückstrahlend oder bei Dunkelheit beleuchtet, es kann bisauf weiteres nicht rückstrahlend oder beleuchtet sein. Das Formsignal an Lichthauptsignalen zeigt mit der Spitze nach oben.",
+      "kurzbeschreibung": "Kennzeichnung der Geschwindigkeitsbegrenzung",
+      "Formsignal": ["source/img/zs_3_1/11.jpeg", "source/img/zs_3_2/11.jpeg"],
+      "Lichtsignal": "source/img/zs_3_licht/11.jpeg",
+      "Nachtsignal": "",
+      "Gültigkeitsbeginn": "from signal",
+      "Gültigkeitsdauer": "bis Weiche",
+      "Aufhebesignal": "Zs_10 OR next Zs_3",
+      "Signaltyp": "info",
+      "Klasse": "Zusatzsignal",
+      "Handlung": "Weiterfahrt",
+      "Zielgeschwindigkeit": "110"
+    },
+    {
+      "name": "Zs_3_12",
+      "beschreibung": "Formsignal: Eine weiße Kennziffer auf dreieckiger schwarzer Tafel mit weißem Rand. Die Tafel steht in der Regel auf der Spitze; bei beschränktem Raum kann die Spitze nach oben zeigen. Lichtsignal: Eine weiß leuchtende Kennziffer. Die gezeigte Kennziffer bedeutet, dass der 10fache Wert in km/h als Fahrge- schwindigkeit zugelassen ist. Das Signal wird auch an Blocksignalen selbsttätiger Blockstellen (Sbk) angewendet, wenn das nächste Signal im verkürzten Bremswegabstand folgt. In diesem Falle gilt die angezeigte Geschwindigkeit bei Vorbeifahrt der Spitze des Zuges am Signal. Die Kennziffer 3 kann anzeigen, dass in Stumpfgleise eingefahren wird oderdass ein ausreichender Durchrutschweg fehlt. Die Kennziffern 1 und 2 können anzeigen, dass besonders früh zu halten oderin ein besetztes Gleis einzufahren ist. Wird innerhalb des anschließenden Weichenbereichs durch ein Signal Zs 3 eine andere Geschwindigkeit angezeigt, gilt diese bis zum Ende des Weichenbereichs. Eine durch Hauptsignal oder Signal Zs 3 vorgeschriebene Geschwindigkeitsbeschränkung kann durch ein alleinstehendes Signal Zs 3 bereits vor dem Ende des anschließenden Weichenbereichs geändert werden. Das Formsignal ist rückstrahlend oder bei Dunkelheit beleuchtet, es kann bisauf weiteres nicht rückstrahlend oder beleuchtet sein. Das Formsignal an Lichthauptsignalen zeigt mit der Spitze nach oben.",
+      "kurzbeschreibung": "Kennzeichnung der Geschwindigkeitsbegrenzung",
+      "Formsignal": ["source/img/zs_3_1/12.jpeg", "source/img/zs_3_2/12.jpeg"],
+      "Lichtsignal": "source/img/zs_3_licht/12.jpeg",
+      "Nachtsignal": "",
+      "Gültigkeitsbeginn": "from signal",
+      "Gültigkeitsdauer": "bis Weiche",
+      "Aufhebesignal": "Zs_10 OR next Zs_3",
+      "Signaltyp": "info",
+      "Klasse": "Zusatzsignal",
+      "Handlung": "Weiterfahrt",
+      "Zielgeschwindigkeit": "120"
+    },
+    {
+      "name": "Zs_3_13",
+      "beschreibung": "Formsignal: Eine weiße Kennziffer auf dreieckiger schwarzer Tafel mit weißem Rand. Die Tafel steht in der Regel auf der Spitze; bei beschränktem Raum kann die Spitze nach oben zeigen. Lichtsignal: Eine weiß leuchtende Kennziffer. Die gezeigte Kennziffer bedeutet, dass der 10fache Wert in km/h als Fahrge- schwindigkeit zugelassen ist. Das Signal wird auch an Blocksignalen selbsttätiger Blockstellen (Sbk) angewendet, wenn das nächste Signal im verkürzten Bremswegabstand folgt. In diesem Falle gilt die angezeigte Geschwindigkeit bei Vorbeifahrt der Spitze des Zuges am Signal. Die Kennziffer 3 kann anzeigen, dass in Stumpfgleise eingefahren wird oderdass ein ausreichender Durchrutschweg fehlt. Die Kennziffern 1 und 2 können anzeigen, dass besonders früh zu halten oderin ein besetztes Gleis einzufahren ist. Wird innerhalb des anschließenden Weichenbereichs durch ein Signal Zs 3 eine andere Geschwindigkeit angezeigt, gilt diese bis zum Ende des Weichenbereichs. Eine durch Hauptsignal oder Signal Zs 3 vorgeschriebene Geschwindigkeitsbeschränkung kann durch ein alleinstehendes Signal Zs 3 bereits vor dem Ende des anschließenden Weichenbereichs geändert werden. Das Formsignal ist rückstrahlend oder bei Dunkelheit beleuchtet, es kann bisauf weiteres nicht rückstrahlend oder beleuchtet sein. Das Formsignal an Lichthauptsignalen zeigt mit der Spitze nach oben.",
+      "kurzbeschreibung": "Kennzeichnung der Geschwindigkeitsbegrenzung",
+      "Formsignal": ["source/img/zs_3_1/13.jpeg", "source/img/zs_3_2/13.jpeg"],
+      "Lichtsignal": "source/img/zs_3_licht/13.jpeg",
+      "Nachtsignal": "",
+      "Gültigkeitsbeginn": "from signal",
+      "Gültigkeitsdauer": "bis Weiche",
+      "Aufhebesignal": "Zs_10 OR next Zs_3",
+      "Signaltyp": "info",
+      "Klasse": "Zusatzsignal",
+      "Handlung": "Weiterfahrt",
+      "Zielgeschwindigkeit": "130"
+    },
+    {
+      "name": "Zs_3_14",
+      "beschreibung": "Formsignal: Eine weiße Kennziffer auf dreieckiger schwarzer Tafel mit weißem Rand. Die Tafel steht in der Regel auf der Spitze; bei beschränktem Raum kann die Spitze nach oben zeigen. Lichtsignal: Eine weiß leuchtende Kennziffer. Die gezeigte Kennziffer bedeutet, dass der 10fache Wert in km/h als Fahrge- schwindigkeit zugelassen ist. Das Signal wird auch an Blocksignalen selbsttätiger Blockstellen (Sbk) angewendet, wenn das nächste Signal im verkürzten Bremswegabstand folgt. In diesem Falle gilt die angezeigte Geschwindigkeit bei Vorbeifahrt der Spitze des Zuges am Signal. Die Kennziffer 3 kann anzeigen, dass in Stumpfgleise eingefahren wird oderdass ein ausreichender Durchrutschweg fehlt. Die Kennziffern 1 und 2 können anzeigen, dass besonders früh zu halten oderin ein besetztes Gleis einzufahren ist. Wird innerhalb des anschließenden Weichenbereichs durch ein Signal Zs 3 eine andere Geschwindigkeit angezeigt, gilt diese bis zum Ende des Weichenbereichs. Eine durch Hauptsignal oder Signal Zs 3 vorgeschriebene Geschwindigkeitsbeschränkung kann durch ein alleinstehendes Signal Zs 3 bereits vor dem Ende des anschließenden Weichenbereichs geändert werden. Das Formsignal ist rückstrahlend oder bei Dunkelheit beleuchtet, es kann bisauf weiteres nicht rückstrahlend oder beleuchtet sein. Das Formsignal an Lichthauptsignalen zeigt mit der Spitze nach oben.",
+      "kurzbeschreibung": "Kennzeichnung der Geschwindigkeitsbegrenzung",
+      "Formsignal": ["source/img/zs_3_1/14.jpeg", "source/img/zs_3_2/14.jpeg"],
+      "Lichtsignal": "source/img/zs_3_licht/14.jpeg",
+      "Nachtsignal": "",
+      "Gültigkeitsbeginn": "from signal",
+      "Gültigkeitsdauer": "bis Weiche",
+      "Aufhebesignal": "Zs_10 OR next Zs_3",
+      "Signaltyp": "info",
+      "Klasse": "Zusatzsignal",
+      "Handlung": "Weiterfahrt",
+      "Zielgeschwindigkeit": "140"
+    },
+    {
+      "name": "Zs_3_15",
+      "beschreibung": "Formsignal: Eine weiße Kennziffer auf dreieckiger schwarzer Tafel mit weißem Rand. Die Tafel steht in der Regel auf der Spitze; bei beschränktem Raum kann die Spitze nach oben zeigen. Lichtsignal: Eine weiß leuchtende Kennziffer. Die gezeigte Kennziffer bedeutet, dass der 10fache Wert in km/h als Fahrge- schwindigkeit zugelassen ist. Das Signal wird auch an Blocksignalen selbsttätiger Blockstellen (Sbk) angewendet, wenn das nächste Signal im verkürzten Bremswegabstand folgt. In diesem Falle gilt die angezeigte Geschwindigkeit bei Vorbeifahrt der Spitze des Zuges am Signal. Die Kennziffer 3 kann anzeigen, dass in Stumpfgleise eingefahren wird oderdass ein ausreichender Durchrutschweg fehlt. Die Kennziffern 1 und 2 können anzeigen, dass besonders früh zu halten oderin ein besetztes Gleis einzufahren ist. Wird innerhalb des anschließenden Weichenbereichs durch ein Signal Zs 3 eine andere Geschwindigkeit angezeigt, gilt diese bis zum Ende des Weichenbereichs. Eine durch Hauptsignal oder Signal Zs 3 vorgeschriebene Geschwindigkeitsbeschränkung kann durch ein alleinstehendes Signal Zs 3 bereits vor dem Ende des anschließenden Weichenbereichs geändert werden. Das Formsignal ist rückstrahlend oder bei Dunkelheit beleuchtet, es kann bisauf weiteres nicht rückstrahlend oder beleuchtet sein. Das Formsignal an Lichthauptsignalen zeigt mit der Spitze nach oben.",
+      "kurzbeschreibung": "Kennzeichnung der Geschwindigkeitsbegrenzung",
+      "Formsignal": ["source/img/zs_3_1/15.jpeg", "source/img/zs_3_2/15.jpeg"],
+      "Lichtsignal": "source/img/zs_3_licht/15.jpeg",
+      "Nachtsignal": "",
+      "Gültigkeitsbeginn": "from signal",
+      "Gültigkeitsdauer": "bis Weiche",
+      "Aufhebesignal": "Zs_10 OR next Zs_3",
+      "Signaltyp": "info",
+      "Klasse": "Zusatzsignal",
+      "Handlung": "Weiterfahrt",
+      "Zielgeschwindigkeit": "150"
     }
   ]
 }
