@@ -1,15 +1,25 @@
 {"signals":
   {
-  "name": "str, code or name",
-  "beschreibung":"str, Beschreibung",
-  "kurzbeschreibung":"str Beschreibung gekürzt",
-  "Formsignal": "file",
-  "Lichtsignal": "file",
-  "Nachtsignal": "file",
-  "Gültigkeitsbeginn": "from signal, from view",
-  "Aufhebesignal": "Die Regel, welche das Signal wieder aufhebt",
-  "Signaltyp": "info, action (Ist das Signal ein reines Infosingal oder ein Handlungssignal.)",
-  "Klasse": "Signalklasse in der Signalordnung",
-  "Zielgeschwindigkeit": "MAX, int, LEER (Beschreibt die Zielgeschwindigkeit bei Geschwindigkeitsbasierten Signalen)"
+    "name": "str, code or name",
+    "beschreibung":"str, Beschreibung",
+    "kurzbeschreibung":"str Beschreibung gekürzt",
+    "Formsignal": "file",
+    "Lichtsignal": "file",
+    "Nachtsignal": "file",
+    "Gültigkeitsbeginn": "from signal, from view",
+    "Aufhebesignal": "Die Regel, welche das Signal wieder aufhebt",
+    "Signaltyp": "info, action (Ist das Signal ein reines Infosingal oder ein Handlungssignal.)",
+    "Klasse": "Signalklasse in der Signalordnung",
+    "Zielgeschwindigkeit": "MAX, int, LEER (Beschreibt die Zielgeschwindigkeit bei Geschwindigkeitsbasierten Signalen)"
+  },
+  "strecke":
+  {
+    "Witterung" : "clear, rain, ice, snow, fog, wind, heat, fall of leaves, (VLM: clear: Ideale Bedingungen ohne Niederschlag, mit guter Sicht und keinen wetterbedingten Einschränkungen. rain: Nässe kann die Schienen rutschig machen und die Bremswege verlängern. Zudem kann starker Regen die Sicht beeinträchtigen und zu Wasseransammlungen führen. ice und snow: Diese können zu glatten Schienen führen, die Traktion und Bremsfähigkeit beeinträchtigen und gegebenenfalls Weichen blockieren. fog: Reduzierte Sichtweite erfordert erhöhte Vorsicht und möglicherweise eine Anpassung der Geschwindigkeit. wind: Starke Winde können die Stabilität der Züge beeinflussen und das Risiko von umgestürzten Bäumen oder anderen Hindernissen auf den Gleisen erhöhen. heat: Extreme Hitze kann Gleisverformungen verursachen, die als Gleisverwerfungen bekannt sind, und erfordert oft Geschwindigkeitsbeschränkungen. fall of leaves: Das Laub kann durch Nässe auf den Schienen eine schmierige Schicht bilden, die die Traktion reduziert und die Bremswege verlängert.",
+    "Sicht": "gute Sicht, eingeschränkte Sicht, Blendung, Dunkelheit, Störende Hindernisse (VLM: Gute Sicht: Klare Wetterbedingungen ohne Hindernisse wie Nebel, Regen oder Schnee, die die Sicht beeinträchtigen könnten.   Eingeschränkte Sicht: Faktoren wie dichter Nebel, starker Regen oder Schneefall können die Sichtweite erheblich reduzieren und die Erkennung von Signalen und Hindernissen erschweren.   Blendung: Direkte Sonneneinstrahlung, insbesondere bei tiefstehender Sonne, kann die Sicht für den Lokführer beeinträchtigen.   Dunkelheit: Nachtfahrten erfordern eine erhöhte Aufmerksamkeit, da die Sicht eingeschränkt ist und die Abhängigkeit von künstlicher Beleuchtung und Signalen steigt.   Störende Hindernisse: Objekte oder Vegetation, die in den Sichtbereich der Gleise hineinragen, können die Sicht behindern.)",
+    "Gleiszustand": "gut, Schaden (VLM: Schäden durch äußere Einflüsse: Unfälle, Naturkatastrophen oder Vandalismus können physische Schäden an den Gleisen verursachen.)",
+    "Vegetation auf der Strecke": "keine, starke Vegetation auf dem Gleis, Bewuchs von der Seite (VLM)",
+    "Baustellen":"bool (VLM fragen ob gerade eine Baustellenumgebung ist.",
+    "Hindernisse auf Strecke": "bool",
+    "Mögliche Hindernisse neben der Strecke": "bool"
   }
 }
