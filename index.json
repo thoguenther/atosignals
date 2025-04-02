@@ -19,7 +19,7 @@
     "Gleiszustand": "gut, Schaden (VLM: Schäden durch äußere Einflüsse: Unfälle, Naturkatastrophen oder Vandalismus können physische Schäden an den Gleisen verursachen.)",
     "Vegetation auf der Strecke": "keine, starke Vegetation auf dem Gleis, Bewuchs von der Seite (VLM)",
     "Baustellen":"bool (VLM fragen ob gerade eine Baustellenumgebung ist.",
-    "Hindernisse auf Strecke": "bool",
-    "Mögliche Hindernisse neben der Strecke": "bool"
+    "Hindernisse auf Strecke": "bool (VLM fragen)",
+    "Mögliche Hindernisse neben der Strecke": "bool (VLM fragen)"
   }
 }
