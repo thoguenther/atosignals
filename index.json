@@ -1,0 +1,15 @@
+{"signals":
+  {
+  "name": "str, code or name",
+  "beschreibung":"str, Beschreibung",
+  "kurzbeschreibung":"str Beschreibung gekürzt",
+  "Formsignal": "file",
+  "Lichtsignal": "file",
+  "Nachtsignal": "file",
+  "Gültigkeitsbeginn": "from signal, from view",
+  "Aufhebesignal": "Die Regel, welche das Signal wieder aufhebt",
+  "Signaltyp": "info, action (Ist das Signal ein reines Infosingal oder ein Handlungssignal.)",
+  "Klasse": "Signalklasse in der Signalordnung",
+  "Zielgeschwindigkeit": "MAX, int, LEER (Beschreibt die Zielgeschwindigkeit bei Geschwindigkeitsbasierten Signalen)"
+  }
+}

@@ -9,12 +9,10 @@
       "Lichtsignal": "",
       "Nachtsignal": "",
       "Gültigkeitsbeginn": "from signal",
-      "Gültigkeitsdauer": "next Hektometerzeichen",
       "Aufhebesignal": "next Hektometerzeichen",
       "Signaltyp": "info",
       "Klasse": "Orientierungszeichen",
-      "Handlung": "Weiterfahrt",
-      "Zielgeschwindigkeit": "last_state"
+      "Zielgeschwindigkeit": ""
     },
     {
       "name": "Zs_10",
@@ -24,11 +22,9 @@
       "Lichtsignal": "source/img/Zs_10_Licht.jpeg",
       "Nachtsignal": "",
       "Gültigkeitsbeginn": "from signal",
-      "Gültigkeitsdauer": "",
-      "Aufhebesignal": "Zs_10 OR next Zs_3",
+      "Aufhebesignal": "Weiche OR Zs_10 OR next Zs_3",
       "Signaltyp": "action",
       "Klasse": "Zusatzsignal",
-      "Handlung": "Weiterfahrt",
       "Zielgeschwindigkeit": "Fahrplan"
     },
     {
@@ -39,12 +35,10 @@
       "Lichtsignal": "",
       "Nachtsignal": "",
       "Gültigkeitsbeginn": "from signal",
-      "Gültigkeitsdauer": "bis Weiche",
-      "Aufhebesignal": "Zs_10 OR next Zs_3",
+      "Aufhebesignal": "Weiche OR Zs_10 OR next Zs_3",
       "Signaltyp": "action",
       "Klasse": "Zusatzsignal",
-      "Handlung": "Weiterfahrt",
-      "Zielgeschwindigkeit": "last_state"
+      "Zielgeschwindigkeit": ""
     },
     {
       "name": "Zs_3_0.5",
@@ -54,11 +48,9 @@
       "Lichtsignal": "source/img/zs_3_licht/00.5.jpeg",
       "Nachtsignal": "",
       "Gültigkeitsbeginn": "from signal",
-      "Gültigkeitsdauer": "bis Weiche",
-      "Aufhebesignal": "Zs_10 OR next Zs_3",
+      "Aufhebesignal": "Weiche OR Zs_10 OR next Zs_3",
       "Signaltyp": "action",
       "Klasse": "Zusatzsignal",
-      "Handlung": "Weiterfahrt",
       "Zielgeschwindigkeit": "5"
     },
     {
@@ -69,11 +61,9 @@
       "Lichtsignal": "source/img/zs_3_licht/01.jpeg",
       "Nachtsignal": "",
       "Gültigkeitsbeginn": "from signal",
-      "Gültigkeitsdauer": "bis Weiche",
-      "Aufhebesignal": "Zs_10 OR next Zs_3",
+      "Aufhebesignal": "Weiche OR Zs_10 OR next Zs_3",
       "Signaltyp": "action",
       "Klasse": "Zusatzsignal",
-      "Handlung": "Weiterfahrt",
       "Zielgeschwindigkeit": "10"
     },
     {
@@ -84,11 +74,9 @@
       "Lichtsignal": "source/img/zs_3_licht/02.jpeg",
       "Nachtsignal": "",
       "Gültigkeitsbeginn": "from signal",
-      "Gültigkeitsdauer": "bis Weiche",
-      "Aufhebesignal": "Zs_10 OR next Zs_3",
+      "Aufhebesignal": "Weiche OR Zs_10 OR next Zs_3",
       "Signaltyp": "action",
       "Klasse": "Zusatzsignal",
-      "Handlung": "Weiterfahrt",
       "Zielgeschwindigkeit": "20"
     },
     {
@@ -99,11 +87,9 @@
       "Lichtsignal": "source/img/zs_3_licht/03.jpeg",
       "Nachtsignal": "",
       "Gültigkeitsbeginn": "from signal",
-      "Gültigkeitsdauer": "bis Weiche",
-      "Aufhebesignal": "Zs_10 OR next Zs_3",
+      "Aufhebesignal": "Weiche OR Zs_10 OR next Zs_3",
       "Signaltyp": "action",
       "Klasse": "Zusatzsignal",
-      "Handlung": "Weiterfahrt",
       "Zielgeschwindigkeit": "30"
     },
     {
@@ -114,11 +100,9 @@
       "Lichtsignal": "source/img/zs_3_licht/04.jpeg",
       "Nachtsignal": "",
       "Gültigkeitsbeginn": "from signal",
-      "Gültigkeitsdauer": "bis Weiche",
-      "Aufhebesignal": "Zs_10 OR next Zs_3",
+      "Aufhebesignal": "Weiche OR Zs_10 OR next Zs_3",
       "Signaltyp": "action",
       "Klasse": "Zusatzsignal",
-      "Handlung": "Weiterfahrt",
       "Zielgeschwindigkeit": "40"
     },
     {
@@ -129,11 +113,9 @@
       "Lichtsignal": "source/img/zs_3_licht/05.jpeg",
       "Nachtsignal": "",
       "Gültigkeitsbeginn": "from signal",
-      "Gültigkeitsdauer": "bis Weiche",
-      "Aufhebesignal": "Zs_10 OR next Zs_3",
+      "Aufhebesignal": "Weiche OR Zs_10 OR next Zs_3",
       "Signaltyp": "action",
       "Klasse": "Zusatzsignal",
-      "Handlung": "Weiterfahrt",
       "Zielgeschwindigkeit": "50"
     },
     {
@@ -144,11 +126,9 @@
       "Lichtsignal": "source/img/zs_3_licht/05.jpeg",
       "Nachtsignal": "",
       "Gültigkeitsbeginn": "from signal",
-      "Gültigkeitsdauer": "bis Weiche",
-      "Aufhebesignal": "Zs_10 OR next Zs_3",
+      "Aufhebesignal": "Weiche OR Zs_10 OR next Zs_3",
       "Signaltyp": "action",
       "Klasse": "Zusatzsignal",
-      "Handlung": "Weiterfahrt",
       "Zielgeschwindigkeit": "50"
     },
     {
@@ -159,11 +139,9 @@
       "Lichtsignal": "source/img/zs_3_licht/06.jpeg",
       "Nachtsignal": "",
       "Gültigkeitsbeginn": "from signal",
-      "Gültigkeitsdauer": "bis Weiche",
-      "Aufhebesignal": "Zs_10 OR next Zs_3",
+      "Aufhebesignal": "Weiche OR Zs_10 OR next Zs_3",
       "Signaltyp": "action",
       "Klasse": "Zusatzsignal",
-      "Handlung": "Weiterfahrt",
       "Zielgeschwindigkeit": "60"
     },
     {
@@ -174,11 +152,9 @@
       "Lichtsignal": "source/img/zs_3_licht/07.jpeg",
       "Nachtsignal": "",
       "Gültigkeitsbeginn": "from signal",
-      "Gültigkeitsdauer": "bis Weiche",
-      "Aufhebesignal": "Zs_10 OR next Zs_3",
+      "Aufhebesignal": "Weiche OR Zs_10 OR next Zs_3",
       "Signaltyp": "action",
       "Klasse": "Zusatzsignal",
-      "Handlung": "Weiterfahrt",
       "Zielgeschwindigkeit": "70"
     },
     {
@@ -189,11 +165,9 @@
       "Lichtsignal": "source/img/zs_3_licht/08.jpeg",
       "Nachtsignal": "",
       "Gültigkeitsbeginn": "from signal",
-      "Gültigkeitsdauer": "bis Weiche",
-      "Aufhebesignal": "Zs_10 OR next Zs_3",
+      "Aufhebesignal": "Weiche OR Zs_10 OR next Zs_3",
       "Signaltyp": "action",
       "Klasse": "Zusatzsignal",
-      "Handlung": "Weiterfahrt",
       "Zielgeschwindigkeit": "80"
     },
     {
@@ -204,11 +178,9 @@
       "Lichtsignal": "source/img/zs_3_licht/09.jpeg",
       "Nachtsignal": "",
       "Gültigkeitsbeginn": "from signal",
-      "Gültigkeitsdauer": "bis Weiche",
-      "Aufhebesignal": "Zs_10 OR next Zs_3",
+      "Aufhebesignal": "Weiche OR Zs_10 OR next Zs_3",
       "Signaltyp": "action",
       "Klasse": "Zusatzsignal",
-      "Handlung": "Weiterfahrt",
       "Zielgeschwindigkeit": "90"
     },
     {
@@ -219,11 +191,9 @@
       "Lichtsignal": "source/img/zs_3_licht/10.jpeg",
       "Nachtsignal": "",
       "Gültigkeitsbeginn": "from signal",
-      "Gültigkeitsdauer": "bis Weiche",
-      "Aufhebesignal": "Zs_10 OR next Zs_3",
+      "Aufhebesignal": "Weiche OR Zs_10 OR next Zs_3",
       "Signaltyp": "action",
       "Klasse": "Zusatzsignal",
-      "Handlung": "Weiterfahrt",
       "Zielgeschwindigkeit": "100"
     },
     {
@@ -234,11 +204,9 @@
       "Lichtsignal": "source/img/zs_3_licht/11.jpeg",
       "Nachtsignal": "",
       "Gültigkeitsbeginn": "from signal",
-      "Gültigkeitsdauer": "bis Weiche",
-      "Aufhebesignal": "Zs_10 OR next Zs_3",
+      "Aufhebesignal": "Weiche OR Zs_10 OR next Zs_3",
       "Signaltyp": "action",
       "Klasse": "Zusatzsignal",
-      "Handlung": "Weiterfahrt",
       "Zielgeschwindigkeit": "110"
     },
     {
@@ -249,11 +217,9 @@
       "Lichtsignal": "source/img/zs_3_licht/12.jpeg",
       "Nachtsignal": "",
       "Gültigkeitsbeginn": "from signal",
-      "Gültigkeitsdauer": "bis Weiche",
-      "Aufhebesignal": "Zs_10 OR next Zs_3",
+      "Aufhebesignal": "Weiche OR Zs_10 OR next Zs_3",
       "Signaltyp": "action",
       "Klasse": "Zusatzsignal",
-      "Handlung": "Weiterfahrt",
       "Zielgeschwindigkeit": "120"
     },
     {
@@ -264,11 +230,9 @@
       "Lichtsignal": "source/img/zs_3_licht/13.jpeg",
       "Nachtsignal": "",
       "Gültigkeitsbeginn": "from signal",
-      "Gültigkeitsdauer": "bis Weiche",
-      "Aufhebesignal": "Zs_10 OR next Zs_3",
+      "Aufhebesignal": "Weiche OR Zs_10 OR next Zs_3",
       "Signaltyp": "action",
       "Klasse": "Zusatzsignal",
-      "Handlung": "Weiterfahrt",
       "Zielgeschwindigkeit": "130"
     },
     {
@@ -279,11 +243,9 @@
       "Lichtsignal": "source/img/zs_3_licht/14.jpeg",
       "Nachtsignal": "",
       "Gültigkeitsbeginn": "from signal",
-      "Gültigkeitsdauer": "bis Weiche",
-      "Aufhebesignal": "Zs_10 OR next Zs_3",
+      "Aufhebesignal": "Weiche OR Zs_10 OR next Zs_3",
       "Signaltyp": "action",
       "Klasse": "Zusatzsignal",
-      "Handlung": "Weiterfahrt",
       "Zielgeschwindigkeit": "140"
     },
     {
@@ -294,11 +256,9 @@
       "Lichtsignal": "source/img/zs_3_licht/15.jpeg",
       "Nachtsignal": "",
       "Gültigkeitsbeginn": "from signal",
-      "Gültigkeitsdauer": "bis Weiche",
-      "Aufhebesignal": "Zs_10 OR next Zs_3",
+      "Aufhebesignal": "Weiche OR Zs_10 OR next Zs_3",
       "Signaltyp": "action",
       "Klasse": "Zusatzsignal",
-      "Handlung": "Weiterfahrt",
       "Zielgeschwindigkeit": "150"
     },
     {
@@ -309,11 +269,9 @@
       "Lichtsignal": "source/img/Hp1_Licht.svg.png",
       "Nachtsignal": "source/img/Hp1_Nacht.svg.png",
       "Gültigkeitsbeginn": "from view",
-      "Gültigkeitsdauer": "",
       "Aufhebesignal": "Hp_0, Zs_3",
       "Signaltyp": "action",
       "Klasse": "Hauptsignal",
-      "Handlung": "Weiterfahrt",
       "Zielgeschwindigkeit": "MAX"
     },
     {
@@ -324,11 +282,9 @@
       "Lichtsignal": "source/img/Hp2_Licht.svg.png",
       "Nachtsignal": "source/img/Hp2_Nacht.svg.png",
       "Gültigkeitsbeginn": "from signal",
-      "Gültigkeitsdauer": "",
       "Aufhebesignal": "Hp_0, Zs_3",
       "Signaltyp": "action",
       "Klasse": "Hauptsignal",
-      "Handlung": "Weiterfahrt",
       "Zielgeschwindigkeit": "40"
     }
   ]
