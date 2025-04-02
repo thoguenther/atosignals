@@ -32,7 +32,7 @@
       "Zielgeschwindigkeit": "Fahrplan"
     },
     {
-      "name": "Zs_3_unrecognizable",
+      "name": "Zs_3_unknown",
       "beschreibung": "Formsignal: Eine weiße Kennziffer auf dreieckiger schwarzer Tafel mit weißem Rand. Die Tafel steht in der Regel auf der Spitze; bei beschränktem Raum kann die Spitze nach oben zeigen. Lichtsignal: Eine weiß leuchtende Kennziffer. Die gezeigte Kennziffer bedeutet, dass der 10fache Wert in km/h als Fahrge- schwindigkeit zugelassen ist. Das Signal wird auch an Blocksignalen selbsttätiger Blockstellen (Sbk) angewendet, wenn das nächste Signal im verkürzten Bremswegabstand folgt. In diesem Falle gilt die angezeigte Geschwindigkeit bei Vorbeifahrt der Spitze des Zuges am Signal. Die Kennziffer 3 kann anzeigen, dass in Stumpfgleise eingefahren wird oderdass ein ausreichender Durchrutschweg fehlt. Die Kennziffern 1 und 2 können anzeigen, dass besonders früh zu halten oderin ein besetztes Gleis einzufahren ist. Wird innerhalb des anschließenden Weichenbereichs durch ein Signal Zs 3 eine andere Geschwindigkeit angezeigt, gilt diese bis zum Ende des Weichenbereichs. Eine durch Hauptsignal oder Signal Zs 3 vorgeschriebene Geschwindigkeitsbeschränkung kann durch ein alleinstehendes Signal Zs 3 bereits vor dem Ende des anschließenden Weichenbereichs geändert werden. Das Formsignal ist rückstrahlend oder bei Dunkelheit beleuchtet, es kann bisauf weiteres nicht rückstrahlend oder beleuchtet sein. Das Formsignal an Lichthauptsignalen zeigt mit der Spitze nach oben.",
       "kurzbeschreibung": "Kennzeichnung der Geschwindigkeitsbegrenzung",
       "Formsignal": ["source/img/zs_3_1/unrecog.jpeg", "source/img/zs_3_2/unrecog.jpeg"],
@@ -41,7 +41,7 @@
       "Gültigkeitsbeginn": "from signal",
       "Gültigkeitsdauer": "bis Weiche",
       "Aufhebesignal": "Zs_10 OR next Zs_3",
-      "Signaltyp": "info",
+      "Signaltyp": "action",
       "Klasse": "Zusatzsignal",
       "Handlung": "Weiterfahrt",
       "Zielgeschwindigkeit": "last_state"
@@ -56,7 +56,7 @@
       "Gültigkeitsbeginn": "from signal",
       "Gültigkeitsdauer": "bis Weiche",
       "Aufhebesignal": "Zs_10 OR next Zs_3",
-      "Signaltyp": "info",
+      "Signaltyp": "action",
       "Klasse": "Zusatzsignal",
       "Handlung": "Weiterfahrt",
       "Zielgeschwindigkeit": "5"
@@ -71,7 +71,7 @@
       "Gültigkeitsbeginn": "from signal",
       "Gültigkeitsdauer": "bis Weiche",
       "Aufhebesignal": "Zs_10 OR next Zs_3",
-      "Signaltyp": "info",
+      "Signaltyp": "action",
       "Klasse": "Zusatzsignal",
       "Handlung": "Weiterfahrt",
       "Zielgeschwindigkeit": "10"
@@ -86,7 +86,7 @@
       "Gültigkeitsbeginn": "from signal",
       "Gültigkeitsdauer": "bis Weiche",
       "Aufhebesignal": "Zs_10 OR next Zs_3",
-      "Signaltyp": "info",
+      "Signaltyp": "action",
       "Klasse": "Zusatzsignal",
       "Handlung": "Weiterfahrt",
       "Zielgeschwindigkeit": "20"
@@ -101,7 +101,7 @@
       "Gültigkeitsbeginn": "from signal",
       "Gültigkeitsdauer": "bis Weiche",
       "Aufhebesignal": "Zs_10 OR next Zs_3",
-      "Signaltyp": "info",
+      "Signaltyp": "action",
       "Klasse": "Zusatzsignal",
       "Handlung": "Weiterfahrt",
       "Zielgeschwindigkeit": "30"
@@ -116,7 +116,7 @@
       "Gültigkeitsbeginn": "from signal",
       "Gültigkeitsdauer": "bis Weiche",
       "Aufhebesignal": "Zs_10 OR next Zs_3",
-      "Signaltyp": "info",
+      "Signaltyp": "action",
       "Klasse": "Zusatzsignal",
       "Handlung": "Weiterfahrt",
       "Zielgeschwindigkeit": "40"
@@ -131,7 +131,7 @@
       "Gültigkeitsbeginn": "from signal",
       "Gültigkeitsdauer": "bis Weiche",
       "Aufhebesignal": "Zs_10 OR next Zs_3",
-      "Signaltyp": "info",
+      "Signaltyp": "action",
       "Klasse": "Zusatzsignal",
       "Handlung": "Weiterfahrt",
       "Zielgeschwindigkeit": "50"
@@ -146,7 +146,7 @@
       "Gültigkeitsbeginn": "from signal",
       "Gültigkeitsdauer": "bis Weiche",
       "Aufhebesignal": "Zs_10 OR next Zs_3",
-      "Signaltyp": "info",
+      "Signaltyp": "action",
       "Klasse": "Zusatzsignal",
       "Handlung": "Weiterfahrt",
       "Zielgeschwindigkeit": "50"
@@ -161,7 +161,7 @@
       "Gültigkeitsbeginn": "from signal",
       "Gültigkeitsdauer": "bis Weiche",
       "Aufhebesignal": "Zs_10 OR next Zs_3",
-      "Signaltyp": "info",
+      "Signaltyp": "action",
       "Klasse": "Zusatzsignal",
       "Handlung": "Weiterfahrt",
       "Zielgeschwindigkeit": "60"
@@ -176,7 +176,7 @@
       "Gültigkeitsbeginn": "from signal",
       "Gültigkeitsdauer": "bis Weiche",
       "Aufhebesignal": "Zs_10 OR next Zs_3",
-      "Signaltyp": "info",
+      "Signaltyp": "action",
       "Klasse": "Zusatzsignal",
       "Handlung": "Weiterfahrt",
       "Zielgeschwindigkeit": "70"
@@ -191,7 +191,7 @@
       "Gültigkeitsbeginn": "from signal",
       "Gültigkeitsdauer": "bis Weiche",
       "Aufhebesignal": "Zs_10 OR next Zs_3",
-      "Signaltyp": "info",
+      "Signaltyp": "action",
       "Klasse": "Zusatzsignal",
       "Handlung": "Weiterfahrt",
       "Zielgeschwindigkeit": "80"
@@ -206,7 +206,7 @@
       "Gültigkeitsbeginn": "from signal",
       "Gültigkeitsdauer": "bis Weiche",
       "Aufhebesignal": "Zs_10 OR next Zs_3",
-      "Signaltyp": "info",
+      "Signaltyp": "action",
       "Klasse": "Zusatzsignal",
       "Handlung": "Weiterfahrt",
       "Zielgeschwindigkeit": "90"
@@ -221,7 +221,7 @@
       "Gültigkeitsbeginn": "from signal",
       "Gültigkeitsdauer": "bis Weiche",
       "Aufhebesignal": "Zs_10 OR next Zs_3",
-      "Signaltyp": "info",
+      "Signaltyp": "action",
       "Klasse": "Zusatzsignal",
       "Handlung": "Weiterfahrt",
       "Zielgeschwindigkeit": "100"
@@ -236,7 +236,7 @@
       "Gültigkeitsbeginn": "from signal",
       "Gültigkeitsdauer": "bis Weiche",
       "Aufhebesignal": "Zs_10 OR next Zs_3",
-      "Signaltyp": "info",
+      "Signaltyp": "action",
       "Klasse": "Zusatzsignal",
       "Handlung": "Weiterfahrt",
       "Zielgeschwindigkeit": "110"
@@ -251,7 +251,7 @@
       "Gültigkeitsbeginn": "from signal",
       "Gültigkeitsdauer": "bis Weiche",
       "Aufhebesignal": "Zs_10 OR next Zs_3",
-      "Signaltyp": "info",
+      "Signaltyp": "action",
       "Klasse": "Zusatzsignal",
       "Handlung": "Weiterfahrt",
       "Zielgeschwindigkeit": "120"
@@ -266,7 +266,7 @@
       "Gültigkeitsbeginn": "from signal",
       "Gültigkeitsdauer": "bis Weiche",
       "Aufhebesignal": "Zs_10 OR next Zs_3",
-      "Signaltyp": "info",
+      "Signaltyp": "action",
       "Klasse": "Zusatzsignal",
       "Handlung": "Weiterfahrt",
       "Zielgeschwindigkeit": "130"
@@ -281,7 +281,7 @@
       "Gültigkeitsbeginn": "from signal",
       "Gültigkeitsdauer": "bis Weiche",
       "Aufhebesignal": "Zs_10 OR next Zs_3",
-      "Signaltyp": "info",
+      "Signaltyp": "action",
       "Klasse": "Zusatzsignal",
       "Handlung": "Weiterfahrt",
       "Zielgeschwindigkeit": "140"
@@ -296,10 +296,40 @@
       "Gültigkeitsbeginn": "from signal",
       "Gültigkeitsdauer": "bis Weiche",
       "Aufhebesignal": "Zs_10 OR next Zs_3",
-      "Signaltyp": "info",
+      "Signaltyp": "action",
       "Klasse": "Zusatzsignal",
       "Handlung": "Weiterfahrt",
       "Zielgeschwindigkeit": "150"
+    },
+    {
+      "name": "Hp_1",
+      "beschreibung": "(1) Bedeutung:  Fahrt  (2) Beschreibung:  Formsignal  Tageszeichen:  Ein Signalflügel – bei zweiflügligen Signalen der obere Flügel – zeigt schräg nach rechts aufwärts. Nachtzeichen:  Ein grünes Licht (3) Beschreibung:  Lichtsignal  Ein grünes Licht. (4) Das Signal erlaubt die Fahrt mit der im Fahrplan zugelassenen Geschwindigkeit, sofern sie nicht durch andere Signale oder besondere Anordnungen eingeschränkt ist.",
+      "kurzbeschreibung": "Fahrt",
+      "Formsignal": "source/img/Hp1_Form.svg.png",
+      "Lichtsignal": "source/img/Hp1_Licht.svg.png",
+      "Nachtsignal": "source/img/Hp1_Nacht.svg.png",
+      "Gültigkeitsbeginn": "from view",
+      "Gültigkeitsdauer": "",
+      "Aufhebesignal": "Hp_0, Zs_3",
+      "Signaltyp": "action",
+      "Klasse": "Hauptsignal",
+      "Handlung": "Weiterfahrt",
+      "Zielgeschwindigkeit": "MAX"
+    },
+    {
+      "name": "Hp_2",
+      "beschreibung": "(1) Bedeutung:  Langsamfahrt  (2) Beschreibung:  Formsignal  Tageszeichen:  Zwei Signalflügel zeigen schräg nach rechts aufwärts.  Nachtzeichen:  Ein grünes und senkrecht darunter ein gelbes Licht.  3) Beschreibung:  Lichtsignal  Ein grünes und senkrecht darunter ein gelbes Licht. Signal Hp 2 Lichtsignal  (4) Das Signal schreibt eine Geschwindigkeitsbeschränkung auf 40 km/h vor, wenn nicht eine abweichende Geschwindigkeit durch Signal Zs 3 angezeigt wird. Der Infrastrukturunternehmer kann andere abweichende Geschwindigkeiten bekannt geben. Bei den NE ist das im Fahrplan, in der SbV oder in der La angegeben.  Bei den Eisenbahnen des Bundes werden andere abweichende Geschwindigkeiten im Fahrplan oder in der La angegeben.  Die Geschwindigkeitsbeschränkung gilt vom Hauptsignal ab für den anschließenden Weichenbereich.",
+      "kurzbeschreibung": "Langsamfahrt",
+      "Formsignal": "source/img/Hp2_Form.svg.png",
+      "Lichtsignal": "source/img/Hp2_Licht.svg.png",
+      "Nachtsignal": "source/img/Hp2_Nacht.svg.png",
+      "Gültigkeitsbeginn": "from signal",
+      "Gültigkeitsdauer": "",
+      "Aufhebesignal": "Hp_0, Zs_3",
+      "Signaltyp": "action",
+      "Klasse": "Hauptsignal",
+      "Handlung": "Weiterfahrt",
+      "Zielgeschwindigkeit": "40"
     }
   ]
 }
