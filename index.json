@@ -20,33 +20,33 @@
     "Vegetation auf der Strecke": "keine, starke Vegetation auf dem Gleis, Bewuchs von der Seite (VLM)",
     "Baustellen":"bool (VLM fragen ob gerade eine Baustellenumgebung ist.",
     "Hindernisse auf Strecke": 
-    ["bool (VLM fragen)",{
+    [{
       "Auto": 
       ["bool",{
-        "Bewegung": "static, on track, off track"
+        "Bewegung": "static, on track, non track direction"
       }],
       "Person": 
       ["bool",{
-        "Bewegung": "static, on track, off track"
+        "Bewegung": "static, on track, non track direction"
       }],
       "Tier": 
       ["bool",{
-        "Bewegung": "static, on track, off track"
+        "Bewegung": "static, on track, non track direction"
       }],
       "UNKNOWN": 
       ["bool",{
-        "Bewegung": "static, on track, off track"
+        "Bewegung": "static, on track, non track direction"
       }],
       "Schienenfahrzeug": 
       ["bool",{
-        "Bewegung": "static, on track, off track",
+        "Bewegung": "static, on track",
         "Art": "Zweischienenfahrzeug, Einschienfahzeug",
         "Schienenbelegung": "selbe Schiene, Gegenschiene, Beide Schienen"
       }]
       
     }],
     "Mögliche Hindernisse neben der Strecke":
-    ["bool (VLM fragen)",{
+    [{
       "Auto": 
       ["bool",{
         "Bewegung": "static, track direction, non track direction"
